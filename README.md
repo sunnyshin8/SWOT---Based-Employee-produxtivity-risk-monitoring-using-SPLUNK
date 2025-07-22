@@ -53,7 +53,7 @@ This solution implements a comprehensive employee productivity monitoring system
 
 ### Implementation Steps
 
-#### Phase 1: Splunk Configuration (Day 1-2)
+#### Phase 1: Splunk Configuration
 
 1. **Index Setup**
 ```bash
@@ -75,7 +75,7 @@ cp savedsearches.conf $SPLUNK_HOME/etc/apps/search/local/
 winpty "/c/Program Files/Splunk/bin/splunk.exe" add monitor "g:\SWOT - Based Employee produxtivity risk monitoring using SPLUNK\Extended_Employee_Performance_and_Productivity_Data.csv" -index employee_productivity -sourcetype csv
 ```
 
-#### Phase 2: MLTK Model Training (Day 3-4)
+#### Phase 2: MLTK Model Training
 
 1. **Install Dependencies**
 ```python
@@ -93,7 +93,7 @@ python train_mltk_models.py
 cp models/* $SPLUNK_HOME/etc/apps/Splunk_ML_Toolkit/lookups/
 ```
 
-#### Phase 3: Dashboard and Alerts Setup (Day 5)
+#### Phase 3: Dashboard and Alerts Setup
 
 1. **Deploy Dashboard**
 - Import `employee_swot_dashboard.xml` via Splunk Web UI
@@ -104,7 +104,7 @@ cp models/* $SPLUNK_HOME/etc/apps/Splunk_ML_Toolkit/lookups/
 - Set up email notifications and webhook integrations
 - Test alert triggers
 
-#### Phase 4: Integration and Testing (Day 6-7)
+#### Phase 4: Integration and Testing
 
 1. **SOAR Integration** (Optional)
 - Configure webhook endpoints for automated responses
