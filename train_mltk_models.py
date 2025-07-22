@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 """
 Employee Productivity SWOT Analysis - MLTK Model Training Script
 This script sets up and trains the MLTK models for employee productivity monitoring
@@ -11,8 +11,10 @@ from sklearn.ensemble import IsolationForest
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
+from sklearn.metrics import classification_report, accuracy_score
 import joblib
 import json
+import os
 from datetime import datetime
 
 class EmployeeSWOTMLTK:
@@ -21,11 +23,23 @@ class EmployeeSWOTMLTK:
         self.data_path = data_path
         self.models = {}
         self.scalers = {}
+        self.model_dir = "models"
+        os.makedirs(self.model_dir, exist_ok=True)
+        
+        # Define feature columns for different models
+        self.feature_columns = [
+            'productivity_score', 'engagement_score', 'risk_score', 
+            'Work_Hours_Per_Week', 'Overtime_Hours', 'Sick_Days', 
+            'Employee_Satisfaction_Score', 'Performance_Score',
+            'Projects_Handled', 'Training_Hours'
+        ]
+        
         self.load_data()
         
     def load_data(self):
         """Load and preprocess employee data"""
         print("Loading employee data...")
+        
         self.df = pd.read_csv(self.data_path)
         print(f"Loaded {len(self.df)} employee records")
         
@@ -77,6 +91,7 @@ class EmployeeSWOTMLTK:
         
     def train_clustering_model(self):
         """Train K-Means clustering for SWOT categorization"""
+        print("="*50)
         print("Training K-Means clustering model...")
         
         features = ['productivity_score', 'engagement_score', 'risk_score', 
@@ -139,6 +154,7 @@ class EmployeeSWOTMLTK:
         
     def train_anomaly_detection(self):
         """Train Isolation Forest for anomaly detection"""
+        print("="*50)
         print("Training anomaly detection model...")
         
         features = ['productivity_score', 'engagement_score', 'risk_score', 
@@ -164,29 +180,42 @@ class EmployeeSWOTMLTK:
         
     def train_attrition_model(self):
         """Train logistic regression for attrition prediction"""
+        print("="*50)
         print("Training attrition prediction model...")
-        
-        features = ['productivity_score', 'engagement_score', 'risk_score', 
-                   'Work_Hours_Per_Week', 'Overtime_Hours', 'Sick_Days', 
-                   'Employee_Satisfaction_Score']
-        X = self.df[features].fillna(0)
-        y = (self.df['Resigned'] == 'True').astype(int)
-        
-        # Split data
-        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-        
-        # Standardize features
+
+        # Extract features and target
+        X = self.df[self.feature_columns].fillna(0)
+        y_raw = self.df['Resigned']
+
+        # Convert True/False or string to integer (binary classification: 1 = Resigned)
+        y = y_raw.astype(str).str.lower().map({'true': 1, 'false': 0}).fillna(0).astype(int)
+
+        # ⚠️ Check for at least 2 classes in target
+        unique_classes = y.nunique()
+        if unique_classes < 2:
+            print(f"⚠️ Skipping attrition model training: only one class present in 'Resigned' column ({y.unique()}).")
+            return
+
+        # Continue with training if classes are valid
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
+
         scaler = StandardScaler()
         X_train_scaled = scaler.fit_transform(X_train)
         X_test_scaled = scaler.transform(X_test)
-        
-        # Train Logistic Regression
-        lr_model = LogisticRegression(random_state=42)
+
+        lr_model = LogisticRegression(max_iter=1000, random_state=42)
         lr_model.fit(X_train_scaled, y_train)
         
-        # Evaluate
+        # Evaluate model
+        y_pred = lr_model.predict(X_test_scaled)
         train_score = lr_model.score(X_train_scaled, y_train)
         test_score = lr_model.score(X_test_scaled, y_test)
+        
+        print("Attrition Model Evaluation:")
+        print(f"Train accuracy: {train_score:.3f}")
+        print(f"Test accuracy: {test_score:.3f}")
+        print("\nClassification Report:")
+        print(classification_report(y_test, y_pred))
         
         # Predict probabilities for all data
         X_scaled = scaler.transform(X)
@@ -194,15 +223,15 @@ class EmployeeSWOTMLTK:
         self.df['attrition_risk_level'] = self.df['attrition_probability'].apply(
             lambda x: 'Very High' if x > 0.7 else 'High' if x > 0.5 else 'Medium' if x > 0.3 else 'Low' if x > 0.1 else 'Very Low'
         )
-        
-        # Save model and scaler
+
+        # Save the model and scaler
         self.models['logistic_regression'] = lr_model
         self.scalers['logistic_regression'] = scaler
         
-        print(f"Attrition model trained. Train accuracy: {train_score:.3f}, Test accuracy: {test_score:.3f}")
-        print(f"Attrition risk distribution:")
+        print(f"\nAttrition risk distribution:")
         print(self.df['attrition_risk_level'].value_counts())
-        
+        print("Attrition prediction model training completed.")
+
     def generate_insights(self):
         """Generate comprehensive insights from the models"""
         print("Generating insights...")
@@ -229,45 +258,44 @@ class EmployeeSWOTMLTK:
         insights['department_risks'] = dept_analysis.to_dict('index')
         
         # High risk employees
-        high_risk = self.df[
-            (self.df['swot_category'] == 'Threat') | 
-            (self.df['attrition_risk_level'].isin(['Very High', 'High']))
-        ][['Employee_ID', 'Department', 'Job_Title', 'swot_category', 'attrition_risk_level', 
-           'productivity_score', 'engagement_score', 'risk_score']].to_dict('records')
-        
-        insights['high_risk_employees'] = high_risk[:20]  # Top 20 high-risk employees
+        if 'attrition_risk_level' in self.df.columns:
+            high_risk = self.df[
+                (self.df['swot_category'] == 'Threat') | 
+                (self.df['attrition_risk_level'].isin(['Very High', 'High']))
+            ][['Employee_ID', 'Department', 'Job_Title', 'swot_category', 'attrition_risk_level', 
+               'productivity_score', 'engagement_score', 'risk_score']].to_dict('records')
+            
+            insights['high_risk_employees'] = high_risk[:20]  # Top 20 high-risk employees
         
         return insights
         
-    def save_models(self, output_dir='models'):
+    def save_models(self):
         """Save trained models and metadata"""
-        import os
-        os.makedirs(output_dir, exist_ok=True)
-        
         # Save models
         for model_name, model in self.models.items():
-            joblib.dump(model, f"{output_dir}/{model_name}.pkl")
+            joblib.dump(model, os.path.join(self.model_dir, f'{model_name}.pkl'))
             print(f"Saved {model_name} model")
             
         # Save scalers
         for scaler_name, scaler in self.scalers.items():
-            joblib.dump(scaler, f"{output_dir}/{scaler_name}_scaler.pkl")
+            joblib.dump(scaler, os.path.join(self.model_dir, f'{scaler_name}_scaler.pkl'))
             print(f"Saved {scaler_name} scaler")
             
         # Save SWOT mapping
-        with open(f"{output_dir}/swot_mapping.json", 'w') as f:
-            json.dump(self.swot_mapping, f, indent=2)
-            
+        if hasattr(self, 'swot_mapping'):
+            with open(os.path.join(self.model_dir, 'swot_mapping.json'), 'w') as f:
+                json.dump(self.swot_mapping, f, indent=2)
+                
         # Save processed data sample
-        sample_data = self.df.head(1000).to_csv(f"{output_dir}/sample_processed_data.csv", index=False)
+        sample_data = self.df.head(1000).to_csv(os.path.join(self.model_dir, 'sample_processed_data.csv'), index=False)
         print(f"Saved sample processed data")
         
         # Save insights
         insights = self.generate_insights()
-        with open(f"{output_dir}/model_insights.json", 'w') as f:
-            json.dump(insights, f, indent=2)
+        with open(os.path.join(self.model_dir, 'model_insights.json'), 'w') as f:
+            json.dump(insights, f, indent=2, default=str)
             
-        print(f"All models and artifacts saved to {output_dir}/")
+        print(f"All models and artifacts saved to {self.model_dir}/")
         
     def train_all_models(self):
         """Train all MLTK models"""
@@ -276,17 +304,13 @@ class EmployeeSWOTMLTK:
         
         # Train all models
         self.train_clustering_model()
-        print("="*50)
-        
         self.train_anomaly_detection()
-        print("="*50)
-        
         self.train_attrition_model()
-        print("="*50)
         
         # Save everything
         self.save_models()
         
+        print("="*50)
         print("Model training completed successfully!")
         
         # Print summary
@@ -295,7 +319,8 @@ class EmployeeSWOTMLTK:
         print(f"SWOT Categories: {dict(self.df['swot_category'].value_counts())}")
         print(f"High-risk employees: {len(self.df[self.df['swot_category'] == 'Threat'])}")
         print(f"Anomalies detected: {self.df['outlier'].sum()}")
-        print(f"High attrition risk: {len(self.df[self.df['attrition_risk_level'].isin(['Very High', 'High'])])}")
+        if 'attrition_risk_level' in self.df.columns:
+            print(f"High attrition risk: {len(self.df[self.df['attrition_risk_level'].isin(['Very High', 'High'])])}")
 
 def main():
     """Main execution function"""
@@ -314,3 +339,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

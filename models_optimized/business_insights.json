@@ -1,0 +1,113 @@
+{
+  "analysis_timestamp": "2025-07-22T20:11:19.539631",
+  "dataset_summary": {
+    "total_employees": 100000,
+    "departments": 9,
+    "avg_tenure": 4.47607
+  },
+  "swot_analysis": {
+    "distribution": {
+      "Opportunity": 92814,
+      "Weakness": 7186
+    },
+    "percentages": {
+      "Opportunity": 92.8,
+      "Weakness": 7.2
+    },
+    "health_score": 62.8
+  },
+  "risk_analysis": {
+    "high_risk_count": 10000,
+    "high_risk_percentage": 10.0,
+    "avg_risk_score": NaN,
+    "top_risk_factors": {
+      "low_performance": 40133,
+      "low_satisfaction": 37336,
+      "high_overtime": 30122,
+      "high_sick_days": 26814,
+      "no_training": 1015
+    }
+  },
+  "departmental_insights": {
+    "Customer Support": {
+      "swot_category": 0,
+      "Employee_ID": 11116,
+      "productivity_score": 1.821,
+      "engagement_score": 1.648,
+      "risk_score": NaN,
+      "threat_percentage": 0.0
+    },
+    "Engineering": {
+      "swot_category": 0,
+      "Employee_ID": 10956,
+      "productivity_score": 1.83,
+      "engagement_score": 1.659,
+      "risk_score": NaN,
+      "threat_percentage": 0.0
+    },
+    "Finance": {
+      "swot_category": 0,
+      "Employee_ID": 11200,
+      "productivity_score": 1.819,
+      "engagement_score": 1.661,
+      "risk_score": NaN,
+      "threat_percentage": 0.0
+    },
+    "HR": {
+      "swot_category": 0,
+      "Employee_ID": 10960,
+      "productivity_score": 1.818,
+      "engagement_score": 1.654,
+      "risk_score": NaN,
+      "threat_percentage": 0.0
+    },
+    "IT": {
+      "swot_category": 0,
+      "Employee_ID": 11131,
+      "productivity_score": 1.826,
+      "engagement_score": 1.673,
+      "risk_score": NaN,
+      "threat_percentage": 0.0
+    },
+    "Legal": {
+      "swot_category": 0,
+      "Employee_ID": 11118,
+      "productivity_score": 1.815,
+      "engagement_score": 1.668,
+      "risk_score": NaN,
+      "threat_percentage": 0.0
+    },
+    "Marketing": {
+      "swot_category": 0,
+      "Employee_ID": 11216,
+      "productivity_score": 1.822,
+      "engagement_score": 1.656,
+      "risk_score": NaN,
+      "threat_percentage": 0.0
+    },
+    "Operations": {
+      "swot_category": 0,
+      "Employee_ID": 11181,
+      "productivity_score": 1.823,
+      "engagement_score": 1.674,
+      "risk_score": NaN,
+      "threat_percentage": 0.0
+    },
+    "Sales": {
+      "swot_category": 0,
+      "Employee_ID": 11122,
+      "productivity_score": 1.827,
+      "engagement_score": 1.664,
+      "risk_score": NaN,
+      "threat_percentage": 0.0
+    }
+  },
+  "recommendations": [
+    {
+      "priority": "HIGH",
+      "category": "Performance Enhancement",
+      "action": "Develop talent development programs to move Opportunities to Strengths",
+      "expected_impact": "Increase top performer retention by 20%"
+    }
+  ]
+}

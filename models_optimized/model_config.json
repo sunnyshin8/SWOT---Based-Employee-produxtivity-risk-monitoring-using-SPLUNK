@@ -1,0 +1,24 @@
+{
+  "swot_thresholds": {
+    "productivity_75": 2.15,
+    "productivity_25": 1.49,
+    "engagement_75": 2.26,
+    "engagement_25": 1.05,
+    "risk_75": NaN,
+    "risk_25": NaN
+  },
+  "feature_columns": [
+    "productivity_score",
+    "engagement_score",
+    "risk_score",
+    "Work_Hours_Per_Week",
+    "Overtime_Hours",
+    "Sick_Days",
+    "Employee_Satisfaction_Score",
+    "Performance_Score",
+    "Projects_Handled",
+    "Training_Hours"
+  ],
+  "model_version": "2.0_enhanced",
+  "training_date": "2025-07-22T20:11:19.536606"
+}

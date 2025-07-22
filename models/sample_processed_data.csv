@@ -1,0 +1,1001 @@
+Employee_ID,Department,Gender,Age,Job_Title,Hire_Date,Years_At_Company,Education_Level,Performance_Score,Monthly_Salary,Work_Hours_Per_Week,Projects_Handled,Overtime_Hours,Sick_Days,Remote_Work_Frequency,Team_Size,Training_Hours,Promotions,Employee_Satisfaction_Score,Resigned,productivity_score,engagement_score,risk_score,work_life_balance_score,tenure_factor,cluster,swot_category,outlier,attrition_probability,attrition_risk_level
+1,IT,Male,55,Specialist,2022-01-19 08:03:05.556036,2,High School,5,6750.0,33,32,22,2,0,14,66,0,2.63,False,2.58,2.06,,3,2,2,Opportunity,0,0.09843908226996084,Very Low
+2,Finance,Male,29,Developer,2024-04-18 08:03:05.556036,0,High School,5,7500.0,34,34,13,14,100,12,61,2,1.72,False,2.17,1.2,,4,1,2,Opportunity,0,0.09904173597685705,Very Low
+3,Finance,Male,55,Specialist,2015-10-26 08:03:05.556036,8,High School,3,5850.0,37,27,6,3,50,10,1,0,3.17,False,1.61,0.44,,4,4,1,Weakness,0,0.09869848358232797,Very Low
+4,Customer Support,Female,48,Analyst,2016-10-22 08:03:05.556036,7,Bachelor,2,4800.0,52,10,28,12,100,10,0,1,1.86,False,0.71,-0.53,,2,4,1,Weakness,1,0.10240378961755837,Low
+5,Engineering,Female,36,Analyst,2021-07-23 08:03:05.556036,3,Bachelor,2,4800.0,38,11,29,13,100,15,9,1,1.25,False,0.65,-0.59,,2,2,1,Weakness,1,0.10279438820628137,Low
+6,IT,Male,43,Manager,2016-08-14 08:03:05.556036,8,High School,3,7800.0,46,31,8,0,100,15,95,0,2.77,False,2.12,3.07,,4,4,0,Opportunity,0,0.10051710684410972,Low
+7,IT,Male,37,Technician,2023-08-28 08:03:05.556036,1,Bachelor,5,5250.0,55,20,29,2,0,16,27,0,4.46,False,2.4,1.54,,2,1,2,Opportunity,0,0.0971490294475925,Very Low
+8,Engineering,Female,55,Engineer,2014-10-27 08:03:05.556036,9,Bachelor,2,7200.0,42,46,7,8,100,7,64,0,2.09,False,1.62,1.12,,4,4,0,Opportunity,0,0.10124956413552669,Low
+9,Marketing,Female,55,Technician,2023-06-29 08:03:05.556036,1,High School,2,4200.0,51,23,21,14,0,1,0,1,1.44,False,0.84,-0.89,,3,1,1,Weakness,1,0.10227753663527496,Low
+10,Engineering,Female,45,Consultant,2016-12-23 08:03:05.556036,7,Bachelor,1,6050.0,41,33,2,6,75,4,53,2,2.93,False,1.13,2.31,,5,4,0,Opportunity,0,0.10148623799255295,Low
+11,Customer Support,Male,52,Engineer,2019-11-26 08:03:05.556036,4,Bachelor,3,7800.0,38,1,5,0,25,4,90,1,2.34,False,1.55,3.34,,5,3,0,Opportunity,0,0.10136336466107874,Low
+12,Customer Support,Male,27,Technician,2015-02-19 08:03:05.556036,9,Bachelor,5,5250.0,39,13,2,13,25,5,88,0,1.96,False,1.97,1.07,,5,4,0,Opportunity,0,0.09930502842019837,Very Low
+13,HR,Male,51,Technician,2019-07-04 08:03:05.556036,5,Bachelor,4,4900.0,31,11,16,1,75,7,17,2,2.13,False,1.74,1.83,,3,3,3,Opportunity,0,0.09963845486510675,Very Low
+14,Engineering,Male,27,Analyst,2014-10-14 08:03:05.556036,9,Bachelor,4,5600.0,33,30,5,13,25,4,26,1,1.46,False,1.67,-0.11,,5,4,1,Weakness,0,0.0995764447318494,Very Low
+15,Finance,Male,46,Analyst,2023-03-11 08:03:05.556036,1,Master,1,4400.0,33,49,13,1,100,13,37,1,2.22,False,1.45,1.86,,4,1,2,Opportunity,0,0.1017306884349596,Low
+16,Customer Support,Male,26,Developer,2023-04-19 08:03:05.556036,1,High School,2,6000.0,33,41,9,13,50,3,46,1,2.42,False,1.29,0.63,,4,1,2,Opportunity,0,0.10066358229966323,Low
+17,Operations,Male,29,Engineer,2019-09-21 08:03:05.556036,4,Bachelor,2,7200.0,43,26,29,12,0,6,76,2,3.15,False,1.24,2.19,,2,3,3,Opportunity,0,0.10159342518737681,Low
+18,Sales,Other,28,Developer,2022-11-08 08:03:05.556036,1,High School,3,6500.0,47,36,6,12,75,12,54,0,1.19,False,1.62,0.15,,4,1,2,Opportunity,0,0.1013466485058903,Low
+19,Customer Support,Other,56,Developer,2015-10-01 08:03:05.556036,8,Bachelor,1,5500.0,57,9,24,1,75,1,36,0,1.12,False,0.84,1.06,,3,4,1,Weakness,1,0.1046712901106287,Low
+20,Finance,Male,23,Technician,2015-05-08 08:03:05.556036,9,High School,2,4200.0,52,0,9,1,0,5,66,0,3.91,False,1.2,2.5,,4,4,0,Opportunity,0,0.10084567060865253,Low
+21,Operations,Female,33,Manager,2022-12-19 08:03:05.556036,1,Bachelor,1,6600.0,33,28,13,13,50,15,53,2,3.7,False,0.8,1.62,,4,1,2,Opportunity,0,0.10092664391597622,Low
+22,Sales,Male,59,Manager,2017-05-25 08:03:05.556036,7,Master,5,9000.0,30,22,9,2,25,4,20,0,4.66,False,2.31,1.42,,4,4,0,Opportunity,0,0.09565442387276246,Very Low
+23,Finance,Male,26,Specialist,2016-07-23 08:03:05.556036,8,High School,4,6300.0,48,40,9,13,0,13,71,2,3.68,False,2.13,2.07,,4,4,0,Opportunity,0,0.0982668819292319,Very Low
+24,Sales,Male,58,Consultant,2018-01-21 08:03:05.556036,6,Master,2,6600.0,55,2,28,8,25,6,78,2,4.26,False,1.06,3.01,,2,4,3,Opportunity,0,0.10134837368560666,Low
+25,HR,Female,38,Analyst,2018-06-23 08:03:05.556036,6,Bachelor,2,4800.0,50,21,24,11,25,7,49,1,4.43,False,1.17,1.46,,3,4,3,Opportunity,0,0.10002743598629893,Low
+26,Customer Support,Male,38,Specialist,2022-05-03 08:03:05.556036,2,Bachelor,5,6750.0,59,24,0,13,25,3,9,2,2.12,False,1.98,0.13,,5,2,1,Weakness,1,0.09842246454686285,Very Low
+27,Finance,Male,45,Engineer,2021-07-12 08:03:05.556036,3,Bachelor,2,7200.0,59,24,23,6,0,7,26,1,3.16,False,1.3,1.19,,3,2,1,Weakness,0,0.10115849117404938,Low
+28,Legal,Male,43,Manager,2014-11-22 08:03:05.556036,9,Master,3,7800.0,44,42,3,10,75,4,45,2,1.35,True,1.74,1.21,,5,4,0,Opportunity,0,0.10091391841097583,Low
+29,Engineering,Male,53,Specialist,2022-04-17 08:03:05.556036,2,Bachelor,2,5400.0,31,34,14,6,50,6,42,1,4.52,False,1.45,1.93,,4,2,2,Opportunity,0,0.09882428055130398,Very Low
+30,Finance,Male,52,Analyst,2023-06-21 08:03:05.556036,1,High School,3,5200.0,45,25,29,9,25,2,37,2,4.95,False,1.59,2.04,,2,1,2,Opportunity,0,0.09841752083820506,Very Low
+31,Customer Support,Male,58,Consultant,2018-05-14 08:03:05.556036,6,Bachelor,1,6050.0,38,15,25,2,50,12,16,2,4.65,False,0.88,2.31,,3,4,3,Opportunity,0,0.10033567001610978,Low
+32,Legal,Female,24,Manager,2023-06-12 08:03:05.556036,1,High School,4,8400.0,39,25,7,7,50,18,22,0,1.95,False,1.82,0.16,,4,1,2,Opportunity,0,0.09932075975981906,Very Low
+33,Customer Support,Male,29,Analyst,2024-06-13 08:03:05.556036,0,High School,2,4800.0,48,49,16,14,50,17,37,0,4.43,False,1.49,0.28,,3,1,2,Opportunity,0,0.09886036865990737,Very Low
+34,Sales,Female,25,Engineer,2021-09-11 08:03:05.556036,2,PhD,4,8400.0,44,26,24,8,75,18,37,2,2.1,False,1.88,1.45,,3,2,2,Opportunity,0,0.1000970448103975,Low
+35,Marketing,Male,41,Analyst,2019-05-23 08:03:05.556036,5,Master,4,5600.0,34,13,0,10,75,14,36,1,1.94,False,1.54,0.64,,5,3,0,Opportunity,0,0.0995088657939711,Very Low
+36,HR,Female,42,Engineer,2019-10-12 08:03:05.556036,4,Master,5,9000.0,31,9,18,11,100,8,21,1,4.21,False,1.79,0.7,,3,3,3,Opportunity,0,0.09668074172424664,Very Low
+37,Sales,Male,43,Consultant,2024-04-04 08:03:05.556036,0,High School,2,6600.0,53,42,10,2,0,16,18,1,4.97,False,1.75,1.94,,4,1,2,Opportunity,0,0.09831330528515758,Very Low
+38,Sales,Other,46,Consultant,2015-01-13 08:03:05.556036,9,Master,2,6600.0,31,6,15,7,0,2,48,0,2.47,False,0.9,0.94,,4,4,1,Weakness,0,0.10156227923622015,Low
+39,IT,Male,48,Specialist,2022-02-03 08:03:05.556036,2,Bachelor,1,4950.0,46,7,1,1,0,11,6,1,2.66,False,0.72,1.19,,5,2,1,Weakness,1,0.10179877889331039,Low
+40,HR,Female,58,Engineer,2023-04-11 08:03:05.556036,1,Bachelor,5,9000.0,44,2,2,8,100,14,85,1,4.22,False,2.04,2.68,,5,1,2,Opportunity,0,0.09749694047658045,Very Low
+41,HR,Female,44,Analyst,2020-12-25 08:03:05.556036,3,Bachelor,2,4800.0,59,45,9,13,0,16,28,2,2.9,True,1.42,0.8,,4,2,1,Weakness,0,0.10055298111853482,Low
+42,Marketing,Male,29,Specialist,2021-10-31 08:03:05.556036,2,High School,4,6300.0,33,10,6,2,25,8,28,2,4.84,False,1.83,2.66,,4,2,2,Opportunity,0,0.09687354979329305,Very Low
+43,Customer Support,Male,60,Engineer,2016-08-11 08:03:05.556036,8,Bachelor,3,7800.0,46,48,4,6,75,13,21,0,3.59,False,1.98,0.67,,5,4,0,Opportunity,0,0.09820298161060971,Very Low
+44,Marketing,Female,43,Manager,2021-05-21 08:03:05.556036,3,High School,3,7800.0,43,25,2,3,0,7,85,0,3.32,False,1.89,2.58,,5,2,0,Opportunity,0,0.09970443456397107,Very Low
+45,Customer Support,Female,46,Developer,2021-03-03 08:03:05.556036,3,Master,2,6000.0,58,7,29,3,25,12,4,1,2.53,False,1.02,0.86,,2,2,1,Weakness,1,0.10207722152392308,Low
+46,HR,Female,29,Specialist,2016-06-12 08:03:05.556036,8,High School,2,5400.0,31,19,11,6,75,7,90,1,1.59,False,1.27,2.4,,4,4,0,Opportunity,0,0.10265134802691667,Low
+47,HR,Male,32,Technician,2021-04-03 08:03:05.556036,3,Bachelor,4,4900.0,41,19,26,1,75,5,21,2,1.27,False,1.9,1.72,,2,2,3,Opportunity,0,0.1009153731015864,Low
+48,Operations,Male,31,Specialist,2023-11-23 08:03:05.556036,0,Bachelor,1,4950.0,45,31,20,2,75,15,82,2,4.84,False,1.41,4.01,,3,1,2,Opportunity,0,0.10065137582480548,Low
+49,Legal,Male,40,Specialist,2016-06-02 08:03:05.556036,8,High School,5,6750.0,59,49,0,2,100,17,13,1,2.9,False,2.8,1.3,,5,4,0,Opportunity,1,0.09714991054115242,Very Low
+50,Operations,Other,57,Developer,2020-01-24 08:03:05.556036,4,High School,2,6000.0,53,10,19,13,50,3,15,0,1.47,False,0.72,-0.88,,3,3,1,Weakness,1,0.1026758149661232,Low
+51,Legal,Female,35,Consultant,2019-09-13 08:03:05.556036,4,Bachelor,1,6050.0,55,26,29,4,100,2,28,1,3.02,False,1.06,1.46,,2,3,3,Opportunity,0,0.10234511385758421,Low
+52,HR,Male,40,Developer,2017-03-21 08:03:05.556036,7,Bachelor,2,6000.0,46,9,12,8,25,10,18,1,1.43,False,0.85,0.31,,4,4,1,Weakness,0,0.10248519748072628,Low
+53,Engineering,Male,28,Consultant,2015-06-03 08:03:05.556036,9,Bachelor,3,7150.0,38,34,4,3,0,5,12,0,2.56,False,1.75,0.56,,5,4,0,Opportunity,0,0.0992469795321227,Very Low
+54,Engineering,Female,37,Technician,2015-10-24 08:03:05.556036,8,High School,2,4200.0,50,22,0,8,100,1,92,1,1.1,False,1.32,2.07,,5,4,0,Opportunity,0,0.10323406428128452,Low
+55,Operations,Female,34,Technician,2015-08-15 08:03:05.556036,9,High School,5,5250.0,32,26,6,6,25,3,68,1,1.87,True,2.32,1.92,,4,4,0,Opportunity,0,0.09889584918999483,Very Low
+56,Marketing,Female,34,Developer,2021-11-25 08:03:05.556036,2,Bachelor,3,6500.0,41,18,21,3,75,8,7,0,1.7,False,1.45,0.22,,3,2,1,Weakness,0,0.10099720491746274,Low
+57,Customer Support,Female,33,Specialist,2016-04-17 08:03:05.556036,8,PhD,1,4950.0,33,46,28,8,75,1,36,2,2.64,True,1.18,1.56,,2,4,3,Opportunity,0,0.10183961680128474,Low
+58,Finance,Male,23,Developer,2019-07-21 08:03:05.556036,5,Bachelor,4,7000.0,32,42,8,12,0,3,27,2,3.97,False,1.99,1.17,,4,3,0,Opportunity,0,0.09697569342136418,Very Low
+59,IT,Other,52,Technician,2024-07-03 08:03:05.556036,0,High School,3,4550.0,53,7,5,2,25,12,74,2,4.23,True,1.66,3.66,,5,1,2,Opportunity,0,0.09953011452324077,Very Low
+60,Customer Support,Female,54,Manager,2019-09-05 08:03:05.556036,5,Bachelor,1,6600.0,51,17,19,8,50,5,99,1,3.02,False,0.99,2.73,,3,3,3,Opportunity,0,0.10307986777399146,Low
+61,Operations,Female,34,Consultant,2021-05-21 08:03:05.556036,3,Bachelor,2,6600.0,40,17,14,4,50,6,20,1,2.32,False,1.13,1.08,,4,2,1,Weakness,0,0.10135378766872774,Low
+62,Engineering,Male,53,Specialist,2017-07-11 08:03:05.556036,7,High School,5,6750.0,43,44,0,13,75,16,75,2,2.15,False,2.47,1.79,,5,4,0,Opportunity,1,0.09840376431059494,Very Low
+63,Sales,Male,27,Manager,2018-05-23 08:03:05.556036,6,Bachelor,3,7800.0,44,29,12,0,75,18,73,1,2.26,False,1.99,2.89,,4,4,0,Opportunity,0,0.10092222147964287,Low
+64,Finance,Female,58,Manager,2018-01-23 08:03:05.556036,6,High School,4,8400.0,50,10,14,9,25,17,21,0,1.68,True,1.53,-0.18,,4,4,1,Weakness,0,0.10039542057982555,Low
+65,Sales,Female,41,Specialist,2018-11-19 08:03:05.556036,5,Bachelor,1,4950.0,41,37,13,9,75,5,3,0,4.33,False,0.98,0.03,,4,3,1,Weakness,0,0.09951462545452087,Very Low
+66,Legal,Male,37,Technician,2024-07-16 08:03:05.556036,0,Bachelor,4,4900.0,54,32,4,3,25,2,12,1,2.13,False,2.1,0.96,,5,1,2,Opportunity,0,0.0992182753339892,Very Low
+67,Sales,Male,49,Manager,2017-01-03 08:03:05.556036,7,Master,2,7200.0,55,30,19,0,75,19,93,0,4.26,False,1.85,3.39,,3,4,3,Opportunity,0,0.10053533102436545,Low
+68,HR,Male,39,Consultant,2024-08-14 08:03:05.556036,0,Bachelor,2,6600.0,53,10,17,14,50,3,64,2,2.45,False,0.88,1.46,,3,1,2,Opportunity,0,0.10239259935434186,Low
+69,Operations,Female,38,Specialist,2016-07-21 08:03:05.556036,8,Bachelor,4,6300.0,52,6,9,6,0,5,9,0,2.42,False,1.56,0.08,,4,4,1,Weakness,0,0.09950186792149855,Very Low
+70,Sales,Male,52,Manager,2015-11-26 08:03:05.556036,8,Master,1,6600.0,32,2,13,11,25,16,8,0,4.45,False,0.31,-0.06,,4,4,1,Weakness,1,0.10003564330594537,Low
+71,IT,Female,42,Developer,2023-01-13 08:03:05.556036,1,High School,1,5500.0,53,20,13,8,100,8,75,1,4.49,False,1.02,2.5,,4,1,2,Opportunity,0,0.10105581137662642,Low
+72,Engineering,Female,42,Analyst,2023-07-17 08:03:05.556036,1,Master,4,5600.0,53,1,16,11,50,11,15,2,3.55,False,1.37,0.89,,3,1,2,Opportunity,0,0.09890513622169309,Very Low
+73,Sales,Female,33,Developer,2023-01-08 08:03:05.556036,1,Bachelor,2,6000.0,36,42,15,1,0,5,41,0,1.31,False,1.66,1.23,,4,1,2,Opportunity,0,0.10196775065396502,Low
+74,Legal,Female,47,Developer,2020-01-18 08:03:05.556036,4,Bachelor,2,6000.0,37,6,15,1,0,12,8,1,4.98,False,1.08,1.82,,4,3,1,Weakness,0,0.09876530056612025,Very Low
+75,HR,Female,33,Consultant,2024-04-29 08:03:05.556036,0,High School,2,6600.0,31,6,24,10,75,10,1,1,1.39,False,0.61,-0.38,,3,1,1,Weakness,1,0.10235802320265001,Low
+76,Engineering,Male,47,Consultant,2018-04-11 08:03:05.556036,6,High School,4,7700.0,55,36,22,3,100,10,84,1,1.75,False,2.4,2.66,,3,4,3,Opportunity,0,0.1010120585715295,Low
+77,Customer Support,Male,31,Technician,2017-05-24 08:03:05.556036,7,PhD,3,4550.0,32,46,19,0,50,19,82,0,3.2,False,2.28,2.85,,3,4,3,Opportunity,0,0.09956725464352101,Very Low
+78,Sales,Male,28,Developer,2020-10-17 08:03:05.556036,3,Master,5,7500.0,42,28,6,6,25,1,38,1,3.55,False,2.35,1.59,,4,2,2,Opportunity,0,0.0970558131283588,Very Low
+79,Legal,Male,46,Consultant,2016-02-05 08:03:05.556036,8,High School,3,7150.0,60,36,27,13,25,5,94,2,3.5,True,1.85,2.6,,2,4,3,Opportunity,1,0.10062341928777875,Low
+80,Customer Support,Female,54,Specialist,2019-02-20 08:03:05.556036,5,High School,1,4950.0,31,27,5,6,0,12,53,1,2.09,False,0.96,1.6,,5,3,1,Weakness,0,0.10226084963777507,Low
+81,Legal,Female,55,Developer,2024-05-07 08:03:05.556036,0,Master,3,6500.0,38,12,25,6,100,13,94,0,3.75,False,1.6,2.54,,3,1,2,Opportunity,0,0.10024100425327653,Low
+82,Customer Support,Female,23,Specialist,2016-12-14 08:03:05.556036,7,High School,3,5850.0,40,19,14,14,100,14,0,0,3.4,True,1.13,-0.9,,4,4,1,Weakness,0,0.098883225104864,Very Low
+83,Engineering,Male,46,Analyst,2021-06-23 08:03:05.556036,3,Bachelor,2,4800.0,35,24,10,13,0,4,85,0,1.33,False,1.11,0.83,,4,2,1,Weakness,0,0.10269546887201178,Low
+84,HR,Female,28,Analyst,2016-03-23 08:03:05.556036,8,Master,1,4400.0,53,38,22,14,100,17,67,2,2.17,False,1.02,1.47,,3,4,1,Weakness,0,0.10319468336859959,Low
+85,Marketing,Female,46,Specialist,2015-09-16 08:03:05.556036,8,Bachelor,2,5400.0,44,16,13,13,100,11,0,1,4.27,False,0.83,-0.06,,4,4,1,Weakness,0,0.0991720034470645,Very Low
+86,Legal,Female,59,Engineer,2015-02-11 08:03:05.556036,9,Bachelor,4,8400.0,33,11,7,4,100,5,40,2,2.37,False,1.73,2.09,,4,4,0,Opportunity,0,0.09946213756859651,Very Low
+87,Marketing,Male,55,Technician,2019-11-14 08:03:05.556036,4,PhD,3,4550.0,59,1,9,1,25,17,59,2,1.77,False,1.48,2.79,,4,3,0,Opportunity,0,0.10223297139785367,Low
+88,Marketing,Male,52,Technician,2019-07-05 08:03:05.556036,5,Bachelor,2,4200.0,33,45,2,4,50,18,12,0,1.11,False,1.5,0.08,,5,3,1,Weakness,0,0.1012210672727299,Low
+89,Finance,Female,27,Engineer,2023-11-06 08:03:05.556036,0,Master,2,7200.0,31,1,25,5,0,15,22,1,2.08,False,0.79,0.94,,3,1,1,Weakness,1,0.10210636616201206,Low
+90,Customer Support,Female,39,Manager,2018-01-19 08:03:05.556036,6,Bachelor,4,8400.0,33,11,10,2,100,9,53,0,3.22,False,1.87,1.88,,4,4,0,Opportunity,0,0.09875953324465406,Very Low
+91,Customer Support,Male,55,Consultant,2024-03-15 08:03:05.556036,0,Bachelor,2,6600.0,44,42,5,6,0,9,26,2,3.23,True,1.54,1.71,,5,1,2,Opportunity,0,0.09982661103104042,Very Low
+92,Legal,Male,48,Developer,2019-07-13 08:03:05.556036,5,Bachelor,1,5500.0,42,11,26,12,100,15,84,1,3.69,True,0.69,2.02,,2,3,3,Opportunity,0,0.1023039241414622,Low
+93,Finance,Male,50,Manager,2023-11-09 08:03:05.556036,0,High School,4,8400.0,54,9,29,7,25,15,3,2,3.66,False,1.61,1.12,,2,1,2,Opportunity,0,0.09888892538810796,Very Low
+94,Engineering,Male,52,Specialist,2021-04-23 08:03:05.556036,3,High School,4,6300.0,44,19,10,7,50,1,81,1,4.1,False,2.01,2.68,,4,2,2,Opportunity,0,0.09836299114858589,Very Low
+95,Operations,Male,52,Developer,2015-07-06 08:03:05.556036,9,High School,1,5500.0,47,4,19,10,0,19,33,0,4.36,False,0.52,0.66,,3,4,1,Weakness,0,0.10095964318253484,Low
+96,Marketing,Female,30,Manager,2019-04-11 08:03:05.556036,5,High School,3,7800.0,49,24,20,2,50,19,43,2,1.03,True,1.72,2.08,,3,3,3,Opportunity,0,0.10231024160285258,Low
+97,Engineering,Male,58,Specialist,2015-04-14 08:03:05.556036,9,PhD,3,5850.0,45,24,16,12,50,7,0,0,2.34,False,1.27,-0.92,,3,4,1,Weakness,0,0.10001106867229695,Low
+98,Finance,Female,38,Manager,2015-12-31 08:03:05.556036,8,High School,3,7800.0,41,31,12,10,75,9,64,0,4.2,False,1.71,1.4,,4,4,0,Opportunity,0,0.09862977999795336,Very Low
+99,Sales,Male,24,Developer,2019-11-15 08:03:05.556036,4,Bachelor,2,6000.0,50,33,0,9,0,13,37,1,4.39,False,1.39,1.4,,5,3,0,Opportunity,0,0.09893478461312552,Very Low
+100,Customer Support,Other,33,Manager,2017-12-01 08:03:05.556036,6,Bachelor,3,7800.0,36,9,10,14,25,13,30,1,3.19,True,1.04,0.3,,4,4,1,Weakness,0,0.09955549344533952,Very Low
+101,Finance,Female,45,Engineer,2017-12-29 08:03:05.556036,6,High School,4,8400.0,35,0,18,14,75,17,48,0,3.42,False,1.29,0.3,,3,4,1,Weakness,0,0.09895768166291215,Very Low
+102,IT,Female,33,Consultant,2019-11-22 08:03:05.556036,4,High School,1,6050.0,54,31,11,3,0,2,48,1,3.63,True,1.26,2.23,,4,3,0,Opportunity,0,0.10130161137347939,Low
+103,IT,Male,33,Consultant,2020-01-07 08:03:05.556036,4,Bachelor,3,7150.0,49,45,29,2,75,6,57,2,5.0,True,2.24,3.42,,2,3,3,Opportunity,1,0.09831029046242207,Very Low
+104,Engineering,Male,58,Consultant,2018-01-20 08:03:05.556036,6,Bachelor,4,7700.0,59,44,18,13,100,12,53,1,2.13,False,2.13,0.73,,3,4,3,Opportunity,0,0.09995280453242618,Very Low
+105,Customer Support,Female,55,Technician,2019-05-21 08:03:05.556036,5,High School,1,3850.0,58,1,1,0,0,4,29,1,2.3,False,0.76,1.8,,5,3,1,Weakness,1,0.10292634852807489,Low
+106,Customer Support,Male,46,Manager,2021-09-13 08:03:05.556036,2,Bachelor,4,8400.0,36,1,6,9,50,17,10,0,2.94,False,1.33,-0.14,,4,2,1,Weakness,0,0.09862084333127057,Very Low
+107,HR,Female,22,Developer,2020-12-17 08:03:05.556036,3,Bachelor,4,7000.0,34,8,17,12,100,16,1,0,2.8,False,1.3,-0.78,,3,2,1,Weakness,0,0.09875055139789066,Very Low
+108,Operations,Female,37,Engineer,2015-01-26 08:03:05.556036,9,Bachelor,4,8400.0,56,26,7,9,100,15,12,2,4.68,False,1.9,1.34,,4,4,0,Opportunity,0,0.09700207017688488,Very Low
+109,Sales,Male,56,Consultant,2018-08-02 08:03:05.556036,6,Bachelor,1,6050.0,51,24,2,11,75,3,82,1,2.7,False,0.94,1.85,,5,4,0,Opportunity,0,0.10247204918834822,Low
+110,Sales,Male,36,Consultant,2018-09-23 08:03:05.556036,5,High School,5,8250.0,50,32,28,5,50,9,56,0,1.64,False,2.48,1.18,,2,3,3,Opportunity,0,0.09986881081489186,Very Low
+111,IT,Male,43,Technician,2023-09-08 08:03:05.556036,0,Bachelor,2,4200.0,48,33,4,7,25,12,75,2,4.8,False,1.59,3.2,,5,1,2,Opportunity,0,0.09916423422261128,Very Low
+112,Finance,Male,39,Analyst,2018-11-06 08:03:05.556036,5,Bachelor,1,4400.0,31,5,25,12,75,3,34,0,3.51,False,0.38,0.23,,3,3,1,Weakness,1,0.10158670600866793,Low
+113,Legal,Female,30,Technician,2017-05-07 08:03:05.556036,7,Master,4,4900.0,34,14,12,8,25,2,59,0,4.5,False,1.79,1.6,,4,4,0,Opportunity,0,0.09755433958118015,Very Low
+114,Customer Support,Male,35,Consultant,2024-06-07 08:03:05.556036,0,Bachelor,4,7700.0,43,14,0,14,75,5,31,2,3.58,False,1.5,0.92,,5,1,2,Opportunity,0,0.09805317629361827,Very Low
+115,Legal,Female,48,Specialist,2023-06-08 08:03:05.556036,1,Bachelor,2,5400.0,32,24,1,0,25,11,88,1,1.58,False,1.55,3.1,,5,1,2,Opportunity,1,0.10227120138517415,Low
+116,Customer Support,Female,56,Analyst,2021-04-26 08:03:05.556036,3,Bachelor,5,6000.0,43,5,29,8,100,11,96,0,2.47,False,2.06,2.02,,2,2,3,Opportunity,0,0.10002517596818433,Low
+117,Legal,Male,26,Manager,2021-04-30 08:03:05.556036,3,High School,5,9000.0,33,4,15,3,75,17,44,2,3.24,False,2.03,2.54,,4,2,2,Opportunity,0,0.09809742615442892,Very Low
+118,IT,Male,38,Consultant,2016-06-10 08:03:05.556036,8,PhD,4,7700.0,54,44,17,3,0,1,81,1,4.2,False,2.6,3.2,,3,4,3,Opportunity,0,0.09817496053254023,Very Low
+119,IT,Female,27,Manager,2020-01-22 08:03:05.556036,4,Bachelor,5,9000.0,49,12,27,10,25,19,4,1,2.87,False,1.85,0.07,,2,3,3,Opportunity,0,0.09840384708539462,Very Low
+120,Finance,Male,29,Specialist,2021-07-10 08:03:05.556036,3,Bachelor,3,5850.0,47,15,6,1,25,11,65,0,4.37,False,1.77,2.59,,4,2,2,Opportunity,0,0.0988628653325031,Very Low
+121,Customer Support,Male,26,Specialist,2019-03-21 08:03:05.556036,5,Bachelor,1,4950.0,49,2,12,6,75,6,23,1,4.17,False,0.59,1.37,,4,3,1,Weakness,0,0.10098975292946986,Low
+122,Legal,Female,25,Technician,2019-11-27 08:03:05.556036,4,High School,1,3850.0,30,42,4,11,75,6,13,1,2.94,True,0.93,0.19,,5,3,1,Weakness,1,0.10044445481038698,Low
+123,Operations,Female,44,Manager,2015-08-12 08:03:05.556036,9,Bachelor,4,8400.0,53,11,28,5,0,12,60,1,4.47,False,1.92,2.49,,2,4,3,Opportunity,0,0.09867415632889162,Very Low
+124,Finance,Male,46,Consultant,2014-11-04 08:03:05.556036,9,Bachelor,4,7700.0,35,31,19,7,75,14,19,0,1.14,False,1.86,-0.12,,3,4,1,Weakness,0,0.10022422197679998,Low
+125,IT,Male,28,Engineer,2020-11-03 08:03:05.556036,3,High School,3,7800.0,46,4,12,7,0,1,36,2,1.39,False,1.19,1.37,,4,2,1,Weakness,0,0.10197503984015827,Low
+126,Marketing,Male,34,Developer,2015-11-10 08:03:05.556036,8,High School,1,5500.0,56,6,3,12,0,6,60,0,4.65,False,0.62,1.16,,5,4,1,Weakness,0,0.10070309894816068,Low
+127,Engineering,Other,59,Consultant,2014-10-01 08:03:05.556036,9,Bachelor,2,6600.0,50,44,17,0,100,16,35,0,4.4,False,1.87,1.98,,3,4,3,Opportunity,0,0.09914280389701469,Very Low
+128,Sales,Male,31,Consultant,2022-06-16 08:03:05.556036,2,Bachelor,2,6600.0,59,27,22,6,100,1,44,2,1.74,False,1.37,1.78,,3,2,2,Opportunity,0,0.10279806699178702,Low
+129,Sales,Male,51,Developer,2023-06-17 08:03:05.556036,1,High School,5,7500.0,45,8,7,6,50,12,66,2,1.24,True,2.05,2.21,,4,1,2,Opportunity,0,0.1003135697600192,Low
+130,Sales,Other,29,Engineer,2020-05-27 08:03:05.556036,4,Bachelor,1,6600.0,39,10,25,1,100,1,66,2,1.61,False,0.9,2.93,,3,3,3,Opportunity,1,0.1042517920719605,Low
+131,Engineering,Male,47,Specialist,2015-04-17 08:03:05.556036,9,Master,5,6750.0,34,14,27,6,50,15,97,2,2.84,True,2.26,3.38,,2,4,3,Opportunity,0,0.09931748364234655,Very Low
+132,HR,Male,32,Technician,2023-12-17 08:03:05.556036,0,Bachelor,5,5250.0,52,14,28,5,25,17,34,0,2.87,False,2.16,0.94,,2,1,2,Opportunity,0,0.0988147278943915,Very Low
+133,Marketing,Female,55,Manager,2020-10-06 08:03:05.556036,3,High School,3,7800.0,49,9,15,9,75,12,92,0,1.96,False,1.43,1.66,,4,2,2,Opportunity,0,0.10203904860341033,Low
+134,Operations,Female,29,Consultant,2019-05-01 08:03:05.556036,5,High School,2,6600.0,55,41,13,2,25,13,44,1,3.83,False,1.79,2.31,,4,3,0,Opportunity,0,0.09994322689092285,Very Low
+135,Operations,Male,24,Consultant,2022-08-10 08:03:05.556036,2,Bachelor,2,6600.0,39,24,0,12,25,11,63,0,3.79,False,1.17,1.02,,5,2,1,Weakness,0,0.09971594036207725,Very Low
+136,Sales,Male,23,Analyst,2021-10-06 08:03:05.556036,2,Bachelor,5,6000.0,56,28,29,1,0,12,94,0,3.03,False,2.75,2.98,,2,2,3,Opportunity,1,0.09926151444706227,Very Low
+137,Legal,Female,35,Analyst,2017-01-11 08:03:05.556036,7,Bachelor,2,4800.0,46,21,17,2,25,6,9,1,1.25,False,1.21,0.79,,3,4,1,Weakness,0,0.10246265378391474,Low
+138,Customer Support,Male,28,Manager,2019-03-26 08:03:05.556036,5,Master,5,9000.0,40,9,12,2,100,17,34,2,4.83,False,2.19,2.81,,4,3,0,Opportunity,0,0.09639590868513229,Very Low
+139,Finance,Male,38,Technician,2018-11-01 08:03:05.556036,5,High School,2,4200.0,34,24,23,0,100,12,22,0,1.12,False,1.32,0.83,,3,3,1,Weakness,0,0.10252667367203817,Low
+140,Legal,Female,39,Specialist,2022-12-21 08:03:05.556036,1,High School,1,4950.0,44,4,5,5,50,4,11,0,4.38,False,0.6,0.75,,5,1,1,Weakness,0,0.1001859520391321,Low
+141,Engineering,Female,23,Analyst,2019-01-15 08:03:05.556036,5,Bachelor,2,4800.0,35,20,11,1,25,13,16,1,3.61,False,1.29,1.68,,4,3,1,Weakness,0,0.0997390433885729,Very Low
+142,Customer Support,Male,22,Specialist,2021-03-16 08:03:05.556036,3,PhD,3,5850.0,52,6,8,14,50,6,45,1,4.61,False,1.15,1.03,,4,2,1,Weakness,0,0.09873859818810972,Very Low
+143,Legal,Female,60,Specialist,2016-11-21 08:03:05.556036,7,Bachelor,2,5400.0,35,27,19,2,50,15,93,0,2.62,False,1.59,2.73,,3,4,3,Opportunity,0,0.10176589822357092,Low
+144,Customer Support,Female,54,Analyst,2017-02-19 08:03:05.556036,7,High School,3,5200.0,48,49,27,3,75,11,64,2,1.82,False,2.19,2.68,,2,4,3,Opportunity,0,0.10139310266611534,Low
+145,Operations,Female,26,Consultant,2023-06-03 08:03:05.556036,1,Bachelor,1,6050.0,53,18,15,11,50,5,46,0,2.23,False,0.72,0.33,,4,1,1,Weakness,0,0.10299039990258387,Low
+146,Customer Support,Male,43,Consultant,2018-02-24 08:03:05.556036,6,Master,2,6600.0,41,30,12,4,25,18,80,2,4.36,False,1.62,3.59,,4,4,0,Opportunity,0,0.09981601289761345,Very Low
+147,Legal,Female,57,Engineer,2019-06-02 08:03:05.556036,5,Bachelor,1,6600.0,39,41,7,13,0,7,1,0,3.3,False,0.86,-0.78,,4,3,1,Weakness,0,0.10017765734961358,Low
+148,Sales,Male,58,Analyst,2016-11-10 08:03:05.556036,7,Master,3,5200.0,56,26,25,6,100,14,34,2,4.55,False,1.73,2.24,,3,4,3,Opportunity,0,0.09891287179339954,Very Low
+149,IT,Female,31,Technician,2017-08-01 08:03:05.556036,7,Master,1,3850.0,59,3,13,0,50,13,78,2,4.75,False,1.05,4.14,,4,4,0,Opportunity,1,0.10148274220461839,Low
+150,Finance,Female,55,Analyst,2021-03-19 08:03:05.556036,3,Bachelor,1,4400.0,57,17,21,12,100,6,92,0,3.0,False,0.86,1.55,,3,2,1,Weakness,0,0.10312574328467485,Low
+151,Operations,Male,59,Consultant,2020-10-27 08:03:05.556036,3,Bachelor,4,7700.0,52,11,15,13,50,12,19,0,4.76,False,1.52,0.04,,4,2,1,Weakness,0,0.09734874381253761,Very Low
+152,Sales,Male,25,Manager,2023-06-04 08:03:05.556036,1,Bachelor,4,8400.0,35,10,10,0,50,1,51,1,1.02,False,1.85,2.03,,4,1,2,Opportunity,0,0.1010779770033574,Low
+153,Marketing,Female,54,Technician,2014-09-22 08:03:05.556036,9,High School,5,5250.0,37,49,22,14,100,6,21,2,4.44,False,2.39,0.89,,3,4,3,Opportunity,0,0.09587374003309589,Very Low
+154,Customer Support,Male,60,Specialist,2017-07-14 08:03:05.556036,7,Bachelor,3,5850.0,49,19,1,7,100,12,15,2,4.88,False,1.5,1.72,,5,4,0,Opportunity,0,0.09761413649412891,Very Low
+155,Legal,Male,51,Engineer,2015-06-22 08:03:05.556036,9,Bachelor,3,7800.0,53,49,17,1,75,3,30,2,3.78,False,2.23,2.57,,3,4,3,Opportunity,0,0.0988174530161691,Very Low
+156,Customer Support,Female,35,Specialist,2023-06-28 08:03:05.556036,1,Master,1,4950.0,57,30,24,8,100,13,70,1,1.05,False,1.07,1.51,,3,1,2,Opportunity,0,0.10472452411174858,Low
+157,Legal,Male,46,Manager,2020-05-04 08:03:05.556036,4,Bachelor,1,6600.0,34,5,7,1,25,17,71,0,1.79,False,0.82,2.1,,4,3,1,Weakness,0,0.10343062419085278,Low
+158,Operations,Female,39,Analyst,2015-07-16 08:03:05.556036,9,Bachelor,1,4400.0,55,45,14,5,50,7,11,2,3.34,False,1.29,1.48,,4,4,0,Opportunity,0,0.10096029630648454,Low
+159,Legal,Female,41,Technician,2015-06-21 08:03:05.556036,9,Master,1,3850.0,31,36,21,12,100,6,98,0,4.04,False,1.12,1.96,,3,4,3,Opportunity,0,0.10106194615781139,Low
+160,Operations,Female,30,Manager,2022-07-04 08:03:05.556036,2,Master,4,8400.0,52,28,17,1,100,12,27,0,4.15,True,2.21,1.59,,3,2,2,Opportunity,0,0.09779405868914624,Very Low
+161,Engineering,Male,36,Manager,2015-12-27 08:03:05.556036,8,Master,1,6600.0,39,43,27,10,100,3,70,1,2.85,False,1.21,1.71,,2,4,3,Opportunity,0,0.10218596414946195,Low
+162,HR,Male,32,Technician,2019-09-13 08:03:05.556036,4,Bachelor,5,5250.0,56,35,20,10,0,16,41,2,2.04,False,2.35,1.28,,3,3,3,Opportunity,0,0.09921196147637908,Very Low
+163,Finance,Male,44,Technician,2023-01-19 08:03:05.556036,1,Bachelor,5,5250.0,32,46,15,14,50,19,29,0,1.78,False,2.26,-0.58,,4,1,2,Opportunity,1,0.0981806821765059,Very Low
+164,Legal,Male,37,Analyst,2016-11-21 08:03:05.556036,7,High School,1,4400.0,43,33,2,2,0,4,53,1,1.97,True,1.24,2.07,,5,4,0,Opportunity,0,0.1024712838807843,Low
+165,Engineering,Male,26,Analyst,2020-12-19 08:03:05.556036,3,High School,2,4800.0,54,26,23,0,100,16,43,0,1.82,True,1.53,1.53,,3,2,2,Opportunity,0,0.10254058363056433,Low
+166,Sales,Female,30,Specialist,2020-05-18 08:03:05.556036,4,High School,3,5850.0,50,29,23,9,75,12,47,2,3.49,False,1.66,1.92,,3,3,3,Opportunity,0,0.09984809009287221,Very Low
+167,Sales,Male,36,Manager,2018-06-04 08:03:05.556036,6,High School,4,8400.0,51,44,1,6,50,12,78,1,1.14,False,2.38,1.98,,5,4,0,Opportunity,0,0.10060501336709958,Low
+168,Legal,Male,31,Analyst,2016-11-18 08:03:05.556036,7,Bachelor,5,6000.0,49,48,25,0,25,19,93,0,1.97,False,3.05,2.82,,3,4,3,Opportunity,1,0.09956299736201533,Very Low
+169,Legal,Female,39,Specialist,2019-01-27 08:03:05.556036,5,High School,4,6300.0,53,17,23,5,75,14,84,0,4.25,False,2.09,2.54,,3,3,3,Opportunity,0,0.09885658309361696,Very Low
+170,Legal,Female,34,Technician,2019-10-22 08:03:05.556036,4,High School,5,5250.0,50,22,26,2,25,5,49,2,2.59,False,2.42,2.62,,2,3,3,Opportunity,0,0.09914715793579341,Very Low
+171,Engineering,Male,23,Manager,2023-04-09 08:03:05.556036,1,Bachelor,3,7800.0,57,49,9,11,50,13,52,2,4.72,False,2.02,2.1,,4,1,2,Opportunity,0,0.09797068445794463,Very Low
+172,Finance,Male,22,Developer,2015-03-28 08:03:05.556036,9,Bachelor,2,6000.0,52,23,17,3,25,6,50,2,3.63,False,1.45,2.78,,3,4,3,Opportunity,0,0.10075092376720457,Low
+173,Operations,Male,43,Developer,2020-03-30 08:03:05.556036,4,PhD,2,6000.0,39,17,1,8,25,8,63,1,2.24,False,1.13,1.63,,5,3,0,Opportunity,0,0.10156062063477908,Low
+174,Marketing,Female,26,Specialist,2019-09-20 08:03:05.556036,4,High School,5,6750.0,35,30,18,11,0,5,16,0,3.36,False,2.11,-0.14,,3,3,1,Weakness,0,0.09700939040168653,Very Low
+175,Customer Support,Female,30,Analyst,2024-05-05 08:03:05.556036,0,Bachelor,2,4800.0,56,48,21,1,100,2,42,2,3.85,False,1.93,2.89,,3,1,2,Opportunity,0,0.10008139859529391,Low
+176,Engineering,Female,48,Developer,2024-08-26 08:03:05.556036,0,Bachelor,3,6500.0,57,14,12,12,75,14,16,1,3.59,True,1.24,0.3,,4,1,1,Weakness,0,0.0994454772153622,Very Low
+177,HR,Female,54,Consultant,2017-05-13 08:03:05.556036,7,Bachelor,3,7150.0,40,2,7,8,100,18,99,1,3.79,False,1.39,2.92,,4,4,0,Opportunity,0,0.10005623033290675,Low
+178,Customer Support,Male,25,Analyst,2017-08-01 08:03:05.556036,7,Bachelor,4,5600.0,40,42,14,9,100,16,47,0,1.14,False,2.09,0.34,,4,4,0,Opportunity,0,0.10029848972432895,Low
+179,Customer Support,Other,48,Technician,2018-02-28 08:03:05.556036,6,Bachelor,2,4200.0,52,21,8,13,50,19,79,2,1.3,False,1.11,1.68,,4,4,1,Weakness,0,0.10321059696660001,Low
+180,Legal,Female,53,Manager,2016-06-25 08:03:05.556036,8,Master,2,7200.0,31,36,25,3,0,9,36,2,2.89,False,1.51,2.25,,3,4,3,Opportunity,0,0.10073955979621539,Low
+181,Legal,Male,28,Technician,2017-04-13 08:03:05.556036,7,Bachelor,1,3850.0,36,13,13,5,0,13,67,1,2.39,True,0.84,2.15,,4,4,1,Weakness,0,0.10284309223427968,Low
+182,Legal,Male,57,Manager,2024-08-02 08:03:05.556036,0,Bachelor,2,7200.0,48,38,9,8,50,17,56,2,4.28,False,1.56,2.47,,4,1,2,Opportunity,0,0.09946423318884227,Very Low
+183,Sales,Male,48,Technician,2018-05-28 08:03:05.556036,6,Bachelor,4,4900.0,33,26,29,4,75,5,21,1,2.47,False,1.92,1.14,,2,4,3,Opportunity,0,0.09937008217253124,Very Low
+184,Customer Support,Female,32,Manager,2022-05-14 08:03:05.556036,2,Bachelor,5,9000.0,41,27,17,7,25,12,62,2,1.46,False,2.31,2.04,,3,2,2,Opportunity,0,0.09980445737398304,Very Low
+185,Finance,Female,33,Technician,2015-01-15 08:03:05.556036,9,Bachelor,3,4550.0,38,30,1,11,75,9,56,2,2.69,False,1.57,1.7,,5,4,0,Opportunity,0,0.09976927269273124,Very Low
+186,HR,Female,57,Manager,2023-07-27 08:03:05.556036,1,Bachelor,4,8400.0,35,37,7,10,100,5,59,2,4.38,False,2.11,2.32,,4,1,2,Opportunity,0,0.09714282959471077,Very Low
+187,Legal,Male,38,Engineer,2018-10-19 08:03:05.556036,5,Master,4,8400.0,41,28,22,6,100,8,38,0,3.08,False,2.0,0.97,,3,3,3,Opportunity,0,0.0988442783242137,Very Low
+188,IT,Female,43,Specialist,2022-02-15 08:03:05.556036,2,High School,2,5400.0,54,14,8,9,25,11,97,2,4.01,False,1.28,3.3,,4,2,2,Opportunity,0,0.10093097833971726,Low
+189,Customer Support,Female,26,Specialist,2023-07-18 08:03:05.556036,1,Bachelor,2,5400.0,33,47,15,5,50,10,11,0,2.8,True,1.55,0.35,,4,1,2,Opportunity,0,0.09985424382366566,Very Low
+190,Operations,Female,41,Consultant,2022-05-21 08:03:05.556036,2,Bachelor,1,6050.0,39,24,24,6,100,12,4,0,3.85,False,0.84,0.31,,3,2,1,Weakness,0,0.10061014134560334,Low
+191,HR,Female,37,Analyst,2016-03-17 08:03:05.556036,8,Bachelor,4,5600.0,46,18,0,9,0,10,12,0,2.32,False,1.64,-0.25,,5,4,1,Weakness,0,0.098936238901904,Very Low
+192,Engineering,Female,36,Analyst,2020-12-26 08:03:05.556036,3,Bachelor,2,4800.0,39,49,24,14,25,15,64,1,3.84,True,1.52,1.31,,3,2,2,Opportunity,0,0.09988728975355761,Very Low
+193,Finance,Male,54,Specialist,2020-01-01 08:03:05.556036,4,Bachelor,1,4950.0,59,2,22,3,0,4,99,0,3.94,False,0.97,3.08,,3,3,3,Opportunity,0,0.10274540951239575,Low
+194,IT,Female,45,Analyst,2021-04-10 08:03:05.556036,3,Bachelor,2,4800.0,57,28,26,2,50,15,85,0,1.48,False,1.64,2.24,,2,2,3,Opportunity,0,0.1035579615456351,Low
+195,IT,Female,56,Specialist,2017-07-25 08:03:05.556036,7,Master,5,6750.0,53,19,22,4,0,2,61,0,2.51,True,2.36,1.65,,3,4,3,Opportunity,0,0.09925641725322673,Very Low
+196,Legal,Female,39,Engineer,2023-03-30 08:03:05.556036,1,Master,5,9000.0,59,16,24,2,50,1,26,1,1.59,True,2.25,1.3,,3,1,2,Opportunity,0,0.10007408242067614,Low
+197,HR,Male,44,Technician,2022-07-30 08:03:05.556036,2,High School,1,3850.0,37,9,8,11,75,5,15,2,1.49,False,0.37,0.37,,4,2,1,Weakness,0,0.10306923928786085,Low
+198,HR,Female,55,Analyst,2021-02-04 08:03:05.556036,3,Bachelor,5,6000.0,43,14,22,6,75,17,42,2,3.45,False,2.13,2.16,,3,2,2,Opportunity,0,0.09807768635186473,Very Low
+199,IT,Female,52,Developer,2019-04-08 08:03:05.556036,5,Bachelor,1,5500.0,44,40,28,14,50,12,56,0,3.23,False,1.01,0.46,,2,3,1,Weakness,0,0.10175344929186034,Low
+200,Operations,Male,27,Consultant,2021-04-26 08:03:05.556036,3,Master,1,6050.0,36,4,26,8,100,9,38,2,3.73,True,0.53,1.88,,2,2,1,Weakness,0,0.1017560437566399,Low
+201,Finance,Male,45,Analyst,2014-09-21 08:03:05.556036,9,Bachelor,5,6000.0,30,12,14,9,100,8,26,1,2.41,False,1.86,0.63,,4,4,0,Opportunity,0,0.09830720650508552,Very Low
+202,Operations,Female,54,Specialist,2019-05-13 08:03:05.556036,5,Bachelor,3,5850.0,52,28,21,3,0,16,14,2,3.47,False,1.75,1.84,,3,3,3,Opportunity,0,0.09947471915660379,Very Low
+203,Engineering,Male,32,Consultant,2016-03-05 08:03:05.556036,8,High School,2,6600.0,47,5,20,10,75,19,87,1,4.06,False,1.04,2.44,,3,4,3,Opportunity,0,0.10107575587377814,Low
+204,Customer Support,Male,52,Analyst,2020-04-09 08:03:05.556036,4,Bachelor,2,4800.0,34,19,18,6,75,14,37,0,2.63,False,1.14,0.83,,3,3,1,Weakness,0,0.10111422776461393,Low
+205,HR,Female,38,Technician,2017-12-01 08:03:05.556036,6,High School,1,3850.0,32,39,2,2,50,14,40,1,1.25,False,1.22,1.56,,5,4,0,Opportunity,0,0.10262786560358529,Low
+206,Marketing,Male,50,Engineer,2023-08-29 08:03:05.556036,1,Bachelor,2,7200.0,44,10,21,0,0,5,88,2,4.9,True,1.47,4.43,,3,1,2,Opportunity,1,0.10021566353305436,Low
+207,Customer Support,Male,41,Manager,2020-11-19 08:03:05.556036,3,Master,4,8400.0,55,28,1,14,50,5,66,2,1.02,False,1.82,1.15,,5,2,0,Opportunity,0,0.10105239915611074,Low
+208,Sales,Female,40,Developer,2016-11-26 08:03:05.556036,7,High School,1,5500.0,30,20,7,10,0,6,64,1,4.61,True,0.83,2.0,,4,4,1,Weakness,0,0.10002933464382528,Low
+209,Engineering,Male,43,Developer,2015-11-21 08:03:05.556036,8,High School,3,6500.0,55,49,24,8,50,15,75,2,2.96,False,2.13,2.62,,3,4,3,Opportunity,0,0.10043603532226904,Low
+210,Legal,Male,42,Consultant,2015-04-26 08:03:05.556036,9,Bachelor,2,6600.0,58,39,13,3,0,14,23,0,4.32,False,1.68,1.28,,4,4,0,Opportunity,0,0.09923277752886334,Very Low
+211,Finance,Female,26,Specialist,2021-08-01 08:03:05.556036,3,High School,4,6300.0,41,47,26,2,50,7,98,0,2.86,True,2.64,2.92,,2,2,3,Opportunity,0,0.0995538519470901,Very Low
+212,Marketing,Male,36,Manager,2020-01-07 08:03:05.556036,4,PhD,2,7200.0,44,27,9,10,100,13,52,2,2.76,False,1.23,1.74,,4,3,1,Weakness,0,0.10107929341128734,Low
+213,Operations,Male,28,Developer,2023-02-27 08:03:05.556036,1,Bachelor,4,7000.0,32,16,10,9,75,6,21,0,4.27,False,1.65,0.47,,4,1,2,Opportunity,0,0.09713550392465835,Very Low
+214,Legal,Female,32,Specialist,2019-12-19 08:03:05.556036,4,Master,5,6750.0,49,5,11,6,75,17,99,1,2.42,False,2.16,2.83,,4,3,0,Opportunity,0,0.09979282984475535,Very Low
+215,Operations,Female,25,Developer,2019-09-11 08:03:05.556036,4,High School,3,6500.0,34,25,1,5,0,1,69,0,1.75,False,1.68,1.54,,5,3,0,Opportunity,0,0.1008089287037798,Low
+216,Sales,Female,30,Manager,2018-03-25 08:03:05.556036,6,Bachelor,3,7800.0,40,0,22,7,100,16,74,2,4.21,True,1.32,3.03,,3,4,3,Opportunity,0,0.0998794940771024,Very Low
+217,Operations,Female,42,Engineer,2020-07-25 08:03:05.556036,4,Master,2,7200.0,54,12,17,8,75,7,5,0,4.58,False,0.99,0.27,,3,3,1,Weakness,0,0.09935682447488757,Very Low
+218,Legal,Female,22,Analyst,2018-07-06 08:03:05.556036,6,High School,4,5600.0,42,7,11,5,25,2,7,0,4.77,False,1.64,0.74,,4,4,0,Opportunity,0,0.09696538451113763,Very Low
+219,Engineering,Male,23,Engineer,2019-11-18 08:03:05.556036,4,Bachelor,5,9000.0,55,12,5,11,0,1,95,1,4.14,False,2.18,2.54,,5,3,0,Opportunity,0,0.09781563053760352,Very Low
+220,Customer Support,Male,52,Engineer,2015-11-13 08:03:05.556036,8,Bachelor,4,8400.0,35,0,27,6,50,7,82,1,4.97,False,1.72,3.04,,2,4,3,Opportunity,0,0.09824403402005465,Very Low
+221,Operations,Male,25,Consultant,2019-11-17 08:03:05.556036,4,High School,2,6600.0,34,41,7,11,25,12,9,1,3.23,False,1.26,0.16,,4,3,1,Weakness,0,0.09935170874947527,Very Low
+222,Customer Support,Male,50,Developer,2016-07-05 08:03:05.556036,8,Bachelor,5,7500.0,32,7,2,9,100,10,14,1,4.74,False,1.82,0.91,,5,4,0,Opportunity,0,0.09569571886267791,Very Low
+223,Legal,Male,32,Analyst,2021-02-14 08:03:05.556036,3,Bachelor,1,4400.0,45,35,25,12,100,12,52,0,4.98,False,1.04,1.04,,3,2,1,Weakness,0,0.09999915122420572,Very Low
+224,Engineering,Female,55,Engineer,2021-10-16 08:03:05.556036,2,Bachelor,4,8400.0,36,22,23,2,50,1,43,1,2.76,False,2.02,2.01,,3,2,2,Opportunity,0,0.09935690348945618,Very Low
+225,Sales,Female,53,Specialist,2020-10-03 08:03:05.556036,3,Master,1,4950.0,30,21,20,4,75,2,29,1,1.49,False,0.82,1.1,,3,2,1,Weakness,1,0.10314916081024837,Low
+226,Sales,Female,44,Manager,2014-12-31 08:03:05.556036,9,PhD,5,9000.0,53,0,11,7,25,13,65,2,4.9,False,2.03,2.98,,4,4,0,Opportunity,0,0.09717408397871112,Very Low
+227,HR,Female,25,Engineer,2014-09-14 08:03:05.556036,9,Bachelor,5,9000.0,45,47,18,7,25,15,69,0,1.66,False,2.69,1.27,,3,4,3,Opportunity,0,0.09923924389575618,Very Low
+228,Operations,Female,57,Developer,2019-05-11 08:03:05.556036,5,Bachelor,2,6000.0,40,37,8,5,75,12,53,2,2.83,False,1.55,2.41,,4,3,0,Opportunity,0,0.10069486212536055,Low
+229,IT,Male,42,Consultant,2020-12-11 08:03:05.556036,3,Bachelor,4,7700.0,47,29,3,9,75,14,7,2,3.62,False,1.86,0.96,,5,2,0,Opportunity,0,0.09757684389709675,Very Low
+230,Legal,Female,39,Engineer,2022-04-13 08:03:05.556036,2,Bachelor,5,9000.0,41,8,27,3,75,9,70,2,1.39,False,2.15,2.72,,2,2,3,Opportunity,0,0.1007428492664769,Low
+231,Operations,Male,25,Manager,2015-01-25 08:03:05.556036,9,High School,3,7800.0,58,9,6,9,0,5,56,1,3.1,False,1.38,1.55,,4,4,0,Opportunity,0,0.10042973077600377,Low
+232,Customer Support,Female,27,Analyst,2022-06-10 08:03:05.556036,2,High School,3,5200.0,56,34,28,3,25,2,80,1,2.06,False,2.04,2.64,,2,2,3,Opportunity,0,0.10186692963371552,Low
+233,Sales,Female,32,Technician,2015-05-19 08:03:05.556036,9,High School,2,4200.0,46,28,20,2,75,2,29,1,1.45,False,1.4,1.34,,3,4,3,Opportunity,0,0.10245313623525894,Low
+234,Finance,Female,57,Analyst,2022-02-25 08:03:05.556036,2,Master,4,5600.0,58,38,10,6,25,14,58,0,4.13,False,2.34,1.73,,4,2,2,Opportunity,0,0.09788919812773378,Very Low
+235,Marketing,Male,32,Analyst,2015-11-26 08:03:05.556036,8,Master,4,5600.0,36,12,9,11,75,12,91,2,2.65,False,1.71,2.56,,4,4,0,Opportunity,0,0.0999096965658961,Very Low
+236,HR,Female,39,Technician,2023-01-02 08:03:05.556036,1,Master,5,5250.0,57,3,28,5,0,17,29,2,4.33,False,2.03,2.18,,2,1,2,Opportunity,0,0.09780551926096663,Very Low
+237,Marketing,Other,44,Technician,2017-05-26 08:03:05.556036,7,Bachelor,1,3850.0,53,30,3,11,25,15,33,2,3.51,False,0.91,1.33,,5,4,1,Weakness,0,0.10100799461045058,Low
+238,Sales,Male,28,Engineer,2022-05-19 08:03:05.556036,2,High School,4,8400.0,38,9,23,7,75,12,37,0,1.96,False,1.6,0.54,,3,2,1,Weakness,0,0.10032988562213863,Low
+239,Operations,Female,42,Consultant,2016-07-07 08:03:05.556036,8,High School,4,7700.0,53,17,18,1,50,16,55,1,4.65,False,2.14,2.91,,3,4,3,Opportunity,0,0.0980258099755757,Very Low
+240,Finance,Female,27,Manager,2022-10-09 08:03:05.556036,1,High School,4,8400.0,56,27,19,4,75,8,90,2,1.53,False,2.23,3.13,,3,1,2,Opportunity,0,0.10151852219193154,Low
+241,HR,Male,60,Developer,2023-04-28 08:03:05.556036,1,High School,3,6500.0,54,12,9,11,0,11,32,0,2.18,True,1.24,-0.03,,4,1,1,Weakness,0,0.10088385007728826,Low
+242,Engineering,Male,42,Manager,2023-05-11 08:03:05.556036,1,Master,1,6600.0,41,10,24,4,50,2,8,2,4.72,False,0.72,1.88,,3,1,2,Opportunity,0,0.10030511074630968,Low
+243,Finance,Male,33,Developer,2018-06-28 08:03:05.556036,6,High School,2,6000.0,39,38,28,9,25,1,33,2,3.42,False,1.39,1.55,,2,4,3,Opportunity,0,0.1003646424651888,Low
+244,IT,Female,47,Analyst,2021-10-05 08:03:05.556036,2,Bachelor,2,4800.0,38,44,4,3,50,11,31,2,1.04,False,1.6,1.66,,5,2,0,Opportunity,0,0.10188448011998041,Low
+245,HR,Female,45,Manager,2020-05-28 08:03:05.556036,4,Bachelor,5,9000.0,48,9,7,1,100,3,65,1,4.79,False,2.36,3.2,,4,3,0,Opportunity,0,0.09681120092039594,Very Low
+246,IT,Female,32,Specialist,2021-12-25 08:03:05.556036,2,Bachelor,4,6300.0,55,46,26,11,0,9,87,2,4.82,False,2.41,3.0,,2,2,3,Opportunity,0,0.0979057910476067,Very Low
+247,Marketing,Female,24,Technician,2017-03-13 08:03:05.556036,7,Bachelor,4,4900.0,30,33,20,3,25,15,18,0,1.46,False,2.02,0.44,,3,4,3,Opportunity,0,0.09977003265580668,Very Low
+248,HR,Female,43,Analyst,2021-05-12 08:03:05.556036,3,Bachelor,2,4800.0,57,36,5,4,100,19,37,1,4.81,False,1.65,2.13,,5,2,0,Opportunity,0,0.0987971152457967,Very Low
+249,Legal,Male,32,Consultant,2022-04-08 08:03:05.556036,2,High School,3,7150.0,35,43,15,10,25,5,75,0,1.49,False,1.83,1.0,,4,2,2,Opportunity,0,0.10115320586646913,Low
+250,Customer Support,Male,35,Technician,2023-01-28 08:03:05.556036,1,High School,3,4550.0,51,28,4,9,50,3,84,1,2.03,False,1.73,1.98,,5,1,2,Opportunity,0,0.10119881713602724,Low
+251,Engineering,Male,56,Technician,2015-02-05 08:03:05.556036,9,Bachelor,2,4200.0,38,27,14,6,100,6,20,2,2.7,False,1.23,1.42,,4,4,1,Weakness,0,0.10074665602305771,Low
+252,IT,Male,35,Consultant,2017-10-29 08:03:05.556036,6,Bachelor,1,6050.0,59,44,23,4,0,17,25,0,3.76,False,1.39,1.06,,3,4,3,Opportunity,0,0.10098541670784425,Low
+253,Operations,Male,34,Specialist,2020-11-19 08:03:05.556036,3,Bachelor,3,5850.0,50,13,27,10,0,9,57,2,4.87,False,1.44,2.39,,2,2,3,Opportunity,0,0.09908264429283797,Very Low
+254,Legal,Female,30,Consultant,2015-02-18 08:03:05.556036,9,Master,4,7700.0,43,31,26,13,50,3,37,1,3.4,False,1.83,0.65,,2,4,3,Opportunity,0,0.09863949026078868,Very Low
+255,Marketing,Other,46,Developer,2017-11-18 08:03:05.556036,6,High School,1,5500.0,47,12,24,9,25,17,3,1,1.05,False,0.47,-0.29,,3,4,1,Weakness,1,0.10398935428749455,Low
+256,Operations,Male,34,Consultant,2015-04-07 08:03:05.556036,9,High School,4,7700.0,52,13,8,9,100,13,81,2,3.17,False,1.84,2.69,,4,4,0,Opportunity,0,0.09961158300000238,Very Low
+257,Engineering,Female,45,Specialist,2019-02-15 08:03:05.556036,5,Bachelor,2,5400.0,31,19,16,12,25,8,12,2,1.61,False,0.81,0.2,,3,3,1,Weakness,0,0.10177680177690399,Low
+258,HR,Female,31,Specialist,2019-06-17 08:03:05.556036,5,Bachelor,3,5850.0,59,19,22,6,75,3,78,0,3.3,False,1.73,2.02,,3,3,3,Opportunity,0,0.10074959337553953,Low
+259,Sales,Male,26,Technician,2016-01-09 08:03:05.556036,8,Bachelor,5,5250.0,46,39,25,2,100,16,57,1,3.98,False,2.76,2.67,,3,4,3,Opportunity,0,0.09730902322893523,Very Low
+260,Marketing,Male,40,Manager,2020-04-08 08:03:05.556036,4,High School,2,7200.0,60,25,6,13,75,11,94,1,4.41,False,1.36,2.33,,4,3,0,Opportunity,0,0.1002324511384903,Low
+261,Marketing,Male,46,Developer,2018-07-26 08:03:05.556036,6,Master,2,6000.0,60,3,8,13,0,17,93,2,4.27,False,0.99,2.77,,4,4,0,Opportunity,1,0.1009871655741532,Low
+262,Operations,Female,32,Technician,2019-11-12 08:03:05.556036,4,Bachelor,1,3850.0,40,25,10,10,50,16,89,1,1.43,False,0.93,1.83,,4,3,1,Weakness,0,0.10382154465378182,Low
+263,HR,Female,26,Developer,2017-09-24 08:03:05.556036,6,Master,2,6000.0,59,39,7,1,0,10,9,0,4.97,False,1.72,1.34,,4,4,0,Opportunity,0,0.09827213800980444,Very Low
+264,IT,Male,52,Manager,2020-07-18 08:03:05.556036,4,Master,4,8400.0,39,30,29,7,0,17,18,1,2.68,False,1.91,0.75,,2,3,3,Opportunity,0,0.09915809119046937,Very Low
+265,Marketing,Other,26,Engineer,2021-07-02 08:03:05.556036,3,PhD,4,8400.0,35,46,2,11,100,3,81,0,3.98,False,2.28,1.64,,5,2,0,Opportunity,0,0.09734094071592748,Very Low
+266,IT,Female,34,Technician,2017-12-14 08:03:05.556036,6,PhD,5,5250.0,40,24,17,6,0,5,4,0,4.18,False,2.19,0.4,,3,4,3,Opportunity,0,0.09630762319483693,Very Low
+267,Finance,Male,31,Developer,2015-11-06 08:03:05.556036,8,Bachelor,1,5500.0,38,29,24,10,25,15,76,0,3.39,False,1.01,1.5,,3,4,1,Weakness,0,0.1018619113037821,Low
+268,IT,Female,54,Manager,2017-07-12 08:03:05.556036,7,Bachelor,2,7200.0,59,6,11,1,100,17,32,2,4.08,False,1.22,2.7,,4,4,0,Opportunity,0,0.10045323413365251,Low
+269,Operations,Male,39,Technician,2024-07-01 08:03:05.556036,0,High School,2,4200.0,50,23,29,9,75,9,69,2,4.5,True,1.34,2.72,,2,1,2,Opportunity,0,0.10039749699371013,Low
+270,IT,Female,52,Manager,2016-12-04 08:03:05.556036,7,Bachelor,3,7800.0,39,4,20,2,0,9,57,0,1.54,False,1.4,1.56,,3,4,3,Opportunity,0,0.102076412207211,Low
+271,Sales,Male,39,Specialist,2021-02-05 08:03:05.556036,3,Bachelor,3,5850.0,39,40,22,6,0,8,19,0,1.52,False,1.74,0.1,,3,2,1,Weakness,0,0.10079419992122111,Low
+272,Operations,Male,31,Consultant,2015-12-11 08:03:05.556036,8,Master,1,6050.0,57,25,19,5,0,14,25,0,3.33,False,1.02,0.83,,3,4,1,Weakness,0,0.10168180335324749,Low
+273,Marketing,Female,44,Manager,2015-02-11 08:03:05.556036,9,Bachelor,5,9000.0,35,18,28,3,75,8,5,2,2.63,False,2.12,1.41,,2,4,3,Opportunity,0,0.09831609063332127,Very Low
+274,Operations,Other,25,Engineer,2015-09-23 08:03:05.556036,8,Bachelor,1,6600.0,58,30,23,10,50,1,33,1,4.21,False,0.99,1.13,,3,4,1,Weakness,0,0.10097095610734082,Low
+275,IT,Male,26,Technician,2022-09-22 08:03:05.556036,1,Bachelor,4,4900.0,33,21,8,7,75,8,12,0,2.64,False,1.72,0.08,,4,1,2,Opportunity,0,0.09848182816097756,Very Low
+276,Marketing,Male,56,Consultant,2023-01-08 08:03:05.556036,1,Bachelor,4,7700.0,59,19,25,5,25,14,53,2,4.9,False,2.07,2.92,,3,1,2,Opportunity,0,0.09809575514349175,Very Low
+277,Engineering,Male,27,Engineer,2023-07-18 08:03:05.556036,1,PhD,4,8400.0,42,2,15,2,100,8,74,2,1.53,False,1.77,2.98,,4,1,2,Opportunity,0,0.10143127139161272,Low
+278,Legal,Female,59,Consultant,2020-08-12 08:03:05.556036,4,Bachelor,3,7150.0,55,19,20,11,50,15,66,0,1.84,False,1.46,0.73,,3,3,1,Weakness,0,0.10187761261234612,Low
+279,Operations,Male,34,Developer,2019-02-02 08:03:05.556036,5,Bachelor,3,6500.0,44,0,19,0,25,7,48,1,1.9,False,1.41,2.17,,3,3,3,Opportunity,0,0.1018447590033004,Low
+280,Customer Support,Male,54,Consultant,2016-08-31 08:03:05.556036,8,Bachelor,2,6600.0,56,6,13,7,75,1,49,2,3.92,False,1.06,2.33,,4,4,0,Opportunity,0,0.10078719391863641,Low
+281,Sales,Female,57,Analyst,2019-02-16 08:03:05.556036,5,Bachelor,1,4400.0,51,15,15,13,25,19,36,0,2.5,False,0.57,-0.1,,4,3,1,Weakness,0,0.10258978329703644,Low
+282,Engineering,Female,43,Consultant,2014-10-23 08:03:05.556036,9,Bachelor,5,8250.0,33,20,5,2,75,14,42,0,3.06,True,2.31,1.56,,5,4,0,Opportunity,0,0.09748024224493852,Very Low
+283,Customer Support,Male,36,Engineer,2023-05-01 08:03:05.556036,1,Bachelor,3,7800.0,55,10,23,0,100,7,45,2,4.79,False,1.71,3.32,,3,1,2,Opportunity,0,0.0991242301154021,Very Low
+284,IT,Female,41,Technician,2018-06-18 08:03:05.556036,6,High School,4,4900.0,53,45,24,1,50,19,75,2,3.91,False,2.65,3.73,,3,4,3,Opportunity,1,0.09861970747433928,Very Low
+285,Marketing,Female,38,Manager,2021-08-28 08:03:05.556036,3,High School,3,7800.0,40,49,29,2,25,14,66,2,4.85,False,2.3,3.61,,2,2,3,Opportunity,1,0.09826168871207537,Very Low
+286,HR,Female,40,Manager,2023-12-06 08:03:05.556036,0,Bachelor,1,6600.0,59,24,1,14,50,8,2,1,1.65,True,0.57,-0.79,,5,1,1,Weakness,1,0.10263068090138232,Low
+287,HR,Female,22,Consultant,2023-01-29 08:03:05.556036,1,High School,4,7700.0,58,19,25,9,100,15,58,2,3.36,False,1.9,2.16,,3,1,2,Opportunity,0,0.09963570600636006,Very Low
+288,Finance,Male,34,Analyst,2015-08-08 08:03:05.556036,9,Bachelor,5,6000.0,50,37,21,6,0,14,66,0,4.91,False,2.68,2.13,,3,4,3,Opportunity,0,0.09644567879380107,Very Low
+289,Operations,Female,58,Manager,2015-11-01 08:03:05.556036,8,Master,5,9000.0,32,30,27,8,25,5,94,2,1.96,False,2.41,2.84,,2,4,3,Opportunity,0,0.09973295212605175,Very Low
+290,Legal,Male,42,Analyst,2019-12-22 08:03:05.556036,4,High School,4,5600.0,43,24,23,7,0,1,5,0,2.29,True,1.77,-0.18,,3,3,1,Weakness,0,0.0993666120868953,Very Low
+291,Engineering,Male,40,Consultant,2016-03-09 08:03:05.556036,8,High School,4,7700.0,51,44,23,5,25,19,88,2,3.49,False,2.52,3.45,,3,4,3,Opportunity,0,0.09912626169549044,Very Low
+292,Sales,Male,56,Analyst,2021-02-06 08:03:05.556036,3,Bachelor,3,5200.0,31,25,29,1,100,3,46,1,2.26,False,1.74,2.09,,2,2,3,Opportunity,1,0.1008590406075899,Low
+293,Sales,Male,51,Developer,2017-10-27 08:03:05.556036,6,High School,3,6500.0,47,39,27,12,0,3,33,0,4.16,False,1.69,0.36,,2,4,3,Opportunity,0,0.09867519174120509,Very Low
+294,Operations,Female,22,Consultant,2016-08-10 08:03:05.556036,8,PhD,4,7700.0,55,14,9,3,25,2,2,2,2.74,False,1.79,1.36,,4,4,0,Opportunity,0,0.09913125279517142,Very Low
+295,Sales,Male,48,Specialist,2021-04-23 08:03:05.556036,3,Bachelor,4,6300.0,36,0,25,1,50,19,39,0,1.39,False,1.63,1.2,,3,2,2,Opportunity,0,0.1011848375588097,Low
+296,HR,Female,40,Consultant,2022-02-12 08:03:05.556036,2,High School,3,7150.0,56,10,29,13,50,15,21,2,3.99,False,1.17,0.9,,2,2,1,Weakness,0,0.0997429254712872,Very Low
+297,Operations,Female,36,Consultant,2020-03-07 08:03:05.556036,4,Master,4,7700.0,34,39,8,4,0,11,35,1,3.34,True,2.22,1.71,,4,3,0,Opportunity,0,0.0977915650594109,Very Low
+298,Customer Support,Female,30,Analyst,2023-02-18 08:03:05.556036,1,PhD,1,4400.0,34,36,1,0,75,9,76,0,4.39,False,1.47,3.0,,5,1,2,Opportunity,0,0.09996113782080002,Very Low
+299,Engineering,Other,22,Engineer,2017-02-27 08:03:05.556036,7,Bachelor,2,7200.0,51,40,6,14,50,16,92,1,5.0,False,1.55,2.3,,4,4,0,Opportunity,0,0.09905342892103935,Very Low
+300,Finance,Female,53,Technician,2023-06-29 08:03:05.556036,1,Bachelor,2,4200.0,45,6,23,12,100,9,23,1,2.5,False,0.71,0.2,,3,1,1,Weakness,0,0.10182567627114877,Low
+301,Marketing,Male,34,Developer,2021-09-16 08:03:05.556036,2,Master,2,6000.0,33,49,7,11,25,6,68,0,4.69,False,1.64,1.5,,4,2,2,Opportunity,0,0.09839224719013931,Very Low
+302,Customer Support,Female,23,Developer,2018-08-13 08:03:05.556036,6,Master,5,7500.0,55,36,17,9,75,10,62,1,3.37,False,2.51,1.77,,3,4,3,Opportunity,0,0.0979762859662778,Very Low
+303,Sales,Female,57,Analyst,2019-08-05 08:03:05.556036,5,Bachelor,5,6000.0,57,40,17,12,100,13,19,2,2.01,False,2.3,0.48,,3,3,3,Opportunity,0,0.09876338651059292,Very Low
+304,Operations,Male,24,Consultant,2015-12-29 08:03:05.556036,8,Master,1,6050.0,51,43,5,11,25,18,94,0,1.21,False,1.25,1.28,,5,4,0,Opportunity,0,0.10374064120379228,Low
+305,Engineering,Male,46,Analyst,2021-02-16 08:03:05.556036,3,Bachelor,1,4400.0,31,0,5,1,100,7,20,1,4.98,False,0.66,2.12,,5,2,1,Weakness,1,0.09956938636583093,Very Low
+306,Legal,Female,51,Developer,2020-04-25 08:03:05.556036,4,Bachelor,5,7500.0,51,11,21,14,50,7,77,1,3.65,False,1.97,1.59,,3,3,3,Opportunity,0,0.09845108531904981,Very Low
+307,Engineering,Female,46,Technician,2017-08-26 08:03:05.556036,7,Bachelor,1,3850.0,40,23,17,14,25,18,26,1,2.97,True,0.6,0.14,,3,4,1,Weakness,0,0.10164663321861679,Low
+308,Sales,Female,58,Analyst,2021-10-01 08:03:05.556036,2,Master,1,4400.0,35,29,28,13,25,2,30,0,3.65,False,0.75,0.04,,2,2,1,Weakness,1,0.10102461259961282,Low
+309,Marketing,Female,24,Manager,2016-01-13 08:03:05.556036,8,Bachelor,2,7200.0,45,35,4,1,0,19,53,0,1.11,False,1.62,1.48,,5,4,0,Opportunity,0,0.10237277407250836,Low
+310,Marketing,Female,35,Consultant,2019-04-29 08:03:05.556036,5,Bachelor,2,6600.0,55,19,1,9,100,14,76,2,2.32,False,1.24,2.36,,5,3,0,Opportunity,0,0.1020634242228165,Low
+311,Finance,Female,46,Developer,2022-10-07 08:03:05.556036,1,Master,3,6500.0,49,15,5,9,100,16,84,2,3.45,False,1.55,2.84,,5,1,2,Opportunity,0,0.1001190488088693,Low
+312,Customer Support,Male,34,Engineer,2021-04-07 08:03:05.556036,3,High School,3,7800.0,54,26,29,9,100,6,57,0,2.21,False,1.62,0.85,,2,2,3,Opportunity,0,0.1014845774449387,Low
+313,Customer Support,Male,47,Consultant,2019-06-02 08:03:05.556036,5,Master,1,6050.0,35,0,26,12,50,9,90,0,4.23,False,0.52,1.81,,2,3,1,Weakness,0,0.1018474496503406,Low
+314,Engineering,Male,54,Analyst,2023-11-19 08:03:05.556036,0,High School,4,5600.0,41,11,1,0,25,1,84,0,1.18,True,2.01,2.4,,5,1,2,Opportunity,0,0.10113349073217863,Low
+315,Sales,Female,43,Manager,2021-04-01 08:03:05.556036,3,High School,2,7200.0,51,5,25,2,0,2,57,2,1.42,True,1.13,2.53,,3,2,2,Opportunity,0,0.10374632159869679,Low
+316,Sales,Male,42,Analyst,2023-09-19 08:03:05.556036,0,High School,4,5600.0,50,9,14,1,0,15,71,2,1.22,False,1.94,2.96,,4,1,2,Opportunity,0,0.10170841304907602,Low
+317,Operations,Male,23,Consultant,2019-07-14 08:03:05.556036,5,Master,2,6600.0,44,29,6,12,100,5,28,2,2.09,False,1.1,0.72,,4,3,1,Weakness,0,0.10128370711184713,Low
+318,Finance,Female,27,Engineer,2015-11-01 08:03:05.556036,8,Bachelor,1,6600.0,60,36,13,9,75,19,66,0,2.49,False,1.19,1.15,,4,4,1,Weakness,0,0.10269440023265207,Low
+319,Sales,Female,22,Engineer,2016-07-17 08:03:05.556036,8,High School,3,7800.0,36,20,1,9,50,16,52,1,3.48,False,1.47,1.54,,5,4,0,Opportunity,0,0.09906340466031731,Very Low
+320,Sales,Female,45,Engineer,2017-06-19 08:03:05.556036,7,Bachelor,3,7800.0,60,13,4,6,100,19,34,1,4.7,False,1.54,1.78,,5,4,0,Opportunity,0,0.09846079669548206,Very Low
+321,Finance,Female,36,Specialist,2020-10-19 08:03:05.556036,3,High School,1,4950.0,34,5,26,2,100,16,41,1,3.53,False,0.75,2.16,,2,2,3,Opportunity,0,0.10188800217256896,Low
+322,Engineering,Female,23,Consultant,2016-08-29 08:03:05.556036,8,Master,1,6050.0,41,7,0,12,75,18,37,1,4.67,False,0.5,1.09,,5,4,1,Weakness,0,0.09996494776409869,Very Low
+323,IT,Male,26,Manager,2021-05-12 08:03:05.556036,3,High School,5,9000.0,36,30,9,10,0,7,3,1,1.62,False,2.05,-0.27,,4,2,1,Weakness,0,0.09837088525461067,Very Low
+324,Marketing,Female,34,Consultant,2018-06-23 08:03:05.556036,6,High School,1,6050.0,52,6,21,14,75,18,58,2,1.59,False,0.43,1.1,,3,4,1,Weakness,0,0.10437926491076528,Low
+325,Finance,Male,24,Analyst,2018-08-25 08:03:05.556036,6,High School,4,5600.0,39,15,15,10,75,16,87,1,2.74,False,1.79,2.11,,4,4,0,Opportunity,0,0.09990102300343386,Very Low
+326,HR,Male,57,Developer,2023-11-25 08:03:05.556036,0,Bachelor,4,7000.0,30,24,9,9,100,5,74,2,3.21,False,1.91,2.53,,4,1,2,Opportunity,0,0.0987304113271214,Very Low
+327,Finance,Female,46,Consultant,2016-06-14 08:03:05.556036,8,Bachelor,4,7700.0,57,21,11,8,25,18,65,2,3.89,False,2.0,2.6,,4,4,0,Opportunity,0,0.09872198537716045,Very Low
+328,Finance,Female,22,Developer,2020-08-17 08:03:05.556036,4,High School,5,7500.0,52,8,19,2,25,7,42,0,4.75,False,2.25,1.99,,3,3,3,Opportunity,0,0.096957621299666,Very Low
+329,Legal,Other,53,Consultant,2017-10-22 08:03:05.556036,6,Bachelor,2,6600.0,59,15,21,10,100,5,42,1,1.93,False,1.03,0.78,,3,4,1,Weakness,0,0.10274599200528475,Low
+330,Operations,Female,27,Specialist,2022-09-27 08:03:05.556036,1,High School,4,6300.0,38,21,4,9,25,11,26,2,3.45,False,1.74,1.39,,5,1,2,Opportunity,0,0.09798907972764039,Very Low
+331,Marketing,Other,34,Consultant,2016-01-17 08:03:05.556036,8,Bachelor,5,8250.0,58,25,11,7,25,12,4,0,3.33,False,2.22,0.06,,4,4,0,Opportunity,0,0.09735473443644563,Very Low
+332,HR,Female,50,Technician,2019-04-12 08:03:05.556036,5,High School,4,4900.0,39,46,0,7,75,6,3,1,4.09,False,2.18,0.72,,5,3,0,Opportunity,0,0.09635910901675171,Very Low
+333,Operations,Female,31,Engineer,2022-02-10 08:03:05.556036,2,High School,4,8400.0,34,46,1,9,100,11,68,1,3.28,False,2.28,1.9,,5,2,0,Opportunity,0,0.0978777121012063,Very Low
+334,Operations,Male,38,Technician,2016-02-25 08:03:05.556036,8,PhD,2,4200.0,51,9,28,1,0,15,45,2,1.74,False,1.2,2.44,,2,4,3,Opportunity,0,0.10326102452127435,Low
+335,Finance,Female,33,Consultant,2022-09-30 08:03:05.556036,1,High School,5,8250.0,51,2,4,1,75,15,86,1,2.71,False,2.26,3.2,,5,1,2,Opportunity,0,0.09926063458785427,Very Low
+336,IT,Female,28,Consultant,2021-11-12 08:03:05.556036,2,Master,2,6600.0,50,26,6,8,75,12,83,2,2.63,False,1.41,2.73,,4,2,2,Opportunity,0,0.10170404493581868,Low
+337,Customer Support,Male,35,Engineer,2016-12-12 08:03:05.556036,7,High School,1,6600.0,48,4,0,3,100,16,26,1,4.64,False,0.74,1.94,,5,4,0,Opportunity,0,0.10014585115882135,Low
+338,Operations,Female,55,Developer,2017-02-07 08:03:05.556036,7,Master,1,5500.0,53,7,26,7,50,19,51,1,1.94,False,0.67,1.38,,2,4,3,Opportunity,0,0.10405729737055351,Low
+339,Finance,Male,60,Specialist,2023-09-14 08:03:05.556036,0,Bachelor,3,5850.0,38,47,9,14,25,3,67,0,1.85,True,1.76,0.39,,4,1,2,Opportunity,0,0.10046185035505313,Low
+340,Legal,Female,45,Specialist,2017-02-23 08:03:05.556036,7,Bachelor,4,6300.0,45,26,14,3,100,3,22,0,1.35,False,1.97,0.51,,4,4,0,Opportunity,0,0.10028245413802575,Low
+341,Marketing,Male,43,Engineer,2023-02-15 08:03:05.556036,1,Master,1,6600.0,36,31,3,1,75,8,59,0,3.48,False,1.28,2.22,,5,1,2,Opportunity,0,0.10086435375627065,Low
+342,Finance,Male,31,Manager,2024-08-28 08:03:05.556036,0,High School,2,7200.0,55,17,1,7,100,6,20,0,4.73,False,1.17,0.81,,5,1,1,Weakness,0,0.09883508239864036,Very Low
+343,Finance,Female,29,Manager,2021-04-01 08:03:05.556036,3,Master,5,9000.0,50,39,11,1,25,16,6,1,3.11,False,2.62,1.3,,4,2,2,Opportunity,0,0.09718730661293175,Very Low
+344,Customer Support,Female,27,Analyst,2020-09-25 08:03:05.556036,3,Bachelor,3,5200.0,52,20,1,6,0,17,86,0,3.92,False,1.77,2.38,,5,2,0,Opportunity,0,0.09940114831680304,Very Low
+345,Operations,Female,56,Developer,2022-09-09 08:03:05.556036,1,Bachelor,4,7000.0,36,15,16,13,25,19,36,0,2.15,True,1.49,-0.19,,3,1,1,Weakness,0,0.09969925858470316,Very Low
+346,Operations,Female,58,Analyst,2017-11-17 08:03:05.556036,6,Bachelor,3,5200.0,46,15,19,10,75,1,73,0,2.72,False,1.44,1.25,,3,4,3,Opportunity,0,0.1009278034237541,Low
+347,HR,Female,54,Analyst,2019-04-05 08:03:05.556036,5,Bachelor,3,5200.0,50,15,9,3,100,4,97,2,3.72,False,1.81,3.98,,4,3,0,Opportunity,0,0.10019432116624001,Low
+348,HR,Male,48,Consultant,2021-05-14 08:03:05.556036,3,Master,3,7150.0,39,7,28,0,75,2,57,0,1.14,False,1.51,1.71,,2,2,3,Opportunity,0,0.10266515966782745,Low
+349,Sales,Male,31,Technician,2017-06-08 08:03:05.556036,7,Bachelor,4,4900.0,56,19,15,0,0,15,81,1,2.53,False,2.24,3.16,,4,4,0,Opportunity,0,0.10040653420689716,Low
+350,Engineering,Female,43,Manager,2020-04-18 08:03:05.556036,4,Bachelor,2,7200.0,59,41,17,13,75,3,9,0,2.02,False,1.26,-0.9,,3,3,1,Weakness,1,0.10139794580987456,Low
+351,IT,Female,26,Developer,2020-09-11 08:03:05.556036,3,Bachelor,4,7000.0,55,44,23,3,50,6,89,2,3.08,False,2.6,3.62,,3,2,2,Opportunity,1,0.09964711466625646,Very Low
+352,HR,Male,43,Engineer,2019-01-03 08:03:05.556036,5,Bachelor,1,6600.0,54,10,27,4,75,5,32,0,4.88,False,0.86,1.52,,2,3,3,Opportunity,0,0.10073781913117333,Low
+353,Legal,Female,25,Specialist,2022-02-13 08:03:05.556036,2,Bachelor,3,5850.0,34,3,18,5,0,4,68,2,4.37,False,1.4,3.17,,3,2,2,Opportunity,0,0.09931621255979885,Very Low
+354,Legal,Female,44,Analyst,2022-09-19 08:03:05.556036,1,Bachelor,2,4800.0,55,15,18,13,0,13,41,1,3.33,False,0.96,0.73,,3,1,1,Weakness,0,0.10109564023297428,Low
+355,Customer Support,Male,46,Technician,2020-07-16 08:03:05.556036,4,Bachelor,5,5250.0,50,18,15,9,0,5,11,1,4.78,False,2.07,0.85,,4,3,0,Opportunity,0,0.09617571151205422,Very Low
+356,HR,Female,27,Developer,2020-07-31 08:03:05.556036,4,High School,1,5500.0,54,10,14,0,0,8,94,2,2.31,False,1.12,3.93,,4,3,0,Opportunity,1,0.10393553325927457,Low
+357,Operations,Female,53,Specialist,2022-01-25 08:03:05.556036,2,High School,4,6300.0,34,6,23,6,100,8,63,2,2.89,True,1.68,2.55,,3,2,2,Opportunity,0,0.0998490738676532,Very Low
+358,Sales,Female,32,Technician,2022-03-25 08:03:05.556036,2,Bachelor,5,5250.0,43,28,10,11,100,3,90,0,3.62,False,2.37,1.78,,4,2,2,Opportunity,0,0.09769226074350786,Very Low
+359,Operations,Male,36,Technician,2018-12-02 08:03:05.556036,5,High School,3,4550.0,44,39,24,12,100,15,35,1,4.75,False,1.71,1.06,,3,3,3,Opportunity,0,0.0980147396387303,Very Low
+360,Finance,Male,52,Consultant,2023-03-11 08:03:05.556036,1,High School,2,6600.0,38,12,7,13,50,15,10,2,3.55,False,0.74,0.51,,4,1,1,Weakness,0,0.09985770976850711,Very Low
+361,HR,Male,50,Engineer,2023-08-27 08:03:05.556036,1,High School,2,7200.0,54,42,26,12,25,6,42,1,3.92,False,1.46,1.03,,2,1,2,Opportunity,0,0.10011941879416003,Low
+362,Sales,Female,38,Specialist,2016-06-11 08:03:05.556036,8,High School,4,6300.0,40,21,25,10,50,16,91,1,1.07,False,1.86,1.79,,3,4,3,Opportunity,0,0.1018168705025893,Low
+363,IT,Female,30,Specialist,2022-01-20 08:03:05.556036,2,Master,5,6750.0,45,6,13,0,75,12,92,2,1.82,False,2.32,3.76,,4,2,2,Opportunity,0,0.10033823804282911,Low
+364,Customer Support,Female,37,Engineer,2024-08-18 08:03:05.556036,0,High School,5,9000.0,47,2,8,8,25,9,37,1,2.64,True,1.84,1.08,,4,1,2,Opportunity,0,0.0986839457282873,Very Low
+365,Legal,Male,40,Technician,2022-01-12 08:03:05.556036,2,High School,3,4550.0,32,3,24,2,75,7,98,1,3.42,True,1.56,3.56,,3,2,2,Opportunity,1,0.1007445985372824,Low
+366,Marketing,Male,45,Manager,2021-06-16 08:03:05.556036,3,Bachelor,3,7800.0,48,39,18,9,0,18,0,2,3.26,False,1.66,0.69,,3,2,2,Opportunity,0,0.09903377038414506,Very Low
+367,Marketing,Female,42,Technician,2019-02-03 08:03:05.556036,5,Bachelor,1,3850.0,42,10,23,5,25,4,28,2,1.03,False,0.64,1.33,,3,3,1,Weakness,0,0.10431942622062412,Low
+368,Marketing,Male,39,Manager,2017-11-14 08:03:05.556036,6,Master,4,8400.0,43,17,8,11,100,1,74,0,3.68,False,1.8,1.4,,4,4,0,Opportunity,0,0.0985650289153568,Very Low
+369,Legal,Female,28,Engineer,2016-01-22 08:03:05.556036,8,Master,3,7800.0,58,11,15,6,100,7,54,0,4.31,False,1.55,1.68,,4,4,0,Opportunity,0,0.0993700216685019,Very Low
+370,HR,Other,30,Manager,2015-04-09 08:03:05.556036,9,Master,4,8400.0,44,21,10,12,50,8,88,2,3.17,True,1.87,2.49,,4,4,0,Opportunity,0,0.09936120725261255,Very Low
+371,Engineering,Male,32,Consultant,2017-12-28 08:03:05.556036,6,Bachelor,3,7150.0,34,14,2,2,0,9,80,0,2.96,False,1.67,2.49,,5,4,0,Opportunity,0,0.1000429950654588,Low
+372,Customer Support,Male,50,Specialist,2017-10-10 08:03:05.556036,6,Bachelor,5,6750.0,47,49,12,1,0,3,27,1,2.69,False,2.83,1.72,,4,4,0,Opportunity,0,0.09759967337326762,Very Low
+373,Customer Support,Female,27,Specialist,2017-03-28 08:03:05.556036,7,PhD,1,4950.0,57,19,3,7,25,3,0,0,4.99,False,0.82,0.37,,5,4,1,Weakness,0,0.09933406114393359,Very Low
+374,IT,Female,32,Manager,2024-04-04 08:03:05.556036,0,Bachelor,3,7800.0,49,17,25,13,100,16,7,1,1.29,True,1.12,-0.63,,3,1,1,Weakness,1,0.10175987391756239,Low
+375,Operations,Female,37,Manager,2015-06-03 08:03:05.556036,9,High School,4,8400.0,43,18,16,10,50,5,11,0,2.38,False,1.6,-0.38,,3,4,1,Weakness,0,0.09925671959666646,Very Low
+376,HR,Female,43,Analyst,2016-05-14 08:03:05.556036,8,Bachelor,1,4400.0,55,9,16,13,75,18,80,0,1.08,False,0.58,0.64,,3,4,1,Weakness,0,0.1049309454416044,Low
+377,Finance,Male,28,Manager,2022-04-10 08:03:05.556036,2,High School,2,7200.0,35,12,1,14,75,13,7,2,3.76,False,0.69,0.37,,5,2,1,Weakness,1,0.09935288345557114,Very Low
+378,Engineering,Female,33,Developer,2015-05-11 08:03:05.556036,9,Bachelor,4,7000.0,57,49,28,2,75,14,29,0,3.35,True,2.53,1.31,,2,4,3,Opportunity,1,0.09856977868684286,Very Low
+379,Sales,Female,53,Engineer,2019-01-03 08:03:05.556036,5,High School,1,6600.0,33,25,14,13,0,4,40,0,4.22,False,0.73,0.43,,4,3,1,Weakness,0,0.10019791054800734,Low
+380,Customer Support,Female,44,Specialist,2019-01-17 08:03:05.556036,5,Bachelor,1,4950.0,41,14,10,5,75,9,87,2,2.49,False,0.94,3.17,,4,3,0,Opportunity,0,0.10309033993518567,Low
+381,Operations,Female,26,Technician,2014-12-25 08:03:05.556036,9,High School,3,4550.0,33,40,25,1,0,14,43,2,3.79,False,2.04,2.9,,3,4,3,Opportunity,0,0.09893838394409128,Very Low
+382,Customer Support,Male,42,Specialist,2016-12-25 08:03:05.556036,7,Master,1,4950.0,43,23,23,13,0,11,32,2,3.49,False,0.69,1.05,,3,4,1,Weakness,0,0.10151933235822365,Low
+383,Marketing,Male,36,Specialist,2021-04-22 08:03:05.556036,3,Master,3,5850.0,55,12,12,3,25,3,58,1,4.11,False,1.66,2.6,,4,2,2,Opportunity,0,0.09951715577330611,Very Low
+384,Engineering,Female,34,Developer,2021-10-23 08:03:05.556036,2,High School,3,6500.0,33,8,20,10,100,8,88,1,3.15,False,1.34,2.24,,3,2,2,Opportunity,0,0.10062358136666806,Low
+385,Sales,Female,52,Manager,2020-06-21 08:03:05.556036,4,High School,3,7800.0,39,28,17,14,50,19,61,1,2.42,False,1.45,0.88,,3,3,1,Weakness,0,0.10057492301994458,Low
+386,Operations,Male,31,Manager,2018-10-15 08:03:05.556036,5,High School,3,7800.0,42,11,23,4,25,11,31,1,4.62,False,1.48,1.93,,3,3,3,Opportunity,0,0.09869788725433182,Very Low
+387,Sales,Male,26,Manager,2016-05-06 08:03:05.556036,8,High School,5,9000.0,32,37,11,14,50,9,64,1,2.21,False,2.24,0.9,,4,4,0,Opportunity,0,0.09835499067110236,Very Low
+388,Operations,Female,43,Manager,2024-05-23 08:03:05.556036,0,PhD,2,7200.0,53,3,7,5,75,17,25,2,1.17,False,0.89,1.29,,4,1,2,Opportunity,0,0.10309356430174012,Low
+389,Finance,Female,60,Technician,2020-01-07 08:03:05.556036,4,High School,4,4900.0,50,6,10,7,75,2,95,1,4.48,True,1.87,3.12,,4,3,0,Opportunity,0,0.0986142316956006,Very Low
+390,IT,Female,23,Developer,2016-03-12 08:03:05.556036,8,High School,2,6000.0,44,36,14,9,50,7,89,2,2.82,False,1.54,2.8,,4,4,0,Opportunity,0,0.10145407597053596,Low
+391,Engineering,Male,33,Manager,2016-01-27 08:03:05.556036,8,Bachelor,3,7800.0,32,11,20,4,50,12,76,2,3.72,False,1.56,3.33,,3,4,3,Opportunity,0,0.09990639830401046,Very Low
+392,Finance,Male,25,Manager,2021-03-19 08:03:05.556036,3,High School,3,7800.0,43,33,11,3,25,2,85,0,1.65,False,1.97,2.16,,4,2,2,Opportunity,0,0.10146916816676545,Low
+393,Finance,Male,35,Technician,2017-01-30 08:03:05.556036,7,Bachelor,3,4550.0,58,11,10,3,25,13,67,2,4.01,False,1.68,3.3,,4,4,0,Opportunity,0,0.0998360717187841,Very Low
+394,Marketing,Female,31,Engineer,2014-10-13 08:03:05.556036,9,Master,4,8400.0,54,8,23,4,75,9,25,2,4.68,False,1.8,2.3,,3,4,3,Opportunity,0,0.09802777923385063,Very Low
+395,IT,Female,34,Engineer,2020-01-31 08:03:05.556036,4,Bachelor,4,8400.0,35,2,5,0,0,17,19,2,3.15,True,1.68,2.26,,5,3,0,Opportunity,0,0.09863045521693664,Very Low
+396,Customer Support,Female,39,Developer,2015-07-26 08:03:05.556036,9,High School,1,5500.0,58,4,20,11,25,3,97,1,2.44,False,0.68,2.16,,3,4,1,Weakness,0,0.10414381465772614,Low
+397,Finance,Male,35,Developer,2020-10-14 08:03:05.556036,3,High School,4,7000.0,40,33,25,12,0,9,96,1,2.0,False,2.04,1.9,,3,2,2,Opportunity,0,0.10065353429050021,Low
+398,Legal,Male,41,Technician,2018-02-18 08:03:05.556036,6,Bachelor,4,4900.0,59,8,27,7,25,6,29,0,3.13,False,1.68,0.63,,2,4,3,Opportunity,0,0.09971196072464195,Very Low
+399,Finance,Male,25,Technician,2017-01-18 08:03:05.556036,7,High School,1,3850.0,52,41,3,2,25,16,12,2,1.53,False,1.26,1.43,,5,4,0,Opportunity,0,0.1025054351481125,Low
+400,HR,Other,31,Technician,2023-11-06 08:03:05.556036,0,Bachelor,2,4200.0,48,27,6,3,50,17,7,2,4.51,True,1.39,1.93,,4,1,2,Opportunity,0,0.09878903307587651,Very Low
+401,Marketing,Female,54,Specialist,2022-04-11 08:03:05.556036,2,Bachelor,3,5850.0,42,5,21,12,100,13,74,0,4.81,False,1.27,1.55,,3,2,2,Opportunity,0,0.09902344976910972,Very Low
+402,Finance,Female,58,Engineer,2019-03-03 08:03:05.556036,5,High School,2,7200.0,43,23,7,8,25,9,70,2,4.47,False,1.34,2.87,,4,3,0,Opportunity,0,0.09962129315285496,Very Low
+403,HR,Male,39,Consultant,2022-08-14 08:03:05.556036,2,High School,4,7700.0,56,34,9,7,100,4,60,0,1.17,False,2.14,0.92,,4,2,2,Opportunity,0,0.10086726836340809,Low
+404,IT,Male,25,Specialist,2020-09-05 08:03:05.556036,4,Bachelor,3,5850.0,45,1,1,3,25,18,40,1,1.56,False,1.29,1.52,,5,3,0,Opportunity,0,0.10152128570526056,Low
+405,Customer Support,Female,27,Consultant,2018-03-22 08:03:05.556036,6,High School,5,8250.0,44,2,7,1,25,2,66,1,4.95,False,2.24,3.26,,4,4,0,Opportunity,0,0.09672414595713878,Very Low
+406,Sales,Male,41,Engineer,2019-06-07 08:03:05.556036,5,Bachelor,3,7800.0,42,2,17,14,0,11,73,0,1.81,True,1.05,0.53,,3,3,1,Weakness,0,0.10196147797160414,Low
+407,HR,Male,40,Analyst,2021-10-14 08:03:05.556036,2,PhD,2,4800.0,42,30,10,5,50,16,24,2,3.01,False,1.36,1.73,,4,2,2,Opportunity,0,0.1003941372872977,Low
+408,IT,Male,30,Developer,2015-07-09 08:03:05.556036,9,High School,3,6500.0,41,22,1,2,0,16,41,1,2.31,False,1.68,1.85,,5,4,0,Opportunity,0,0.10020573042210172,Low
+409,IT,Male,52,Analyst,2020-02-16 08:03:05.556036,4,Bachelor,2,4800.0,55,47,28,12,25,15,51,1,4.39,False,1.6,1.37,,2,3,3,Opportunity,0,0.09972856192170587,Very Low
+410,Engineering,Female,38,Specialist,2024-01-22 08:03:05.556036,0,PhD,2,5400.0,52,15,29,6,50,14,13,0,3.55,True,1.1,0.46,,2,1,1,Weakness,0,0.1007372991658381,Low
+411,Engineering,Male,50,Engineer,2021-02-20 08:03:05.556036,3,Bachelor,5,9000.0,44,16,19,6,0,6,88,2,2.34,False,2.29,3.04,,3,2,2,Opportunity,0,0.09965390167980714,Very Low
+412,Marketing,Male,29,Technician,2016-07-11 08:03:05.556036,8,Bachelor,5,5250.0,59,29,16,8,75,5,18,1,3.98,False,2.32,0.94,,3,4,3,Opportunity,0,0.09704230857453534,Very Low
+413,Customer Support,Male,22,Developer,2016-12-24 08:03:05.556036,7,Bachelor,1,5500.0,54,12,29,2,50,3,55,0,1.05,False,0.91,1.39,,2,4,3,Opportunity,0,0.10499995895233162,Low
+414,Engineering,Male,29,Analyst,2018-05-05 08:03:05.556036,6,High School,4,5600.0,41,5,23,2,25,5,47,2,4.79,False,1.84,3.12,,3,4,3,Opportunity,0,0.09796896870233886,Very Low
+415,Customer Support,Other,33,Technician,2021-12-29 08:03:05.556036,2,Bachelor,5,5250.0,44,36,19,10,0,1,97,2,2.04,False,2.51,2.68,,3,2,2,Opportunity,0,0.09958811924085544,Very Low
+416,IT,Female,30,Developer,2020-10-17 08:03:05.556036,3,High School,2,6000.0,34,14,16,11,25,4,9,1,4.93,False,0.87,0.58,,3,2,1,Weakness,0,0.09854492319902015,Very Low
+417,Operations,Male,42,Manager,2020-10-20 08:03:05.556036,3,Bachelor,2,7200.0,54,13,24,2,75,4,93,0,1.77,False,1.41,2.52,,3,2,2,Opportunity,0,0.1035894681504234,Low
+418,IT,Male,42,Specialist,2018-08-10 08:03:05.556036,6,PhD,3,5850.0,32,7,24,8,50,8,94,2,1.89,False,1.36,2.82,,3,4,3,Opportunity,0,0.10218029486108,Low
+419,Customer Support,Female,42,Engineer,2015-10-07 08:03:05.556036,8,Master,5,9000.0,56,13,10,7,100,19,86,2,1.72,False,2.23,2.7,,4,4,0,Opportunity,0,0.10032905179067453,Low
+420,Marketing,Male,38,Engineer,2023-01-04 08:03:05.556036,1,High School,4,8400.0,33,45,25,7,50,8,58,0,2.04,True,2.25,1.08,,3,1,2,Opportunity,0,0.09963832093009188,Very Low
+421,Legal,Female,37,Technician,2020-02-15 08:03:05.556036,4,PhD,5,5250.0,57,1,13,13,25,13,63,0,4.07,False,1.83,0.97,,4,3,0,Opportunity,0,0.09793140242044175,Very Low
+422,Marketing,Male,52,Technician,2017-09-19 08:03:05.556036,6,Master,3,4550.0,55,26,16,3,0,6,43,1,4.59,False,1.86,2.35,,3,4,3,Opportunity,0,0.09864775523301375,Very Low
+423,Marketing,Male,51,Engineer,2018-08-16 08:03:05.556036,6,Master,1,6600.0,30,25,5,14,75,15,2,0,4.16,False,0.55,-0.66,,5,4,1,Weakness,1,0.0994197663694952,Very Low
+424,Finance,Female,31,Manager,2017-05-15 08:03:05.556036,7,Master,4,8400.0,37,49,8,14,25,11,62,0,3.74,False,2.17,0.74,,4,4,0,Opportunity,0,0.09747107026407063,Very Low
+425,IT,Female,30,Developer,2018-09-28 08:03:05.556036,5,PhD,2,6000.0,37,0,23,7,75,15,48,0,1.62,False,0.8,0.73,,3,3,1,Weakness,0,0.10296127833320734,Low
+426,Sales,Female,45,Engineer,2023-07-18 08:03:05.556036,1,Bachelor,2,7200.0,40,38,10,8,50,13,28,2,1.95,False,1.36,1.19,,4,1,2,Opportunity,0,0.10126694985701598,Low
+427,Finance,Female,22,Developer,2022-06-02 08:03:05.556036,2,Bachelor,5,7500.0,49,46,21,4,100,15,41,0,3.48,False,2.76,1.4,,3,2,2,Opportunity,0,0.09730846981152422,Very Low
+428,Customer Support,Female,48,Engineer,2017-06-24 08:03:05.556036,7,Bachelor,4,8400.0,41,12,6,2,50,8,19,1,3.85,False,1.83,1.69,,4,4,0,Opportunity,0,0.09781281302543922,Very Low
+429,HR,Male,25,Engineer,2020-07-07 08:03:05.556036,4,High School,2,7200.0,60,30,23,13,50,4,12,1,2.0,False,1.09,-0.32,,3,3,1,Weakness,1,0.10198889797944086,Low
+430,IT,Male,50,Manager,2023-11-17 08:03:05.556036,0,Bachelor,2,7200.0,31,23,27,9,25,18,4,2,2.94,False,0.99,0.71,,2,1,1,Weakness,0,0.10059240760178309,Low
+431,Engineering,Female,57,Developer,2021-12-08 08:03:05.556036,2,Bachelor,2,6000.0,58,9,26,6,0,16,57,1,3.86,False,1.18,2.14,,2,2,3,Opportunity,0,0.10126533439972546,Low
+432,Engineering,Female,23,Developer,2021-02-24 08:03:05.556036,3,High School,4,7000.0,36,22,24,9,50,6,27,0,2.38,False,1.72,0.15,,3,2,1,Weakness,0,0.09945504548632882,Very Low
+433,Customer Support,Female,40,Consultant,2024-02-21 08:03:05.556036,0,High School,1,6050.0,51,32,9,10,25,6,45,0,3.04,False,1.0,0.64,,4,1,1,Weakness,0,0.10159767053243482,Low
+434,Marketing,Female,50,Technician,2016-08-31 08:03:05.556036,8,High School,4,4900.0,59,26,5,1,75,18,5,0,1.57,False,2.05,0.39,,5,4,0,Opportunity,1,0.099915669995912,Very Low
+435,Operations,Male,45,Specialist,2019-01-29 08:03:05.556036,5,Master,3,5850.0,54,35,2,5,75,17,75,2,4.35,False,2.04,3.34,,5,3,0,Opportunity,0,0.09870144877597181,Very Low
+436,Sales,Male,45,Manager,2019-03-10 08:03:05.556036,5,Bachelor,4,8400.0,46,10,2,7,50,3,85,0,1.18,True,1.78,1.54,,5,3,0,Opportunity,0,0.10128524042194365,Low
+437,Legal,Male,51,Consultant,2023-04-11 08:03:05.556036,1,High School,3,7150.0,36,36,2,0,0,19,5,2,1.9,False,1.83,1.6,,5,1,2,Opportunity,0,0.09980463682252005,Very Low
+438,Operations,Female,23,Manager,2022-07-29 08:03:05.556036,2,High School,5,9000.0,45,2,3,13,25,19,50,0,4.13,False,1.76,0.66,,5,2,0,Opportunity,0,0.09709922428528162,Very Low
+439,Marketing,Male,35,Analyst,2017-11-20 08:03:05.556036,6,Bachelor,1,4400.0,43,18,10,11,25,12,26,0,3.78,False,0.66,0.22,,4,4,1,Weakness,0,0.1007528082953018,Low
+440,Legal,Male,48,Engineer,2014-10-24 08:03:05.556036,9,High School,5,9000.0,32,16,12,10,50,17,5,0,2.27,False,1.83,-0.56,,4,4,1,Weakness,0,0.09800099849760736,Very Low
+441,HR,Male,39,Consultant,2017-09-05 08:03:05.556036,7,Bachelor,5,8250.0,37,26,18,9,100,16,12,1,2.13,False,2.07,0.21,,3,4,3,Opportunity,0,0.09836923720052852,Very Low
+442,Engineering,Male,49,Analyst,2019-03-24 08:03:05.556036,5,Bachelor,2,4800.0,49,33,4,3,75,3,54,0,2.26,False,1.58,1.54,,5,3,0,Opportunity,0,0.10134776969091158,Low
+443,Customer Support,Male,28,Engineer,2017-03-18 08:03:05.556036,7,Master,4,8400.0,59,37,11,5,25,5,40,1,2.64,False,2.25,1.54,,4,4,0,Opportunity,0,0.09927686548684113,Very Low
+444,HR,Male,30,Analyst,2020-11-01 08:03:05.556036,3,Master,4,5600.0,58,36,17,0,0,9,7,2,4.33,False,2.34,2.26,,3,2,2,Opportunity,0,0.09745759640442136,Very Low
+445,HR,Male,39,Manager,2016-04-30 08:03:05.556036,8,Bachelor,4,8400.0,51,27,5,13,25,14,10,1,1.81,False,1.66,-0.42,,5,4,1,Weakness,0,0.09951653915646246,Very Low
+446,Sales,Other,56,Specialist,2020-02-06 08:03:05.556036,4,High School,4,6300.0,36,47,11,4,25,18,88,1,1.66,False,2.48,2.62,,4,3,0,Opportunity,0,0.1001005852377743,Low
+447,Marketing,Female,23,Consultant,2021-04-03 08:03:05.556036,3,High School,4,7700.0,43,40,12,5,25,3,37,1,2.83,False,2.23,1.51,,4,2,2,Opportunity,0,0.09862571981891118,Very Low
+448,Sales,Female,30,Developer,2015-04-13 08:03:05.556036,9,High School,2,6000.0,38,49,9,6,50,13,62,0,3.37,False,1.76,1.64,,4,4,0,Opportunity,0,0.09983754987418977,Very Low
+449,Marketing,Female,47,Consultant,2024-02-16 08:03:05.556036,0,Bachelor,4,7700.0,60,41,27,0,0,16,93,0,2.64,False,2.66,2.99,,2,1,2,Opportunity,1,0.10035160115040094,Low
+450,IT,Male,53,Technician,2023-10-15 08:03:05.556036,0,PhD,4,4900.0,45,36,14,3,0,5,7,1,2.35,False,2.12,0.89,,4,1,2,Opportunity,0,0.09892636518133721,Very Low
+451,Customer Support,Female,49,Engineer,2020-10-16 08:03:05.556036,3,Bachelor,1,6600.0,48,4,6,13,100,10,78,1,1.13,True,0.46,1.11,,4,2,1,Weakness,0,0.10455045594114207,Low
+452,Customer Support,Female,47,Specialist,2020-04-19 08:03:05.556036,4,PhD,2,5400.0,32,24,7,11,0,11,53,1,4.9,False,1.17,1.67,,4,3,1,Weakness,0,0.09860302907775295,Very Low
+453,Customer Support,Male,36,Specialist,2020-01-10 08:03:05.556036,4,PhD,1,4950.0,58,4,18,7,75,3,59,2,2.15,False,0.68,2.14,,3,3,1,Weakness,0,0.10395571369303792,Low
+454,Operations,Female,31,Developer,2021-08-01 08:03:05.556036,3,Bachelor,5,7500.0,42,19,27,5,75,4,28,1,1.04,False,2.12,0.84,,2,2,3,Opportunity,0,0.1002391698526179,Low
+455,IT,Male,33,Developer,2019-08-10 08:03:05.556036,5,Bachelor,4,7000.0,45,21,28,1,75,5,68,1,3.47,False,2.18,2.94,,2,3,3,Opportunity,0,0.09937250669554822,Very Low
+456,Operations,Male,23,Manager,2015-09-27 08:03:05.556036,8,High School,5,9000.0,33,43,13,4,75,9,94,0,4.38,False,2.85,2.94,,4,4,0,Opportunity,1,0.09655813063018272,Very Low
+457,Marketing,Female,35,Technician,2015-07-01 08:03:05.556036,9,Master,2,4200.0,52,27,3,6,25,11,4,0,4.51,False,1.3,0.48,,5,4,1,Weakness,0,0.09860928761217486,Very Low
+458,Engineering,Female,52,Consultant,2020-10-01 08:03:05.556036,3,Bachelor,4,7700.0,55,46,9,4,75,17,40,1,4.05,False,2.46,2.01,,4,2,2,Opportunity,0,0.09753649888631208,Very Low
+459,Sales,Male,39,Consultant,2017-03-16 08:03:05.556036,7,Master,4,7700.0,31,23,27,6,50,11,60,2,3.6,True,1.97,2.65,,2,4,3,Opportunity,0,0.09875751313872089,Very Low
+460,Engineering,Female,59,Engineer,2015-10-06 08:03:05.556036,8,Bachelor,2,7200.0,39,26,18,0,75,12,67,0,2.44,True,1.57,2.28,,3,4,3,Opportunity,0,0.10169992276190938,Low
+461,Operations,Male,28,Analyst,2020-07-17 08:03:05.556036,4,Bachelor,3,5200.0,56,37,28,11,50,11,98,2,2.54,False,1.89,2.71,,2,3,3,Opportunity,0,0.1015762349914855,Low
+462,Sales,Male,60,Developer,2018-04-16 08:03:05.556036,6,High School,1,5500.0,49,39,21,8,100,10,74,2,3.9,False,1.3,2.82,,3,4,3,Opportunity,0,0.101404571570512,Low
+463,IT,Male,26,Manager,2014-11-23 08:03:05.556036,9,High School,4,8400.0,48,31,3,7,75,5,62,1,3.06,False,2.13,1.94,,5,4,0,Opportunity,0,0.09875905942491679,Very Low
+464,Operations,Female,37,Consultant,2020-12-22 08:03:05.556036,3,Bachelor,3,7150.0,56,7,12,7,100,5,64,2,4.72,False,1.49,2.9,,4,2,2,Opportunity,0,0.09916397642891162,Very Low
+465,IT,Male,40,Specialist,2018-05-30 08:03:05.556036,6,Master,3,5850.0,30,15,13,2,75,10,35,2,3.39,False,1.54,2.47,,4,4,0,Opportunity,0,0.0993603636601077,Very Low
+466,HR,Male,47,Manager,2022-03-10 08:03:05.556036,2,High School,3,7800.0,53,0,1,7,25,10,5,1,1.2,False,1.04,0.05,,5,2,1,Weakness,0,0.10162492027729556,Low
+467,Sales,Male,50,Specialist,2016-09-01 08:03:05.556036,8,Bachelor,5,6750.0,32,48,28,13,25,4,99,2,3.18,False,2.6,2.64,,2,4,3,Opportunity,1,0.09818026321440412,Very Low
+468,Marketing,Male,56,Consultant,2022-11-05 08:03:05.556036,1,Bachelor,5,8250.0,52,4,28,6,0,8,48,2,2.97,False,2.01,2.19,,2,1,2,Opportunity,0,0.09924510807836939,Very Low
+469,Finance,Male,39,Consultant,2018-03-07 08:03:05.556036,6,Bachelor,2,6600.0,42,19,0,6,50,10,54,1,3.39,False,1.25,1.95,,5,4,0,Opportunity,0,0.10029284938665596,Low
+470,Operations,Male,36,Analyst,2018-01-26 08:03:05.556036,6,High School,5,6000.0,43,26,23,5,50,13,48,1,2.42,False,2.35,1.68,,3,4,3,Opportunity,0,0.09887136769956889,Very Low
+471,IT,Female,47,Developer,2022-06-18 08:03:05.556036,2,Bachelor,4,7000.0,40,7,15,5,75,10,22,0,1.59,False,1.58,0.32,,4,2,1,Weakness,0,0.10036833379530274,Low
+472,Customer Support,Female,47,Specialist,2023-10-19 08:03:05.556036,0,Bachelor,4,6300.0,48,12,28,1,50,4,27,1,2.34,False,1.87,1.64,,2,1,2,Opportunity,0,0.10024488991010387,Low
+473,IT,Female,27,Engineer,2015-03-18 08:03:05.556036,9,Bachelor,4,8400.0,51,2,2,1,50,19,64,0,3.03,False,1.86,2.23,,5,4,0,Opportunity,0,0.09949384107334637,Very Low
+474,Marketing,Male,32,Consultant,2019-09-03 08:03:05.556036,5,Bachelor,4,7700.0,57,8,2,8,75,8,70,2,3.74,False,1.8,2.68,,5,3,0,Opportunity,0,0.09895492365166067,Very Low
+475,Engineering,Female,29,Consultant,2018-08-03 08:03:05.556036,6,High School,4,7700.0,44,23,22,0,0,16,6,1,4.56,False,2.07,1.79,,3,4,3,Opportunity,0,0.09726297684737722,Very Low
+476,Sales,Female,39,Technician,2019-06-03 08:03:05.556036,5,High School,3,4550.0,57,44,8,2,0,10,58,2,1.22,False,2.14,2.5,,4,3,0,Opportunity,0,0.10168166352543397,Low
+477,Engineering,Male,26,Engineer,2022-08-23 08:03:05.556036,2,Bachelor,3,7800.0,40,29,7,7,75,14,3,0,1.2,False,1.47,-0.5,,4,2,1,Weakness,0,0.10071666760774521,Low
+478,Legal,Male,39,Specialist,2017-06-11 08:03:05.556036,7,Bachelor,1,4950.0,35,34,11,13,25,18,26,2,2.84,False,0.79,0.73,,4,4,1,Weakness,0,0.10128858680973955,Low
+479,HR,Male,32,Analyst,2018-06-06 08:03:05.556036,6,Bachelor,2,4800.0,43,37,25,14,0,2,10,0,1.81,False,1.09,-1.05,,3,4,1,Weakness,1,0.101561619434547,Low
+480,IT,Male,37,Consultant,2018-01-03 08:03:05.556036,6,High School,5,8250.0,31,35,0,0,75,3,42,2,4.28,False,2.66,3.12,,5,4,0,Opportunity,1,0.09590339993054181,Very Low
+481,IT,Male,57,Engineer,2016-08-08 08:03:05.556036,8,PhD,4,8400.0,49,30,26,2,25,11,39,0,2.17,False,2.17,1.27,,2,4,3,Opportunity,0,0.10005807526658105,Low
+482,Engineering,Female,52,Specialist,2020-10-13 08:03:05.556036,3,High School,3,5850.0,55,10,24,2,75,3,48,0,2.91,False,1.59,1.68,,3,2,2,Opportunity,0,0.1009365112655684,Low
+483,Operations,Male,55,Manager,2022-08-15 08:03:05.556036,2,Bachelor,3,7800.0,52,4,17,9,75,15,34,0,1.23,False,1.14,0.03,,3,2,1,Weakness,0,0.10226701598450627,Low
+484,Operations,Female,58,Consultant,2019-07-05 08:03:05.556036,5,High School,1,6050.0,55,37,21,12,0,12,26,2,1.79,False,0.93,0.6,,3,3,1,Weakness,0,0.10308909935109449,Low
+485,Operations,Male,37,Specialist,2018-01-12 08:03:05.556036,6,Bachelor,5,6750.0,39,37,22,9,50,14,8,1,4.83,False,2.33,0.78,,3,4,3,Opportunity,0,0.09561771170522233,Very Low
+486,HR,Male,59,Consultant,2020-05-16 08:03:05.556036,4,Bachelor,3,7150.0,33,35,15,6,0,8,80,1,2.18,False,1.86,2.3,,4,3,0,Opportunity,0,0.10074896820302309,Low
+487,Customer Support,Male,43,Technician,2023-11-29 08:03:05.556036,0,Bachelor,5,5250.0,59,12,1,5,50,9,20,1,3.86,False,2.14,1.34,,5,1,2,Opportunity,0,0.09714090485235717,Very Low
+488,Engineering,Male,41,Consultant,2019-11-25 08:03:05.556036,4,Bachelor,1,6050.0,43,12,14,0,0,19,86,0,3.65,False,1.12,3.06,,4,3,0,Opportunity,0,0.10200576989420637,Low
+489,IT,Female,48,Specialist,2017-07-06 08:03:05.556036,7,High School,2,5400.0,34,16,6,0,0,4,97,1,2.47,False,1.48,3.54,,4,4,0,Opportunity,0,0.10187844798811461,Low
+490,Finance,Female,42,Analyst,2019-08-11 08:03:05.556036,5,Master,4,5600.0,37,1,2,0,50,18,11,2,3.21,False,1.65,2.08,,5,3,0,Opportunity,0,0.0984467230446926,Very Low
+491,Legal,Female,51,Consultant,2019-12-02 08:03:05.556036,4,High School,1,6050.0,38,21,25,0,100,4,99,1,2.01,False,1.24,3.48,,3,3,3,Opportunity,1,0.103931290908507,Low
+492,Customer Support,Male,36,Manager,2022-04-07 08:03:05.556036,2,Bachelor,3,7800.0,42,21,20,14,0,11,7,2,4.68,False,1.24,0.59,,3,2,1,Weakness,0,0.09801444671354345,Very Low
+493,Legal,Male,22,Engineer,2017-01-25 08:03:05.556036,7,Bachelor,1,6600.0,56,1,21,12,75,17,64,2,4.99,False,0.56,2.35,,3,4,1,Weakness,0,0.10120708429849205,Low
+494,Marketing,Other,48,Specialist,2017-12-10 08:03:05.556036,6,Master,4,6300.0,40,17,3,10,25,10,88,1,4.92,False,1.91,2.68,,5,4,0,Opportunity,0,0.09737327301122897,Very Low
+495,Sales,Male,41,Specialist,2024-01-23 08:03:05.556036,0,Bachelor,2,5400.0,34,20,7,5,100,10,37,0,2.3,False,1.18,0.88,,4,1,2,Opportunity,0,0.10109517501798618,Low
+496,Finance,Female,50,Developer,2024-08-29 08:03:05.556036,0,PhD,4,7000.0,31,40,23,10,50,3,69,2,4.31,False,2.17,2.55,,3,1,2,Opportunity,0,0.09765241352549596,Very Low
+497,Engineering,Male,27,Consultant,2019-05-07 08:03:05.556036,5,Bachelor,2,6600.0,55,9,10,5,100,1,26,1,3.5,False,1.08,1.4,,4,3,1,Weakness,0,0.10067286650844284,Low
+498,Engineering,Male,35,Analyst,2019-06-19 08:03:05.556036,5,High School,4,5600.0,51,25,18,6,50,17,48,0,2.95,False,2.02,1.19,,3,3,3,Opportunity,0,0.09929324548157209,Very Low
+499,Operations,Female,27,Specialist,2019-03-10 08:03:05.556036,5,High School,3,5850.0,46,47,0,8,0,11,62,1,3.88,False,2.04,2.02,,5,3,0,Opportunity,0,0.09840298521850997,Very Low
+500,Marketing,Male,27,Analyst,2020-09-25 08:03:05.556036,3,Bachelor,5,6000.0,46,48,15,5,0,19,97,0,3.38,False,2.93,2.64,,4,2,2,Opportunity,0,0.09782173454525998,Very Low
+501,IT,Female,31,Specialist,2023-06-12 08:03:05.556036,1,High School,5,6750.0,31,13,9,8,75,18,90,0,2.24,False,2.12,1.81,,4,1,2,Opportunity,0,0.09909711924153358,Very Low
+502,Customer Support,Male,57,Technician,2018-10-20 08:03:05.556036,5,High School,2,4200.0,51,8,18,8,0,16,98,0,4.27,False,1.21,2.52,,3,3,3,Opportunity,0,0.10093204093648007,Low
+503,Finance,Male,40,Consultant,2022-04-22 08:03:05.556036,2,High School,2,6600.0,47,16,22,10,100,15,19,0,1.89,False,0.92,-0.3,,3,2,1,Weakness,0,0.10212364198349577,Low
+504,Operations,Female,36,Specialist,2017-10-31 08:03:05.556036,6,High School,4,6300.0,45,35,28,10,25,11,36,0,3.73,False,2.02,0.58,,2,4,3,Opportunity,0,0.09826347873970742,Very Low
+505,Finance,Female,58,Analyst,2014-09-13 08:03:05.556036,9,High School,1,4400.0,52,24,0,3,0,11,39,2,1.15,False,1.02,1.89,,5,4,0,Opportunity,0,0.10356047902585856,Low
+506,HR,Other,56,Technician,2016-05-01 08:03:05.556036,8,Bachelor,5,5250.0,51,27,2,9,75,3,87,0,3.83,False,2.45,2.01,,5,4,0,Opportunity,0,0.09743714047839604,Very Low
+507,Customer Support,Other,36,Manager,2019-11-14 08:03:05.556036,4,Master,5,9000.0,39,5,22,5,25,17,45,2,2.44,False,1.98,2.11,,3,3,3,Opportunity,0,0.09922073824024519,Very Low
+508,Engineering,Male,49,Manager,2015-06-27 08:03:05.556036,9,Master,1,6600.0,35,41,20,13,50,12,51,0,4.41,False,1.05,0.75,,3,4,1,Weakness,0,0.1000109827151911,Low
+509,Operations,Male,35,Consultant,2018-08-13 08:03:05.556036,6,Bachelor,1,6050.0,32,33,5,9,100,17,57,0,3.8,False,1.03,1.25,,5,4,0,Opportunity,0,0.1003905129241387,Low
+510,Legal,Male,57,Specialist,2017-11-18 08:03:05.556036,6,Bachelor,1,4950.0,57,0,0,3,75,4,7,1,4.06,False,0.63,1.32,,5,4,1,Weakness,1,0.10078921110070477,Low
+511,HR,Female,50,Consultant,2016-04-23 08:03:05.556036,8,High School,5,8250.0,38,37,2,0,0,14,15,2,3.04,False,2.59,2.13,,5,4,0,Opportunity,0,0.09694265098301981,Very Low
+512,IT,Female,46,Specialist,2015-10-18 08:03:05.556036,8,Bachelor,2,5400.0,60,6,18,11,25,10,74,0,3.36,False,1.01,1.32,,3,4,1,Weakness,0,0.10177959611293254,Low
+513,Legal,Male,35,Engineer,2019-09-05 08:03:05.556036,5,Master,2,7200.0,42,29,14,5,0,11,72,0,1.15,False,1.44,1.46,,4,3,0,Opportunity,0,0.10293443148709883,Low
+514,Finance,Male,36,Consultant,2018-04-22 08:03:05.556036,6,High School,2,6600.0,46,48,3,13,0,10,51,2,2.43,False,1.48,1.26,,5,4,0,Opportunity,0,0.10075546451029598,Low
+515,IT,Male,50,Consultant,2015-11-30 08:03:05.556036,8,High School,3,7150.0,44,25,5,2,75,11,30,1,2.31,False,1.71,1.58,,5,4,0,Opportunity,0,0.10018271427091575,Low
+516,Engineering,Female,46,Consultant,2016-12-12 08:03:05.556036,7,High School,5,8250.0,48,17,11,1,25,10,44,2,1.4,False,2.31,2.33,,4,4,0,Opportunity,0,0.09988445619907697,Very Low
+517,Legal,Male,55,Manager,2017-06-21 08:03:05.556036,7,Master,4,8400.0,38,41,25,12,50,9,3,2,4.58,False,1.94,0.72,,3,4,3,Opportunity,0,0.09673871341284075,Very Low
+518,Engineering,Female,27,Developer,2024-04-18 08:03:05.556036,0,Bachelor,1,5500.0,32,28,16,14,100,1,93,0,1.99,False,0.84,1.07,,3,1,1,Weakness,0,0.10312932731565963,Low
+519,Finance,Male,39,Developer,2023-01-07 08:03:05.556036,1,Bachelor,5,7500.0,34,12,0,10,0,15,47,2,2.17,False,1.9,1.47,,5,1,2,Opportunity,0,0.098556974759707,Very Low
+520,Finance,Female,43,Developer,2020-04-03 08:03:05.556036,4,High School,1,5500.0,53,8,16,4,100,10,56,2,2.66,False,0.83,2.56,,3,3,3,Opportunity,0,0.10312752566907327,Low
+521,Sales,Male,24,Consultant,2019-02-23 08:03:05.556036,5,High School,2,6600.0,54,49,9,9,75,19,57,2,1.0,False,1.63,1.55,,4,3,0,Opportunity,0,0.10267510141859258,Low
+522,Customer Support,Female,52,Analyst,2015-09-29 08:03:05.556036,8,High School,1,4400.0,53,38,23,10,25,6,28,1,2.61,False,1.03,0.6,,3,4,1,Weakness,0,0.10222114127368485,Low
+523,Engineering,Female,49,Consultant,2016-04-10 08:03:05.556036,8,High School,5,8250.0,49,4,4,3,75,1,81,2,4.12,False,2.24,3.68,,5,4,0,Opportunity,0,0.09777286229117883,Very Low
+524,Legal,Female,27,Specialist,2018-03-20 08:03:05.556036,6,Bachelor,4,6300.0,30,11,26,10,50,2,12,2,4.02,False,1.48,1.05,,2,4,3,Opportunity,0,0.09792790291225166,Very Low
+525,Marketing,Male,59,Consultant,2022-04-25 08:03:05.556036,2,Bachelor,5,8250.0,56,28,14,12,75,18,48,1,2.1,False,2.2,0.73,,4,2,2,Opportunity,0,0.09913974896858159,Very Low
+526,Operations,Male,31,Technician,2020-03-11 08:03:05.556036,4,High School,1,3850.0,36,19,18,9,100,9,67,1,1.74,False,0.78,1.48,,3,3,1,Weakness,0,0.1035060304518048,Low
+527,Operations,Male,52,Manager,2020-07-20 08:03:05.556036,4,Bachelor,4,8400.0,52,30,20,6,25,11,51,2,1.24,False,2.06,1.84,,3,3,3,Opportunity,0,0.10114549543565744,Low
+528,HR,Female,28,Engineer,2021-05-04 08:03:05.556036,3,Bachelor,1,6600.0,30,3,11,9,75,4,6,0,2.82,False,0.32,-0.27,,4,2,1,Weakness,1,0.10153481501412681,Low
+529,HR,Male,32,Developer,2020-09-02 08:03:05.556036,4,Bachelor,3,6500.0,35,36,0,5,100,18,68,0,3.43,False,1.92,1.93,,5,3,0,Opportunity,0,0.09885939659427263,Very Low
+530,HR,Male,27,Developer,2021-11-25 08:03:05.556036,2,Bachelor,2,6000.0,57,12,4,8,0,16,22,1,2.17,False,0.98,0.59,,5,2,1,Weakness,0,0.10174433887930802,Low
+531,Marketing,Male,37,Engineer,2018-02-28 08:03:05.556036,6,Master,2,7200.0,48,23,20,14,75,14,88,1,4.28,True,1.22,2.02,,3,4,3,Opportunity,0,0.10045415750996677,Low
+532,Customer Support,Female,30,Engineer,2018-12-05 08:03:05.556036,5,Bachelor,3,7800.0,44,7,3,3,75,15,87,0,4.82,False,1.65,3.0,,5,3,0,Opportunity,0,0.09870470431221966,Very Low
+533,Legal,Male,34,Manager,2019-07-20 08:03:05.556036,5,Master,2,7200.0,38,45,21,9,100,9,39,1,4.21,False,1.55,1.4,,3,3,3,Opportunity,0,0.09919385690261891,Very Low
+534,Customer Support,Female,45,Developer,2016-06-02 08:03:05.556036,8,High School,4,7000.0,52,12,25,11,25,5,97,1,2.21,False,1.78,2.1,,3,4,3,Opportunity,0,0.10124448410548223,Low
+535,HR,Male,29,Consultant,2020-09-14 08:03:05.556036,3,High School,2,6600.0,48,46,21,0,75,9,47,0,3.96,False,1.92,2.16,,3,2,2,Opportunity,0,0.09976177152228251,Very Low
+536,Finance,Female,45,Specialist,2022-03-09 08:03:05.556036,2,Bachelor,1,4950.0,52,14,10,12,50,4,26,0,4.16,True,0.61,0.19,,4,2,1,Weakness,0,0.10067689878166573,Low
+537,Marketing,Female,46,Technician,2018-03-08 08:03:05.556036,6,Bachelor,2,4200.0,45,37,29,5,75,3,89,1,4.06,False,1.74,3.12,,2,4,3,Opportunity,0,0.10061512587444302,Low
+538,IT,Male,35,Manager,2022-04-07 08:03:05.556036,2,Bachelor,3,7800.0,49,17,25,6,0,5,57,2,4.16,True,1.62,2.72,,3,2,2,Opportunity,0,0.09962878124681245,Very Low
+539,HR,Female,46,Technician,2021-03-13 08:03:05.556036,3,High School,5,5250.0,59,4,13,7,100,4,29,0,2.4,False,1.92,0.45,,4,2,2,Opportunity,0,0.0991563490957974,Very Low
+540,Sales,Female,55,Technician,2018-05-03 08:03:05.556036,6,High School,4,4900.0,30,12,29,1,25,9,89,2,1.58,False,1.97,3.5,,2,4,3,Opportunity,1,0.10148765856572632,Low
+541,Legal,Female,52,Engineer,2022-09-28 08:03:05.556036,1,Bachelor,2,7200.0,36,6,20,4,75,2,2,0,3.18,False,0.9,0.35,,3,1,1,Weakness,0,0.10052297251033396,Low
+542,Marketing,Female,35,Specialist,2022-12-15 08:03:05.556036,1,Bachelor,3,5850.0,43,31,10,10,100,3,26,1,4.8,False,1.61,1.1,,4,1,2,Opportunity,0,0.09760548971841279,Very Low
+543,Marketing,Other,38,Specialist,2019-04-05 08:03:05.556036,5,PhD,1,4950.0,40,32,26,12,75,16,42,2,4.0,False,0.91,1.55,,2,3,3,Opportunity,0,0.10095139766935671,Low
+544,Legal,Female,35,Developer,2024-06-29 08:03:05.556036,0,Bachelor,2,6000.0,40,8,9,8,50,4,3,0,4.52,True,0.86,0.2,,4,1,1,Weakness,0,0.09889985621827797,Very Low
+545,Sales,Male,39,Developer,2015-01-02 08:03:05.556036,9,Bachelor,1,5500.0,57,41,12,7,100,10,45,0,2.33,False,1.25,0.83,,4,4,1,Weakness,0,0.10236923525316367,Low
+546,Operations,Female,33,Manager,2023-03-26 08:03:05.556036,1,Bachelor,1,6600.0,41,25,11,13,75,11,5,2,2.38,False,0.58,0.09,,4,1,1,Weakness,0,0.10183415755982288,Low
+547,Sales,Male,52,Specialist,2015-12-09 08:03:05.556036,8,High School,1,4950.0,49,19,28,9,0,13,79,1,3.44,False,0.93,2.21,,2,4,3,Opportunity,0,0.10255596937064675,Low
+548,Sales,Other,58,Analyst,2024-09-01 08:03:05.556036,0,Bachelor,3,5200.0,52,12,5,4,25,18,31,0,2.95,False,1.48,1.01,,5,1,2,Opportunity,0,0.0999769494409232,Very Low
+549,Finance,Female,48,Specialist,2019-10-29 08:03:05.556036,4,High School,1,4950.0,59,15,23,12,0,6,81,1,1.41,False,0.75,1.38,,3,3,1,Weakness,0,0.10484519008234915,Low
+550,Operations,Male,31,Engineer,2018-07-03 08:03:05.556036,6,Master,2,7200.0,31,16,11,4,0,9,62,2,1.85,True,1.2,2.51,,4,4,0,Opportunity,0,0.10216197151936218,Low
+551,Engineering,Female,31,Specialist,2023-09-04 08:03:05.556036,1,Bachelor,2,5400.0,54,13,24,14,50,18,59,1,3.08,False,0.94,1.0,,3,1,1,Weakness,0,0.10178789819274511,Low
+552,Customer Support,Female,45,Analyst,2016-12-20 08:03:05.556036,7,Master,3,5200.0,54,16,22,0,100,17,17,2,2.57,False,1.63,2.07,,3,4,3,Opportunity,0,0.10079772138309903,Low
+553,Engineering,Female,24,Developer,2018-09-19 08:03:05.556036,5,Bachelor,2,6000.0,38,39,2,4,25,16,46,0,4.2,False,1.63,1.7,,5,3,0,Opportunity,0,0.09883972801563688,Very Low
+554,Customer Support,Male,60,Engineer,2021-09-09 08:03:05.556036,2,Bachelor,5,9000.0,40,1,27,5,100,19,7,1,2.66,False,1.8,0.72,,2,2,3,Opportunity,0,0.09871105558516137,Very Low
+555,Sales,Male,24,Technician,2014-09-08 08:03:05.556036,9,Master,1,3850.0,52,7,23,2,50,18,96,2,2.34,False,1.0,3.74,,3,4,3,Opportunity,1,0.10422503508035302,Low
+556,Finance,Male,60,Analyst,2018-04-29 08:03:05.556036,6,High School,5,6000.0,42,33,6,12,0,19,19,1,2.9,False,2.15,0.2,,4,4,0,Opportunity,0,0.09729985541827132,Very Low
+557,Customer Support,Female,51,Specialist,2024-03-21 08:03:05.556036,0,Bachelor,2,5400.0,40,5,14,9,75,13,90,1,1.68,False,0.97,2.04,,4,1,2,Opportunity,0,0.10319506634931801,Low
+558,Engineering,Female,48,Specialist,2019-04-20 08:03:05.556036,5,Master,5,6750.0,40,2,6,8,50,15,98,0,2.48,False,2.01,2.07,,4,3,0,Opportunity,0,0.09933884833485658,Very Low
+559,Legal,Female,54,Technician,2016-10-08 08:03:05.556036,7,High School,2,4200.0,36,45,1,1,25,7,34,2,1.12,True,1.68,2.0,,5,4,0,Opportunity,0,0.10169860118925785,Low
+560,Finance,Female,29,Developer,2020-08-08 08:03:05.556036,4,Bachelor,1,5500.0,31,13,24,14,100,13,40,2,2.88,False,0.44,0.97,,3,3,1,Weakness,1,0.10221447304685073,Low
+561,Customer Support,Female,46,Manager,2023-02-02 08:03:05.556036,1,Bachelor,1,6600.0,47,12,23,14,0,18,37,2,2.4,False,0.47,0.77,,3,1,1,Weakness,0,0.10304845603866165,Low
+562,Marketing,Female,56,Specialist,2015-07-19 08:03:05.556036,9,Bachelor,1,4950.0,40,18,13,12,100,13,61,2,3.92,False,0.73,2.0,,4,4,1,Weakness,0,0.10121879021286363,Low
+563,Engineering,Male,56,Analyst,2022-02-23 08:03:05.556036,2,Bachelor,1,4400.0,40,15,0,6,0,17,12,2,3.58,False,0.71,1.45,,5,2,1,Weakness,0,0.10062273484871251,Low
+564,Sales,Female,57,Technician,2022-08-02 08:03:05.556036,2,High School,3,4550.0,49,27,25,13,0,3,20,0,2.8,False,1.38,-0.43,,3,2,1,Weakness,0,0.10011188179451502,Low
+565,Sales,Female,35,Analyst,2019-01-03 08:03:05.556036,5,Master,3,5200.0,60,36,25,14,25,15,3,0,3.31,False,1.5,-0.85,,3,3,1,Weakness,1,0.0994397279015623,Very Low
+566,Operations,Male,33,Technician,2017-06-18 08:03:05.556036,7,Bachelor,5,5250.0,41,26,11,2,75,17,60,0,1.4,False,2.45,1.6,,4,4,0,Opportunity,0,0.09958382776523754,Very Low
+567,Customer Support,Female,26,Technician,2018-07-06 08:03:05.556036,6,High School,5,5250.0,50,5,12,10,100,18,75,1,4.14,False,2.01,2.16,,4,4,0,Opportunity,0,0.09780934845704252,Very Low
+568,Operations,Female,28,Engineer,2017-12-23 08:03:05.556036,6,Bachelor,4,8400.0,60,35,1,7,0,11,52,0,1.56,True,2.16,0.82,,5,4,0,Opportunity,0,0.10020249850281827,Low
+569,Marketing,Female,55,Specialist,2015-01-03 08:03:05.556036,9,Master,5,6750.0,32,2,3,9,75,9,2,1,1.66,False,1.6,-0.16,,5,4,1,Weakness,0,0.09868147956857938,Very Low
+570,Legal,Male,46,Developer,2014-10-15 08:03:05.556036,9,Bachelor,4,7000.0,46,14,29,14,50,18,87,2,4.04,False,1.72,2.43,,2,4,3,Opportunity,0,0.09924937911289418,Very Low
+571,HR,Male,35,Developer,2019-02-20 08:03:05.556036,5,High School,4,7000.0,39,35,18,3,100,11,5,1,2.47,True,2.08,0.87,,3,3,3,Opportunity,0,0.09877459892854659,Very Low
+572,Operations,Female,32,Manager,2021-03-24 08:03:05.556036,3,Bachelor,1,6600.0,57,40,24,13,75,19,23,0,2.1,False,0.95,-0.52,,3,2,1,Weakness,1,0.10267232384553285,Low
+573,HR,Female,26,Analyst,2018-12-15 08:03:05.556036,5,Bachelor,2,4800.0,34,12,6,14,50,15,56,0,2.21,False,0.8,0.2,,4,3,1,Weakness,0,0.10154606340729941,Low
+574,Finance,Female,35,Analyst,2021-10-08 08:03:05.556036,2,Bachelor,4,5600.0,40,0,20,5,100,13,92,1,3.97,False,1.77,3.17,,3,2,2,Opportunity,0,0.09928501485333104,Very Low
+575,Engineering,Female,41,Manager,2020-07-30 08:03:05.556036,4,Bachelor,5,9000.0,53,35,19,14,75,4,31,2,2.13,False,2.18,0.56,,3,3,3,Opportunity,0,0.09886186918889128,Very Low
+576,Marketing,Male,50,Analyst,2021-11-12 08:03:05.556036,2,High School,5,6000.0,43,12,7,6,75,7,5,1,4.86,False,2.02,1.09,,4,2,2,Opportunity,0,0.09577948688620308,Very Low
+577,Marketing,Male,25,Technician,2015-08-22 08:03:05.556036,9,High School,4,4900.0,30,39,6,14,100,17,47,0,1.12,False,1.84,-0.29,,4,4,1,Weakness,1,0.09986312896573056,Very Low
+578,IT,Male,40,Specialist,2021-11-12 08:03:05.556036,2,High School,3,5850.0,33,34,20,11,100,8,0,1,1.22,True,1.38,-0.57,,3,2,1,Weakness,0,0.10080772735900205,Low
+579,Customer Support,Female,37,Developer,2022-06-02 08:03:05.556036,2,Bachelor,1,5500.0,41,11,23,4,25,11,84,1,4.54,False,0.99,3.24,,3,2,2,Opportunity,0,0.10136093638842553,Low
+580,IT,Female,52,Specialist,2019-11-30 08:03:05.556036,4,Bachelor,2,5400.0,40,1,8,12,75,9,77,2,2.7,False,0.8,2.1,,4,3,1,Weakness,0,0.1019278715285525,Low
+581,Engineering,Male,54,Analyst,2018-12-13 08:03:05.556036,5,Bachelor,3,5200.0,47,20,19,14,25,5,35,1,2.4,False,1.26,0.23,,3,3,1,Weakness,0,0.10069838127715007,Low
+582,Finance,Male,54,Specialist,2017-05-13 08:03:05.556036,7,Bachelor,2,5400.0,32,8,27,14,75,7,86,2,2.38,False,0.83,2.0,,2,4,3,Opportunity,1,0.10259238437876732,Low
+583,HR,Male,34,Manager,2015-08-18 08:03:05.556036,9,Bachelor,5,9000.0,57,23,25,8,75,14,13,1,1.1,False,2.1,0.1,,3,4,3,Opportunity,0,0.10017881382651263,Low
+584,Legal,Male,39,Developer,2021-09-06 08:03:05.556036,2,High School,1,5500.0,45,19,17,9,100,13,32,0,1.81,False,0.7,0.13,,3,2,1,Weakness,0,0.10309692564439805,Low
+585,Sales,Female,59,Specialist,2018-03-10 08:03:05.556036,6,Bachelor,3,5850.0,40,47,4,4,100,15,71,1,2.92,False,2.15,2.5,,5,4,0,Opportunity,0,0.09946406736282724,Very Low
+586,Engineering,Female,53,Engineer,2023-07-24 08:03:05.556036,1,Bachelor,4,8400.0,60,8,9,7,50,4,37,1,3.62,False,1.73,1.46,,4,1,2,Opportunity,0,0.09887453501704233,Very Low
+587,IT,Male,49,Developer,2023-12-28 08:03:05.556036,0,High School,2,6000.0,44,46,13,3,0,5,14,0,1.82,False,1.62,0.43,,4,1,2,Opportunity,0,0.10112452633695407,Low
+588,Marketing,Male,59,Analyst,2015-07-07 08:03:05.556036,9,High School,1,4400.0,59,10,6,3,0,11,20,0,2.16,False,0.78,0.66,,4,4,1,Weakness,0,0.10283249820547793,Low
+589,Engineering,Female,36,Consultant,2015-06-01 08:03:05.556036,9,High School,1,6050.0,45,2,9,12,50,14,15,0,1.4,False,0.25,-0.78,,4,4,1,Weakness,1,0.10342039341914791,Low
+590,Marketing,Male,43,Analyst,2021-06-15 08:03:05.556036,3,High School,5,6000.0,45,49,11,11,50,18,62,0,1.34,False,2.56,0.51,,4,2,2,Opportunity,0,0.09918279389255588,Very Low
+591,Engineering,Male,27,Consultant,2022-06-22 08:03:05.556036,2,High School,1,6050.0,51,28,7,3,50,8,90,1,4.35,False,1.36,3.46,,4,2,2,Opportunity,0,0.10100318466799034,Low
+592,Finance,Male,54,Consultant,2024-01-31 08:03:05.556036,0,Bachelor,5,8250.0,34,22,12,8,75,2,15,2,1.03,False,1.99,0.63,,4,1,2,Opportunity,0,0.09941426090415392,Very Low
+593,Marketing,Female,29,Developer,2020-07-13 08:03:05.556036,4,Bachelor,3,6500.0,45,36,11,4,75,7,39,2,1.09,False,1.82,1.75,,4,3,0,Opportunity,0,0.10153625430553469,Low
+594,HR,Male,33,Analyst,2018-05-12 08:03:05.556036,6,Bachelor,4,5600.0,33,16,28,1,50,11,25,2,1.99,False,1.85,2.0,,2,4,3,Opportunity,0,0.10018309060988127,Low
+595,HR,Male,35,Developer,2018-07-29 08:03:05.556036,6,Bachelor,1,5500.0,39,44,24,0,0,9,8,0,1.51,True,1.31,0.58,,3,4,1,Weakness,0,0.10260682055936354,Low
+596,Finance,Female,43,Manager,2017-06-28 08:03:05.556036,7,Bachelor,4,8400.0,47,35,4,13,100,18,28,0,4.83,False,1.93,0.28,,5,4,0,Opportunity,0,0.09642028482630662,Very Low
+597,Sales,Male,40,Technician,2017-09-15 08:03:05.556036,6,Bachelor,3,4550.0,40,17,18,7,75,18,18,2,4.75,False,1.43,1.76,,3,4,3,Opportunity,0,0.09811873763511517,Very Low
+598,Operations,Female,27,Technician,2020-11-20 08:03:05.556036,3,Bachelor,5,5250.0,35,11,16,1,75,6,56,2,1.78,False,2.21,2.72,,3,2,2,Opportunity,0,0.0996316188455318,Very Low
+599,IT,Female,39,Developer,2021-08-27 08:03:05.556036,3,High School,3,6500.0,40,48,20,9,50,2,64,1,2.76,False,1.97,1.66,,3,2,2,Opportunity,0,0.09996338773173627,Very Low
+600,Operations,Male,34,Technician,2020-04-17 08:03:05.556036,4,High School,5,5250.0,52,4,25,10,75,8,38,2,4.46,True,1.89,1.82,,3,3,3,Opportunity,0,0.09753933443597837,Very Low
+601,HR,Other,27,Developer,2020-07-24 08:03:05.556036,4,Master,3,6500.0,59,42,7,10,75,1,69,2,1.28,False,1.89,1.8,,4,3,0,Opportunity,0,0.10178190599162097,Low
+602,IT,Male,27,Developer,2023-12-30 08:03:05.556036,0,Master,5,7500.0,30,16,5,1,0,3,95,2,4.72,False,2.5,4.43,,5,1,2,Opportunity,1,0.09668117986528603,Very Low
+603,Customer Support,Female,46,Analyst,2015-03-24 08:03:05.556036,9,Master,1,4400.0,41,49,24,5,25,15,8,2,3.96,False,1.31,1.56,,3,4,3,Opportunity,0,0.10016548607154221,Low
+604,Sales,Male,28,Consultant,2016-09-18 08:03:05.556036,7,Bachelor,2,6600.0,42,19,11,2,25,13,19,1,4.25,False,1.3,1.79,,4,4,0,Opportunity,0,0.09932732101794615,Very Low
+605,Marketing,Male,41,Engineer,2023-11-21 08:03:05.556036,0,High School,5,9000.0,34,9,20,6,100,17,41,2,1.7,False,1.95,1.7,,3,1,2,Opportunity,0,0.09963257271483725,Very Low
+606,IT,Female,35,Engineer,2024-06-04 08:03:05.556036,0,Master,4,8400.0,49,1,3,12,75,10,75,0,3.7,False,1.53,1.3,,5,1,2,Opportunity,0,0.09890853737039668,Very Low
+607,Engineering,Female,43,Manager,2023-06-08 08:03:05.556036,1,High School,2,7200.0,39,41,21,12,25,9,53,1,4.77,False,1.45,1.52,,3,1,2,Opportunity,0,0.0989209368767764,Very Low
+608,Sales,Male,42,Technician,2018-05-14 08:03:05.556036,6,Bachelor,1,3850.0,59,30,9,5,25,2,2,2,4.73,False,1.08,1.61,,4,4,1,Weakness,0,0.09973189826536505,Very Low
+609,Sales,Female,43,Technician,2023-10-31 08:03:05.556036,0,Bachelor,1,3850.0,34,42,17,3,25,16,33,2,4.68,False,1.34,2.62,,3,1,2,Opportunity,0,0.09956168203201252,Very Low
+610,Sales,Male,30,Technician,2023-04-19 08:03:05.556036,1,High School,1,3850.0,33,15,20,8,100,18,16,1,3.48,False,0.62,0.77,,3,1,1,Weakness,0,0.10114054538461734,Low
+611,Marketing,Female,42,Manager,2019-02-20 08:03:05.556036,5,High School,1,6600.0,55,7,19,7,75,15,15,2,1.58,False,0.55,0.9,,3,3,1,Weakness,0,0.10383901045305763,Low
+612,HR,Male,42,Technician,2022-10-09 08:03:05.556036,1,Bachelor,5,5250.0,52,46,14,9,100,1,46,1,2.98,True,2.6,1.27,,4,1,2,Opportunity,0,0.09776621941724477,Very Low
+613,Operations,Male,56,Developer,2020-07-19 08:03:05.556036,4,PhD,3,6500.0,55,32,17,11,25,9,95,2,4.34,False,1.86,3.08,,3,3,3,Opportunity,0,0.09947596534944826,Very Low
+614,Sales,Female,41,Analyst,2019-01-21 08:03:05.556036,5,Bachelor,3,5200.0,45,0,1,7,0,15,77,1,1.96,False,1.28,2.04,,5,3,0,Opportunity,0,0.10159984756842333,Low
+615,Operations,Male,24,Specialist,2015-07-10 08:03:05.556036,9,High School,2,5400.0,30,16,0,6,25,7,69,1,3.65,True,1.21,2.39,,5,4,0,Opportunity,0,0.10000378584328458,Low
+616,Operations,Male,26,Technician,2016-03-13 08:03:05.556036,8,High School,4,4900.0,50,9,13,9,0,6,29,1,3.24,False,1.6,0.91,,4,4,0,Opportunity,0,0.09899048316812413,Very Low
+617,Sales,Female,36,Engineer,2022-04-25 08:03:05.556036,2,Master,2,7200.0,34,44,28,12,75,17,27,1,2.14,False,1.3,0.21,,2,2,1,Weakness,0,0.1012406068749813,Low
+618,Operations,Male,56,Consultant,2015-03-04 08:03:05.556036,9,Bachelor,1,6050.0,48,24,9,2,50,4,50,1,4.2,False,1.17,2.55,,4,4,0,Opportunity,0,0.1007214465076502,Low
+619,IT,Female,40,Consultant,2023-12-04 08:03:05.556036,0,Master,2,6600.0,59,29,7,7,25,8,23,0,4.08,False,1.38,0.72,,4,1,2,Opportunity,0,0.09951619965379889,Very Low
+620,Operations,Female,56,Technician,2019-09-27 08:03:05.556036,4,High School,1,3850.0,55,21,5,1,0,19,40,0,3.1,True,1.12,1.65,,5,3,0,Opportunity,0,0.10175415137130146,Low
+621,HR,Male,40,Specialist,2017-07-28 08:03:05.556036,7,Bachelor,4,6300.0,58,0,10,3,0,16,49,0,3.24,False,1.75,1.66,,4,4,0,Opportunity,0,0.09952929859291222,Very Low
+622,Engineering,Female,35,Consultant,2021-07-22 08:03:05.556036,3,High School,1,6050.0,51,26,19,0,0,11,39,0,2.51,False,1.19,1.6,,3,2,2,Opportunity,0,0.1025706804304029,Low
+623,Legal,Male,33,Developer,2023-01-28 08:03:05.556036,1,High School,4,7000.0,60,44,28,12,50,6,34,2,3.93,False,2.16,1.33,,2,1,2,Opportunity,0,0.09831740751933504,Very Low
+624,Engineering,Male,42,Technician,2022-05-29 08:03:05.556036,2,Master,5,5250.0,59,38,23,9,50,11,37,1,2.28,False,2.45,0.87,,3,2,2,Opportunity,0,0.09894791185973693,Very Low
+625,Legal,Female,51,Engineer,2019-09-13 08:03:05.556036,4,High School,5,9000.0,55,27,9,6,50,12,75,0,1.17,False,2.43,1.42,,4,3,0,Opportunity,0,0.1002474569733279,Low
+626,Legal,Male,49,Consultant,2020-04-12 08:03:05.556036,4,Master,1,6050.0,52,12,21,1,25,2,17,2,2.9,False,0.87,2.02,,3,3,1,Weakness,0,0.10241448081416829,Low
+627,IT,Female,26,Manager,2018-04-13 08:03:05.556036,6,High School,3,7800.0,43,4,14,14,50,5,82,1,2.85,False,1.15,1.51,,4,4,1,Weakness,0,0.10097956894835883,Low
+628,IT,Female,33,Engineer,2019-06-14 08:03:05.556036,5,PhD,5,9000.0,50,45,17,0,0,11,16,0,1.32,False,2.72,0.73,,3,3,3,Opportunity,1,0.0990701453424641,Very Low
+629,Finance,Female,35,Manager,2022-06-09 08:03:05.556036,2,Bachelor,5,9000.0,43,41,22,10,100,15,87,1,3.73,True,2.61,2.36,,3,2,2,Opportunity,0,0.09768137296521795,Very Low
+630,Sales,Female,35,Engineer,2017-09-11 08:03:05.556036,6,High School,3,7800.0,31,35,21,3,50,15,97,2,4.86,False,2.1,4.26,,3,4,3,Opportunity,1,0.09850700634992372,Very Low
+631,HR,Female,48,Analyst,2023-10-12 08:03:05.556036,0,Bachelor,1,4400.0,43,41,16,8,0,2,37,1,2.55,False,1.14,1.06,,3,1,2,Opportunity,0,0.10187313295435234,Low
+632,Finance,Female,35,Manager,2019-05-05 08:03:05.556036,5,Bachelor,2,7200.0,60,30,1,1,0,19,24,0,4.25,False,1.61,1.54,,5,3,0,Opportunity,1,0.09921654606738013,Very Low
+633,IT,Female,35,Technician,2018-05-08 08:03:05.556036,6,Bachelor,3,4550.0,37,30,3,6,50,15,73,1,3.84,False,1.83,2.54,,5,4,0,Opportunity,0,0.09884500079772925,Very Low
+634,HR,Male,51,Consultant,2023-09-07 08:03:05.556036,0,Bachelor,5,8250.0,56,39,1,4,75,19,39,0,4.88,False,2.71,1.69,,5,1,2,Opportunity,1,0.09566413567538909,Very Low
+635,Sales,Male,33,Specialist,2018-05-18 08:03:05.556036,6,High School,1,4950.0,47,35,2,3,0,8,28,0,4.49,False,1.26,1.45,,5,4,0,Opportunity,0,0.09957649503039244,Very Low
+636,IT,Female,37,Developer,2016-10-04 08:03:05.556036,7,High School,5,7500.0,39,16,25,8,25,16,64,2,1.56,False,2.09,1.99,,3,4,3,Opportunity,0,0.10017541883729845,Low
+637,Finance,Other,47,Analyst,2016-08-30 08:03:05.556036,8,Bachelor,4,5600.0,47,19,8,0,50,6,24,2,2.95,False,2.02,2.34,,4,4,0,Opportunity,0,0.09888935635270654,Very Low
+638,Sales,Male,42,Specialist,2017-02-10 08:03:05.556036,7,Bachelor,2,5400.0,53,38,25,8,50,14,70,1,4.47,False,1.64,2.37,,3,4,3,Opportunity,0,0.09998868512427683,Very Low
+639,Sales,Female,29,Consultant,2024-07-20 08:03:05.556036,0,High School,5,8250.0,44,35,26,4,0,13,88,2,2.44,False,2.67,3.31,,2,1,2,Opportunity,0,0.09934920862517095,Very Low
+640,Sales,Male,53,Analyst,2015-03-11 08:03:05.556036,9,High School,4,5600.0,38,17,20,12,100,11,96,1,2.95,True,1.79,2.14,,3,4,3,Opportunity,0,0.09987699362619414,Very Low
+641,Engineering,Male,43,Engineer,2017-09-10 08:03:05.556036,6,PhD,2,7200.0,49,16,10,5,0,5,63,2,4.04,False,1.32,2.96,,4,4,0,Opportunity,0,0.10036341634346745,Low
+642,IT,Male,35,Engineer,2018-09-08 08:03:05.556036,5,High School,4,8400.0,43,39,6,11,25,4,11,1,3.58,False,1.95,0.29,,4,3,1,Weakness,0,0.09736693610312702,Very Low
+643,IT,Male,37,Manager,2015-07-09 08:03:05.556036,9,Bachelor,4,8400.0,35,2,20,3,50,14,55,0,2.37,False,1.67,1.59,,3,4,3,Opportunity,0,0.10018356817899944,Low
+644,Legal,Male,30,Engineer,2020-05-28 08:03:05.556036,4,Master,2,7200.0,44,26,3,5,0,3,97,0,1.49,False,1.49,2.17,,5,3,0,Opportunity,0,0.10270391682231181,Low
+645,Legal,Female,59,Manager,2015-10-16 08:03:05.556036,8,High School,2,7200.0,31,17,22,6,100,15,59,2,2.8,False,1.17,2.42,,3,4,3,Opportunity,0,0.10146000269756007,Low
+646,Finance,Female,39,Technician,2016-01-22 08:03:05.556036,8,High School,4,4900.0,60,14,16,10,100,18,19,2,3.26,False,1.66,1.04,,3,4,3,Opportunity,0,0.09911465513691267,Very Low
+647,Customer Support,Male,22,Technician,2019-11-29 08:03:05.556036,4,Master,5,5250.0,50,39,19,0,0,2,19,0,3.6,False,2.71,1.38,,3,3,3,Opportunity,0,0.09705763288467543,Very Low
+648,Customer Support,Male,30,Consultant,2015-03-20 08:03:05.556036,9,High School,4,7700.0,47,2,1,5,75,5,54,2,1.83,False,1.64,2.18,,5,4,0,Opportunity,0,0.10053745014752562,Low
+649,Marketing,Female,31,Developer,2024-09-03 08:03:05.556036,0,Bachelor,4,7000.0,44,46,23,14,75,5,15,1,1.43,False,1.91,-0.52,,3,1,2,Opportunity,1,0.09990077208728945,Very Low
+650,Legal,Male,44,Developer,2019-01-29 08:03:05.556036,5,High School,2,6000.0,53,15,23,12,100,11,90,0,3.55,False,1.16,1.64,,3,3,1,Weakness,0,0.10155982935246992,Low
+651,Legal,Female,29,Developer,2015-12-10 08:03:05.556036,8,Master,3,6500.0,57,43,23,0,100,2,99,2,3.23,False,2.39,4.28,,3,4,3,Opportunity,1,0.10068682987785504,Low
+652,Operations,Male,33,Specialist,2022-09-12 08:03:05.556036,1,Bachelor,1,4950.0,36,12,11,9,0,18,30,0,2.07,False,0.55,0.14,,4,1,1,Weakness,0,0.10255535548945227,Low
+653,Marketing,Male,39,Specialist,2015-06-14 08:03:05.556036,9,PhD,1,4950.0,47,38,27,3,25,3,75,2,1.62,False,1.37,2.9,,2,4,3,Opportunity,0,0.10394062040292627,Low
+654,Operations,Male,39,Analyst,2014-10-24 08:03:05.556036,9,High School,1,4400.0,40,1,11,5,25,18,89,2,3.18,False,0.75,3.39,,4,4,0,Opportunity,0,0.10271924815244043,Low
+655,HR,Male,27,Analyst,2015-12-04 08:03:05.556036,8,High School,5,6000.0,31,27,7,8,100,7,81,2,4.24,False,2.39,3.08,,4,4,0,Opportunity,0,0.09676848278286583,Very Low
+656,Customer Support,Female,59,Analyst,2016-08-09 08:03:05.556036,8,High School,2,4800.0,46,34,25,6,100,17,23,0,3.25,True,1.41,0.64,,3,4,1,Weakness,0,0.10047059349918386,Low
+657,HR,Female,39,Technician,2018-01-02 08:03:05.556036,6,Bachelor,4,4900.0,59,30,10,8,0,12,59,1,2.18,False,2.08,1.52,,4,4,0,Opportunity,0,0.10009638343743274,Low
+658,Finance,Male,35,Analyst,2020-11-22 08:03:05.556036,3,High School,1,4400.0,41,2,15,3,100,16,94,2,2.69,False,0.84,3.65,,4,2,2,Opportunity,0,0.10342555123881553,Low
+659,Operations,Female,33,Manager,2014-09-17 08:03:05.556036,9,Bachelor,5,9000.0,49,3,26,4,50,12,86,0,2.91,True,2.17,2.38,,2,4,3,Opportunity,0,0.09957569720188375,Very Low
+660,Customer Support,Female,55,Engineer,2020-05-07 08:03:05.556036,4,Bachelor,4,8400.0,46,41,4,7,100,11,23,2,4.84,False,2.21,1.91,,5,3,0,Opportunity,0,0.09634839661457104,Very Low
+661,Customer Support,Male,43,Consultant,2024-01-07 08:03:05.556036,0,High School,3,7150.0,34,23,3,2,0,9,63,2,4.08,False,1.8,3.34,,5,1,2,Opportunity,0,0.09866058072005789,Very Low
+662,Sales,Male,46,Analyst,2015-07-19 08:03:05.556036,9,High School,1,4400.0,57,48,16,3,75,12,18,1,2.66,False,1.42,1.24,,3,4,3,Opportunity,0,0.1017243357707292,Low
+663,Engineering,Female,47,Analyst,2020-11-19 08:03:05.556036,3,High School,1,4400.0,40,8,9,5,75,2,29,1,1.89,False,0.63,1.07,,4,2,1,Weakness,0,0.10294066822820387,Low
+664,Legal,Male,47,Engineer,2020-05-01 08:03:05.556036,4,Bachelor,3,7800.0,33,41,8,14,100,2,89,2,1.86,False,1.71,1.94,,4,3,0,Opportunity,0,0.10085810569658121,Low
+665,Customer Support,Female,37,Technician,2018-02-17 08:03:05.556036,6,High School,5,5250.0,36,25,20,13,75,14,87,0,2.19,False,2.16,1.1,,3,4,3,Opportunity,0,0.09925864192445064,Very Low
+666,IT,Female,37,Technician,2019-10-08 08:03:05.556036,4,PhD,4,4900.0,48,10,19,2,75,9,10,1,2.13,False,1.74,1.03,,3,3,3,Opportunity,0,0.10000021899374037,Low
+667,Sales,Male,59,Analyst,2016-10-10 08:03:05.556036,7,High School,1,4400.0,56,9,7,14,0,7,30,0,3.02,False,0.45,-0.25,,4,4,1,Weakness,1,0.10199640113090792,Low
+668,Finance,Male,45,Technician,2023-02-15 08:03:05.556036,1,PhD,1,3850.0,31,12,16,4,0,11,99,1,3.37,False,0.97,3.32,,3,1,2,Opportunity,1,0.10227118442558285,Low
+669,Sales,Female,43,Consultant,2014-10-22 08:03:05.556036,9,High School,1,6050.0,53,22,26,5,50,6,98,0,2.85,False,1.18,2.54,,2,4,3,Opportunity,0,0.10333433574591153,Low
+670,Legal,Male,47,Developer,2019-04-29 08:03:05.556036,5,Master,1,5500.0,37,49,16,7,100,4,58,2,2.35,False,1.34,2.16,,3,3,3,Opportunity,0,0.10209737679418653,Low
+671,Customer Support,Male,46,Specialist,2016-09-19 08:03:05.556036,7,High School,2,5400.0,59,6,22,14,100,10,22,0,4.33,False,0.76,-0.12,,3,4,1,Weakness,1,0.1002005008835037,Low
+672,Legal,Female,56,Consultant,2016-09-26 08:03:05.556036,7,Bachelor,3,7150.0,40,49,17,6,100,15,98,0,3.09,False,2.21,2.47,,3,4,3,Opportunity,0,0.09991841612139839,Very Low
+673,Finance,Female,53,Analyst,2024-05-27 08:03:05.556036,0,Bachelor,5,6000.0,42,0,26,3,100,14,83,2,4.64,False,2.17,3.86,,2,1,2,Opportunity,1,0.09786005660825481,Very Low
+674,Legal,Female,50,Consultant,2019-12-15 08:03:05.556036,4,Bachelor,2,6600.0,48,42,23,1,75,4,79,1,1.29,False,1.84,2.67,,3,3,3,Opportunity,0,0.10309982013091601,Low
+675,IT,Female,53,Developer,2016-11-25 08:03:05.556036,7,High School,2,6000.0,41,1,27,10,0,11,67,2,4.5,False,0.89,2.55,,2,4,3,Opportunity,0,0.10059957607727764,Low
+676,Finance,Male,52,Manager,2016-08-07 08:03:05.556036,8,Bachelor,3,7800.0,35,28,27,6,50,17,67,2,4.06,False,1.77,2.94,,2,4,3,Opportunity,0,0.09933363024834034,Very Low
+677,IT,Male,46,Manager,2017-04-01 08:03:05.556036,7,High School,3,7800.0,57,37,6,0,0,11,25,2,3.2,False,2.04,2.42,,4,4,0,Opportunity,0,0.09937852114479205,Very Low
+678,Legal,Female,25,Consultant,2023-07-17 08:03:05.556036,1,PhD,2,6600.0,41,3,10,5,50,10,74,1,2.75,False,1.06,2.41,,4,1,2,Opportunity,0,0.10185582979120227,Low
+679,Marketing,Other,60,Consultant,2024-03-06 08:03:05.556036,0,PhD,3,7150.0,51,46,28,12,25,15,21,1,3.16,False,1.75,0.31,,2,1,2,Opportunity,0,0.09954290335472817,Very Low
+680,Engineering,Male,44,Analyst,2014-11-07 08:03:05.556036,9,Bachelor,2,4800.0,37,18,26,14,0,14,33,0,1.69,False,0.82,-0.5,,2,4,1,Weakness,1,0.10231653760646692,Low
+681,Engineering,Male,39,Consultant,2015-10-25 08:03:05.556036,8,Master,1,6050.0,33,47,23,7,75,14,16,1,3.43,False,1.19,0.88,,3,4,1,Weakness,0,0.10054224170049961,Low
+682,Operations,Male,51,Technician,2022-01-24 08:03:05.556036,2,Master,2,4200.0,33,21,7,6,75,8,31,0,1.72,True,1.11,0.46,,4,2,1,Weakness,0,0.10156085785569212,Low
+683,Operations,Male,46,Technician,2022-02-15 08:03:05.556036,2,High School,5,5250.0,34,26,23,2,25,4,63,0,4.72,False,2.54,2.5,,3,2,2,Opportunity,0,0.09654786845134063,Very Low
+684,Engineering,Female,45,Developer,2020-08-11 08:03:05.556036,4,Master,4,7000.0,52,42,23,8,25,10,72,1,4.27,False,2.37,2.37,,3,3,3,Opportunity,0,0.0981306131738135,Very Low
+685,Sales,Female,37,Technician,2023-12-13 08:03:05.556036,0,PhD,5,5250.0,33,10,10,13,50,3,48,0,2.06,False,1.77,0.09,,4,1,2,Opportunity,0,0.09884493231024892,Very Low
+686,Finance,Male,51,Engineer,2014-09-29 08:03:05.556036,9,High School,1,6600.0,47,24,15,6,75,10,93,2,4.77,True,1.2,3.77,,4,4,0,Opportunity,0,0.10090499399973096,Low
+687,HR,Female,52,Technician,2023-01-09 08:03:05.556036,1,Master,4,4900.0,57,14,26,1,25,12,66,1,4.82,False,2.15,3.23,,2,1,2,Opportunity,0,0.09839960120877624,Very Low
+688,IT,Male,32,Consultant,2016-05-29 08:03:05.556036,8,Bachelor,1,6050.0,57,49,23,0,50,9,50,0,2.43,False,1.64,1.86,,3,4,3,Opportunity,0,0.10252369099962326,Low
+689,Legal,Male,58,Manager,2014-12-23 08:03:05.556036,9,PhD,3,7800.0,43,31,18,6,100,12,15,0,1.56,False,1.6,0.02,,3,4,1,Weakness,0,0.10088077627538651,Low
+690,Sales,Male,48,Technician,2017-09-17 08:03:05.556036,6,Bachelor,4,4900.0,49,9,26,5,50,17,3,2,1.54,False,1.58,0.84,,2,4,3,Opportunity,0,0.10081301455431503,Low
+691,Finance,Male,54,Engineer,2017-11-03 08:03:05.556036,6,High School,2,7200.0,34,28,2,6,0,10,6,2,3.9,False,1.22,1.38,,5,4,0,Opportunity,0,0.0988896697177221,Very Low
+692,Marketing,Male,23,Engineer,2021-03-13 08:03:05.556036,3,Bachelor,4,8400.0,44,20,28,7,50,16,92,0,2.05,False,1.99,1.94,,2,2,3,Opportunity,0,0.10101123241495068,Low
+693,Sales,Male,50,Developer,2021-11-17 08:03:05.556036,2,Bachelor,1,5500.0,49,48,6,12,50,4,94,1,1.81,False,1.31,1.8,,4,2,2,Opportunity,0,0.10304641800921151,Low
+694,Engineering,Male,27,Analyst,2021-08-23 08:03:05.556036,3,Master,1,4400.0,30,0,11,5,100,15,47,2,3.99,True,0.58,2.55,,4,2,1,Weakness,1,0.10111363999742495,Low
+695,Sales,Male,24,Manager,2017-07-23 08:03:05.556036,7,High School,5,9000.0,40,10,10,10,0,14,81,0,4.76,False,2.1,1.96,,4,4,0,Opportunity,0,0.09680073725845176,Very Low
+696,Finance,Male,41,Manager,2021-05-09 08:03:05.556036,3,High School,3,7800.0,47,35,6,9,25,10,69,1,2.88,False,1.81,1.82,,4,2,2,Opportunity,0,0.09994739041502747,Very Low
+697,Engineering,Male,33,Consultant,2021-08-22 08:03:05.556036,3,Bachelor,1,6050.0,52,19,16,4,25,13,53,0,3.62,False,1.03,1.73,,3,2,1,Weakness,0,0.10169536141398913,Low
+698,Legal,Male,57,Manager,2019-08-20 08:03:05.556036,5,Bachelor,2,7200.0,60,12,13,4,100,5,32,1,4.83,False,1.25,2.01,,4,3,0,Opportunity,0,0.09956693081700342,Very Low
+699,Customer Support,Female,42,Technician,2015-12-03 08:03:05.556036,8,Bachelor,4,4900.0,31,26,13,10,0,2,95,2,2.1,False,1.95,2.65,,4,4,0,Opportunity,0,0.1001973838316179,Low
+700,Legal,Male,57,Manager,2024-08-27 08:03:05.556036,0,Master,2,7200.0,56,43,8,6,25,19,90,0,2.53,False,1.8,2.13,,4,1,2,Opportunity,0,0.10159946111524115,Low
+701,Sales,Female,44,Analyst,2022-06-08 08:03:05.556036,2,Bachelor,5,6000.0,52,7,5,9,100,7,96,0,1.47,False,2.07,1.64,,5,2,0,Opportunity,0,0.10046229905797668,Low
+702,IT,Male,26,Developer,2023-03-16 08:03:05.556036,1,Bachelor,4,7000.0,48,27,16,8,75,16,0,0,4.37,False,1.86,0.09,,3,1,2,Opportunity,0,0.09709285295106049,Very Low
+703,Marketing,Male,51,Specialist,2016-05-22 08:03:05.556036,8,Bachelor,3,5850.0,39,31,6,1,50,6,60,0,3.26,False,1.95,2.19,,4,4,0,Opportunity,0,0.09934280266294054,Very Low
+704,Sales,Male,38,Consultant,2023-03-19 08:03:05.556036,1,Bachelor,4,7700.0,36,47,14,14,100,16,55,2,4.77,False,2.14,1.82,,4,1,2,Opportunity,0,0.0967040147368524,Very Low
+705,Marketing,Male,26,Developer,2021-09-24 08:03:05.556036,2,Bachelor,1,5500.0,53,25,2,4,75,5,48,2,2.69,False,1.09,2.37,,5,2,0,Opportunity,0,0.10215635933749724,Low
+706,Engineering,Male,22,Developer,2017-03-12 08:03:05.556036,7,Master,2,6000.0,33,21,19,13,75,8,25,2,3.23,False,0.91,0.81,,3,4,1,Weakness,0,0.10040702899270236,Low
+707,Customer Support,Male,40,Analyst,2023-06-10 08:03:05.556036,1,High School,4,5600.0,57,48,28,2,50,9,56,2,2.53,False,2.58,2.78,,2,1,2,Opportunity,1,0.0998795484639873,Very Low
+708,Customer Support,Male,55,Engineer,2023-02-14 08:03:05.556036,1,High School,5,9000.0,46,47,17,12,75,19,41,1,3.65,True,2.5,0.94,,3,1,2,Opportunity,0,0.09695178374808928,Very Low
+709,Engineering,Female,60,Consultant,2019-06-26 08:03:05.556036,5,Bachelor,5,8250.0,40,26,2,11,0,17,53,0,2.19,False,2.15,0.5,,5,3,0,Opportunity,0,0.09836395505801383,Very Low
+710,Finance,Female,40,Specialist,2022-12-19 08:03:05.556036,1,Master,4,6300.0,40,25,17,10,75,11,73,1,3.71,False,1.95,2.0,,3,1,2,Opportunity,0,0.09860745203932642,Very Low
+711,Finance,Female,46,Manager,2021-01-22 08:03:05.556036,3,High School,4,8400.0,56,35,0,10,50,14,96,1,2.1,False,2.21,2.17,,5,2,0,Opportunity,0,0.10015163905554801,Low
+712,Finance,Female,57,Manager,2019-04-14 08:03:05.556036,5,Bachelor,3,7800.0,34,28,6,1,25,15,74,0,1.84,False,1.88,2.18,,4,3,0,Opportunity,0,0.10089264132592062,Low
+713,Sales,Male,39,Specialist,2019-09-10 08:03:05.556036,4,High School,5,6750.0,36,0,27,0,100,11,46,1,1.89,True,2.03,2.12,,2,3,3,Opportunity,0,0.09994565831567723,Very Low
+714,Sales,Male,44,Consultant,2021-09-29 08:03:05.556036,2,Master,4,7700.0,47,35,8,4,75,10,88,0,2.85,False,2.37,2.41,,4,2,2,Opportunity,0,0.09929412634930866,Very Low
+715,Operations,Female,33,Developer,2016-08-24 08:03:05.556036,8,Bachelor,3,6500.0,31,35,13,2,50,11,53,1,2.62,False,1.91,2.23,,4,4,0,Opportunity,0,0.09986766873282821,Very Low
+716,Operations,Male,49,Consultant,2017-04-05 08:03:05.556036,7,Master,4,7700.0,38,19,3,2,0,15,39,1,4.3,False,2.01,2.3,,5,4,0,Opportunity,0,0.09731698236135071,Very Low
+717,Marketing,Female,42,Consultant,2016-01-01 08:03:05.556036,8,High School,1,6050.0,30,29,14,6,50,5,36,1,1.76,False,0.92,1.09,,4,4,1,Weakness,0,0.1025785674924919,Low
+718,Engineering,Other,48,Engineer,2019-10-31 08:03:05.556036,4,Bachelor,3,7800.0,60,14,0,0,50,3,19,2,3.41,False,1.66,2.33,,5,3,0,Opportunity,1,0.09950564300584608,Very Low
+719,Legal,Male,35,Developer,2019-06-23 08:03:05.556036,5,High School,2,6000.0,60,24,17,0,75,2,14,1,4.85,False,1.52,2.06,,3,3,3,Opportunity,0,0.09918698404840594,Very Low
+720,Legal,Male,27,Manager,2019-01-03 08:03:05.556036,5,Bachelor,3,7800.0,52,3,2,11,25,10,37,0,1.21,True,1.06,-0.15,,5,3,1,Weakness,0,0.10188504359820218,Low
+721,Finance,Male,46,Engineer,2019-08-09 08:03:05.556036,5,High School,1,6600.0,48,1,17,3,25,17,51,1,2.87,False,0.72,2.12,,3,3,1,Weakness,0,0.102852796502047,Low
+722,Engineering,Male,37,Engineer,2024-07-20 08:03:05.556036,0,Bachelor,4,8400.0,34,45,15,11,25,8,56,2,2.3,False,2.12,1.6,,4,1,2,Opportunity,0,0.0991856841002076,Very Low
+723,Operations,Male,52,Technician,2022-03-19 08:03:05.556036,2,Master,1,3850.0,53,20,7,3,75,14,84,1,3.13,False,1.17,3.01,,4,2,2,Opportunity,0,0.10240406271760676,Low
+724,IT,Male,29,Consultant,2018-03-14 08:03:05.556036,6,Master,2,6600.0,50,16,12,1,75,6,19,2,3.85,False,1.3,2.31,,4,4,0,Opportunity,0,0.10009191128784858,Low
+725,Finance,Female,60,Consultant,2020-06-03 08:03:05.556036,4,Master,3,7150.0,33,24,28,9,0,3,2,2,3.45,False,1.36,0.79,,2,3,3,Opportunity,0,0.09915101900354814,Very Low
+726,Marketing,Female,60,Engineer,2015-06-20 08:03:05.556036,9,High School,3,7800.0,35,20,29,1,25,10,65,2,1.33,False,1.71,2.83,,2,4,3,Opportunity,0,0.10232831614386691,Low
+727,Marketing,Male,42,Analyst,2016-07-27 08:03:05.556036,8,Bachelor,2,4800.0,53,27,21,14,75,6,63,1,4.09,False,1.22,1.35,,3,4,3,Opportunity,0,0.10037551515279237,Low
+728,Customer Support,Female,43,Analyst,2023-01-28 08:03:05.556036,1,Bachelor,4,5600.0,39,48,25,5,25,7,4,2,1.04,False,2.18,0.73,,3,1,2,Opportunity,0,0.10014859659775484,Low
+729,Operations,Female,24,Technician,2020-12-03 08:03:05.556036,3,Master,3,4550.0,50,28,16,8,0,16,44,2,1.52,False,1.61,1.48,,3,2,2,Opportunity,0,0.10159859173375176,Low
+730,HR,Female,26,Technician,2024-07-21 08:03:05.556036,0,High School,2,4200.0,47,40,9,9,75,19,31,1,4.82,False,1.49,1.36,,4,1,2,Opportunity,0,0.09846831903271748,Very Low
+731,Customer Support,Male,29,Specialist,2016-04-13 08:03:05.556036,8,PhD,4,6300.0,31,13,27,2,100,11,10,0,1.52,False,1.7,0.38,,2,4,3,Opportunity,1,0.10030533535484941,Low
+732,Operations,Male,52,Specialist,2018-09-19 08:03:05.556036,5,High School,3,5850.0,59,8,10,2,0,1,92,0,2.15,False,1.69,2.59,,4,3,0,Opportunity,0,0.10201090782710755,Low
+733,Legal,Other,51,Technician,2024-08-24 08:03:05.556036,0,High School,4,4900.0,42,7,28,11,0,6,9,0,1.78,False,1.35,-0.7,,2,1,1,Weakness,0,0.10041682969194078,Low
+734,IT,Male,47,Developer,2022-05-16 08:03:05.556036,2,High School,5,7500.0,49,36,8,3,50,13,71,0,2.19,True,2.68,1.95,,4,2,2,Opportunity,0,0.09881106000098629,Very Low
+735,HR,Male,42,Manager,2023-02-10 08:03:05.556036,1,Master,4,8400.0,38,34,25,13,0,10,81,0,2.82,False,1.99,1.1,,3,1,2,Opportunity,0,0.09949740721474765,Very Low
+736,Marketing,Female,42,Specialist,2023-12-25 08:03:05.556036,0,Bachelor,1,4950.0,43,9,17,4,75,2,90,2,1.28,False,0.87,3.07,,3,1,2,Opportunity,0,0.10477487795463222,Low
+737,Engineering,Female,33,Developer,2020-10-23 08:03:05.556036,3,Bachelor,2,6000.0,59,21,20,13,0,19,43,2,4.24,False,1.11,1.51,,3,2,1,Weakness,0,0.10029480270268433,Low
+738,IT,Female,32,Specialist,2020-05-19 08:03:05.556036,4,Bachelor,3,5850.0,50,27,17,10,100,1,65,1,4.39,False,1.69,1.97,,3,3,3,Opportunity,0,0.09897447262851754,Very Low
+739,Sales,Female,45,Analyst,2019-07-26 08:03:05.556036,5,Bachelor,3,5200.0,59,32,25,9,50,18,89,0,4.03,True,1.91,2.11,,3,3,3,Opportunity,0,0.09993321679670401,Very Low
+740,Marketing,Male,25,Manager,2018-10-21 08:03:05.556036,5,High School,3,7800.0,59,41,2,7,25,17,8,1,3.75,False,1.85,0.76,,5,3,0,Opportunity,0,0.09834097028342453,Very Low
+741,Sales,Female,54,Engineer,2017-12-09 08:03:05.556036,6,High School,5,9000.0,54,47,24,11,100,13,71,1,3.57,False,2.66,1.79,,3,4,3,Opportunity,0,0.0978177629188823,Very Low
+742,Customer Support,Male,55,Engineer,2023-12-23 08:03:05.556036,0,Bachelor,5,9000.0,48,21,27,6,75,1,63,0,1.8,False,2.29,1.27,,2,1,2,Opportunity,0,0.09996041897948406,Very Low
+743,Customer Support,Male,31,Engineer,2020-01-20 08:03:05.556036,4,Bachelor,5,9000.0,40,25,11,13,100,5,75,1,2.44,False,2.15,1.36,,4,3,0,Opportunity,0,0.09874030544330786,Very Low
+744,IT,Female,51,Analyst,2017-01-31 08:03:05.556036,7,Master,4,5600.0,31,40,5,3,25,10,89,1,2.63,False,2.41,3.01,,5,4,0,Opportunity,0,0.09901295567719445,Very Low
+745,Operations,Female,30,Manager,2020-08-03 08:03:05.556036,4,Master,4,8400.0,55,44,19,12,25,19,68,1,2.98,False,2.22,1.44,,3,3,3,Opportunity,0,0.09924492735412611,Very Low
+746,Legal,Male,39,Technician,2017-09-13 08:03:05.556036,6,Bachelor,4,4900.0,54,23,15,12,75,1,54,0,1.36,False,1.77,0.19,,4,4,1,Weakness,0,0.10095239481213321,Low
+747,HR,Female,60,Manager,2016-07-15 08:03:05.556036,8,Bachelor,5,9000.0,40,37,4,6,75,1,74,2,1.65,False,2.55,2.51,,5,4,0,Opportunity,0,0.09913635146195492,Very Low
+748,Finance,Male,53,Manager,2018-09-14 08:03:05.556036,5,High School,2,7200.0,38,23,15,2,25,6,86,2,3.05,False,1.53,3.66,,4,3,0,Opportunity,0,0.10140744698052781,Low
+749,HR,Male,48,Technician,2016-09-10 08:03:05.556036,7,Bachelor,1,3850.0,44,23,28,7,25,17,32,1,2.22,False,0.85,0.98,,2,4,3,Opportunity,0,0.10296611338691161,Low
+750,Customer Support,Female,37,Consultant,2021-04-07 08:03:05.556036,3,Bachelor,2,6600.0,32,11,11,6,25,17,71,1,1.01,False,1.05,1.78,,4,2,1,Weakness,0,0.10321529855924723,Low
+751,Engineering,Female,39,Engineer,2023-09-24 08:03:05.556036,0,Master,3,7800.0,49,2,9,0,25,16,63,0,2.58,False,1.53,2.22,,4,1,2,Opportunity,0,0.1010687652499548,Low
+752,IT,Female,45,Manager,2019-12-25 08:03:05.556036,4,High School,1,6600.0,43,34,29,4,50,9,43,0,1.01,False,1.12,0.83,,2,3,1,Weakness,0,0.10406712808998451,Low
+753,IT,Male,60,Engineer,2023-09-21 08:03:05.556036,0,Bachelor,1,6600.0,53,3,24,1,50,8,59,1,1.12,False,0.8,2.13,,3,1,2,Opportunity,0,0.1050925654463954,Low
+754,HR,Female,59,Specialist,2016-05-04 08:03:05.556036,8,High School,2,5400.0,31,30,6,4,25,2,0,2,4.49,False,1.31,1.62,,4,4,0,Opportunity,0,0.09823891884994439,Very Low
+755,Finance,Female,23,Consultant,2019-05-09 08:03:05.556036,5,Bachelor,2,6600.0,53,4,21,9,100,17,75,2,3.23,False,1.01,2.56,,3,3,3,Opportunity,0,0.1020363208286371,Low
+756,HR,Male,59,Manager,2020-04-27 08:03:05.556036,4,High School,1,6600.0,41,35,0,8,50,7,86,0,4.48,False,1.26,2.27,,5,3,0,Opportunity,0,0.10010819272511134,Low
+757,HR,Female,49,Analyst,2020-11-24 08:03:05.556036,3,Bachelor,2,4800.0,46,5,12,11,100,13,68,1,2.64,False,0.89,1.48,,4,2,1,Weakness,0,0.10199088586764565,Low
+758,HR,Male,58,Engineer,2015-07-07 08:03:05.556036,9,High School,5,9000.0,56,9,21,14,75,12,89,1,3.36,False,1.99,1.82,,3,4,3,Opportunity,0,0.09905612601228839,Very Low
+759,Customer Support,Male,27,Consultant,2016-08-09 08:03:05.556036,8,High School,2,6600.0,46,44,3,2,0,8,31,0,3.34,False,1.74,1.36,,5,4,0,Opportunity,0,0.09961442896340539,Very Low
+760,Legal,Male,42,Specialist,2018-06-23 08:03:05.556036,6,Master,5,6750.0,56,0,19,13,50,19,43,2,3.46,True,1.73,1.32,,3,4,3,Opportunity,0,0.09856953928411985,Very Low
+761,Finance,Female,44,Engineer,2023-03-19 08:03:05.556036,1,Master,3,7800.0,37,43,14,0,25,8,2,1,3.74,False,2.0,1.48,,4,1,2,Opportunity,0,0.09810415392704477,Very Low
+762,Customer Support,Male,50,Consultant,2023-12-10 08:03:05.556036,0,Bachelor,5,8250.0,34,44,22,3,75,11,19,2,2.19,False,2.58,1.65,,3,1,2,Opportunity,0,0.09814134295422525,Very Low
+763,Engineering,Female,57,Specialist,2023-07-25 08:03:05.556036,1,High School,2,5400.0,44,29,22,9,0,17,26,0,3.08,False,1.22,0.29,,3,1,1,Weakness,0,0.10064083345530767,Low
+764,Customer Support,Male,44,Technician,2017-06-06 08:03:05.556036,7,Bachelor,5,5250.0,51,12,13,0,25,7,51,2,3.04,False,2.35,3.04,,4,4,0,Opportunity,0,0.09859812928661972,Very Low
+765,Operations,Male,29,Specialist,2015-12-02 08:03:05.556036,8,Bachelor,1,4950.0,43,33,8,2,75,7,55,0,1.41,False,1.23,1.48,,4,4,0,Opportunity,0,0.10318983707683375,Low
+766,IT,Female,33,Specialist,2016-02-21 08:03:05.556036,8,Master,5,6750.0,56,1,7,11,100,12,42,2,2.07,False,1.76,1.19,,4,4,0,Opportunity,0,0.09956891880030068,Very Low
+767,HR,Male,34,Analyst,2020-07-07 08:03:05.556036,4,High School,5,6000.0,34,26,15,9,25,9,68,0,1.52,False,2.22,0.96,,4,3,0,Opportunity,0,0.09947667553235236,Very Low
+768,Marketing,Female,26,Technician,2021-07-10 08:03:05.556036,3,Master,2,4200.0,58,35,11,9,75,15,83,0,3.47,False,1.58,1.82,,4,2,2,Opportunity,0,0.10086893842913867,Low
+769,Finance,Female,43,Consultant,2021-11-16 08:03:05.556036,2,Bachelor,4,7700.0,54,47,22,6,0,12,42,2,2.51,False,2.37,1.93,,3,2,2,Opportunity,0,0.09946466211515878,Very Low
+770,Engineering,Female,60,Analyst,2021-05-08 08:03:05.556036,3,Bachelor,3,5200.0,42,32,12,5,75,9,68,1,4.4,False,1.92,2.68,,4,2,2,Opportunity,0,0.09857494944428713,Very Low
+771,Customer Support,Male,45,Technician,2015-10-21 08:03:05.556036,8,Master,1,3850.0,35,5,11,6,25,8,62,2,1.61,False,0.62,2.2,,4,4,1,Weakness,0,0.10374778798241849,Low
+772,Operations,Male,44,Specialist,2023-10-29 08:03:05.556036,0,Bachelor,5,6750.0,37,18,29,11,25,8,36,1,3.69,False,2.0,0.95,,2,1,2,Opportunity,0,0.09764066030646859,Very Low
+773,Customer Support,Other,39,Engineer,2017-08-20 08:03:05.556036,7,Bachelor,3,7800.0,45,35,6,1,0,19,56,2,1.72,False,1.98,2.7,,4,4,0,Opportunity,0,0.10101178763382526,Low
+774,Finance,Male,49,Technician,2016-05-22 08:03:05.556036,8,High School,2,4200.0,36,25,15,0,100,13,27,2,1.28,False,1.37,2.0,,4,4,0,Opportunity,0,0.10233738032349775,Low
+775,Marketing,Female,52,Developer,2024-01-03 08:03:05.556036,0,High School,3,6500.0,37,4,6,1,0,2,29,2,4.08,False,1.42,2.62,,4,1,2,Opportunity,0,0.09881622295687749,Very Low
+776,Customer Support,Female,27,Technician,2017-08-18 08:03:05.556036,7,Bachelor,1,3850.0,31,46,25,6,100,6,44,2,4.02,False,1.31,2.36,,3,4,3,Opportunity,0,0.10042374412723787,Low
+777,Engineering,Female,42,Specialist,2024-06-29 08:03:05.556036,0,PhD,2,5400.0,50,48,25,13,100,2,98,1,4.5,False,1.72,2.45,,3,1,2,Opportunity,0,0.0999941332505543,Very Low
+778,IT,Female,30,Developer,2015-10-29 08:03:05.556036,8,Bachelor,4,7000.0,33,13,5,1,25,17,84,1,4.55,False,2.09,3.61,,5,4,0,Opportunity,0,0.09771628080855294,Very Low
+779,Engineering,Female,55,Specialist,2019-02-14 08:03:05.556036,5,Bachelor,3,5850.0,32,22,16,13,75,15,24,2,1.78,False,1.21,0.42,,3,3,1,Weakness,0,0.10074023545896522,Low
+780,HR,Male,29,Developer,2016-06-23 08:03:05.556036,8,High School,5,7500.0,51,39,26,13,100,19,34,2,2.77,False,2.3,0.92,,2,4,3,Opportunity,0,0.0983472678357396,Very Low
+781,Engineering,Other,28,Specialist,2020-11-06 08:03:05.556036,3,High School,4,6300.0,43,25,26,11,25,19,10,1,2.75,False,1.69,0.06,,2,2,1,Weakness,0,0.09907635953871674,Very Low
+782,Engineering,Female,43,Engineer,2020-11-25 08:03:05.556036,3,Bachelor,2,7200.0,31,28,3,4,100,11,15,1,2.76,False,1.27,1.06,,5,2,1,Weakness,0,0.10004135879888669,Low
+783,HR,Female,29,Developer,2019-03-09 08:03:05.556036,5,Bachelor,2,6000.0,43,20,22,13,0,5,8,0,4.33,False,0.92,-0.34,,3,3,1,Weakness,0,0.09930875590541931,Very Low
+784,Sales,Female,33,Analyst,2020-02-19 08:03:05.556036,4,High School,2,4800.0,37,33,0,9,75,16,7,2,3.15,False,1.2,0.84,,5,3,1,Weakness,0,0.09952177437389699,Very Low
+785,Engineering,Female,48,Specialist,2015-08-05 08:03:05.556036,9,Bachelor,1,4950.0,57,9,19,2,0,15,62,2,3.1,False,0.96,3.08,,3,4,3,Opportunity,0,0.10294388021488199,Low
+786,Legal,Female,56,Analyst,2018-04-08 08:03:05.556036,6,Bachelor,2,4800.0,51,5,1,10,50,1,16,2,2.13,True,0.75,0.68,,5,4,1,Weakness,0,0.1016821814359859,Low
+787,Legal,Male,32,Developer,2023-08-19 08:03:05.556036,1,Bachelor,3,6500.0,35,12,16,12,0,2,1,1,1.92,False,1.01,-0.5,,3,1,1,Weakness,0,0.10055086242201267,Low
+788,Legal,Female,44,Specialist,2018-08-21 08:03:05.556036,6,High School,4,6300.0,58,43,6,6,0,13,66,0,4.23,False,2.45,1.96,,4,4,0,Opportunity,0,0.09766714797715025,Very Low
+789,Operations,Female,39,Engineer,2015-09-05 08:03:05.556036,9,Bachelor,5,9000.0,38,10,4,1,100,15,49,1,2.51,False,2.21,2.23,,5,4,0,Opportunity,0,0.09848625575675679,Very Low
+790,HR,Female,51,Technician,2017-11-01 08:03:05.556036,6,Bachelor,3,4550.0,49,26,7,11,75,4,33,2,4.12,True,1.52,1.48,,4,4,0,Opportunity,0,0.09858713806373742,Very Low
+791,Operations,Male,48,Analyst,2019-07-28 08:03:05.556036,5,Master,3,5200.0,52,23,5,2,100,13,64,2,2.27,False,1.82,2.92,,5,3,0,Opportunity,0,0.10097684884388862,Low
+792,Sales,Male,36,Specialist,2016-08-20 08:03:05.556036,8,Bachelor,2,5400.0,31,22,29,8,0,14,25,0,1.27,False,1.02,-0.06,,2,4,1,Weakness,1,0.10252536664157127,Low
+793,IT,Female,39,Engineer,2017-11-22 08:03:05.556036,6,Bachelor,4,8400.0,48,17,23,3,25,1,80,2,3.65,True,2.1,3.54,,3,4,3,Opportunity,0,0.09942144199502136,Very Low
+794,Marketing,Female,33,Specialist,2022-12-10 08:03:05.556036,1,Bachelor,4,6300.0,41,41,7,5,100,14,30,0,3.59,False,2.24,1.02,,4,1,2,Opportunity,0,0.09750711899385864,Very Low
+795,Finance,Female,22,Specialist,2021-12-31 08:03:05.556036,2,Bachelor,1,4950.0,46,35,24,4,0,18,56,2,3.94,False,1.29,2.88,,3,2,2,Opportunity,0,0.10126728769169104,Low
+796,Finance,Female,35,Engineer,2024-06-18 08:03:05.556036,0,Bachelor,2,7200.0,52,29,3,8,0,13,87,2,1.05,False,1.42,2.44,,5,1,2,Opportunity,0,0.10327102601745798,Low
+797,Engineering,Male,49,Specialist,2023-01-17 08:03:05.556036,1,Bachelor,2,5400.0,32,14,8,2,75,2,43,0,1.11,False,1.15,1.1,,4,1,2,Opportunity,0,0.1025246838285589,Low
+798,Operations,Male,41,Consultant,2017-07-18 08:03:05.556036,7,Master,3,7150.0,43,4,3,6,100,13,0,1,3.84,False,1.17,0.71,,5,4,1,Weakness,0,0.09864621576457092,Very Low
+799,Operations,Male,54,Consultant,2017-12-10 08:03:05.556036,6,Bachelor,1,6050.0,50,19,1,5,50,5,3,1,1.27,False,0.74,0.27,,5,4,1,Weakness,0,0.10298164428878699,Low
+800,Sales,Female,27,Developer,2019-01-06 08:03:05.556036,5,Bachelor,4,7000.0,33,30,0,8,100,3,17,1,4.42,False,1.91,1.03,,5,3,0,Opportunity,0,0.09642813450949145,Very Low
+801,Marketing,Male,27,Specialist,2020-09-17 08:03:05.556036,3,High School,1,4950.0,50,42,27,11,100,12,20,2,2.97,False,1.04,0.87,,2,2,1,Weakness,0,0.10175894599265817,Low
+802,Operations,Male,46,Specialist,2024-07-04 08:03:05.556036,0,Bachelor,2,5400.0,49,11,16,14,75,7,29,1,4.27,False,0.83,0.54,,3,1,1,Weakness,0,0.09986906041704134,Very Low
+803,Marketing,Female,33,Specialist,2023-02-18 08:03:05.556036,1,Bachelor,5,6750.0,59,41,0,6,0,7,81,1,2.9,False,2.76,2.5,,5,1,2,Opportunity,1,0.09817521320988366,Very Low
+804,Engineering,Female,45,Consultant,2024-03-06 08:03:05.556036,0,Master,5,8250.0,39,24,17,4,75,14,54,1,3.79,False,2.4,2.3,,3,1,2,Opportunity,0,0.09737722632691632,Very Low
+805,IT,Male,28,Manager,2020-09-22 08:03:05.556036,3,Bachelor,2,7200.0,43,37,24,3,0,9,55,2,4.01,True,1.68,3.0,,3,2,2,Opportunity,0,0.1000992285156596,Low
+806,Engineering,Male,60,Specialist,2015-07-05 08:03:05.556036,9,Bachelor,1,4950.0,44,23,9,1,25,2,74,1,1.9,False,1.18,2.7,,4,4,0,Opportunity,0,0.10330465020389602,Low
+807,Finance,Male,55,Engineer,2017-03-20 08:03:05.556036,7,Bachelor,3,7800.0,40,2,4,14,100,18,95,1,1.34,False,1.09,1.46,,5,4,0,Opportunity,0,0.10235997747734034,Low
+808,Engineering,Female,44,Engineer,2019-08-14 08:03:05.556036,5,High School,4,8400.0,41,21,7,8,100,9,93,2,3.18,False,2.0,3.12,,4,3,0,Opportunity,0,0.09928632583000344,Very Low
+809,Engineering,Male,44,Consultant,2019-01-14 08:03:05.556036,5,Bachelor,1,6050.0,57,24,9,13,100,17,16,0,3.49,False,0.71,-0.35,,4,3,1,Weakness,1,0.10107444360567641,Low
+810,Sales,Female,30,Manager,2017-12-09 08:03:05.556036,6,High School,3,7800.0,57,28,10,10,100,2,29,1,1.14,False,1.51,0.26,,4,4,1,Weakness,0,0.10169772262113845,Low
+811,Sales,Female,24,Developer,2018-06-20 08:03:05.556036,6,Master,1,5500.0,42,40,11,14,25,4,81,0,2.08,False,1.05,0.8,,4,4,1,Weakness,0,0.10268320238029487,Low
+812,Marketing,Male,27,Technician,2014-09-27 08:03:05.556036,9,High School,3,4550.0,30,37,11,11,0,16,41,1,3.92,False,1.64,1.13,,4,4,0,Opportunity,0,0.09824401624636635,Very Low
+813,Sales,Male,24,Manager,2019-05-18 08:03:05.556036,5,Bachelor,3,7800.0,48,23,14,2,75,19,5,2,1.23,False,1.57,1.18,,4,3,1,Weakness,0,0.10142837199077041,Low
+814,HR,Female,31,Consultant,2020-08-21 08:03:05.556036,4,High School,3,7150.0,60,32,26,8,0,11,37,0,3.02,False,1.74,0.68,,2,3,3,Opportunity,0,0.10032637134721747,Low
+815,Engineering,Female,26,Analyst,2018-02-05 08:03:05.556036,6,PhD,4,5600.0,40,18,27,1,75,8,55,1,2.29,False,2.03,2.32,,2,4,3,Opportunity,0,0.10029524296439465,Low
+816,Marketing,Female,54,Consultant,2020-04-06 08:03:05.556036,4,Bachelor,1,6050.0,56,6,16,4,75,7,42,2,4.87,False,0.84,2.77,,3,3,3,Opportunity,0,0.10080952599480741,Low
+817,Legal,Male,51,Consultant,2019-08-02 08:03:05.556036,5,Bachelor,5,8250.0,51,42,22,4,75,7,40,0,3.79,False,2.71,1.45,,3,3,3,Opportunity,0,0.09715775003904227,Very Low
+818,Operations,Male,44,Technician,2023-09-27 08:03:05.556036,0,High School,4,4900.0,55,14,20,11,0,7,79,2,1.22,False,1.73,1.91,,3,1,2,Opportunity,0,0.10195449379750789,Low
+819,Marketing,Male,32,Technician,2016-07-24 08:03:05.556036,8,Bachelor,5,5250.0,54,8,22,4,75,10,78,0,3.88,False,2.28,2.42,,3,4,3,Opportunity,0,0.09839725966313195,Very Low
+820,Sales,Male,31,Specialist,2017-10-05 08:03:05.556036,6,Bachelor,1,4950.0,45,11,28,12,50,11,65,1,4.13,False,0.66,1.66,,2,4,3,Opportunity,0,0.10173254824884331,Low
+821,Legal,Male,25,Technician,2023-06-21 08:03:05.556036,1,Bachelor,4,4900.0,33,48,25,5,50,16,70,1,1.74,False,2.4,2.06,,3,1,2,Opportunity,0,0.10009812779393056,Low
+822,Sales,Male,32,Developer,2018-07-10 08:03:05.556036,6,Master,5,7500.0,39,4,28,9,100,1,98,1,3.5,False,2.04,2.7,,2,4,3,Opportunity,0,0.09897240897439626,Very Low
+823,Legal,Female,54,Specialist,2017-07-07 08:03:05.556036,7,Bachelor,5,6750.0,50,17,2,14,25,15,32,1,3.27,True,1.91,0.37,,5,4,0,Opportunity,0,0.09751847451791125,Very Low
+824,Marketing,Female,29,Specialist,2022-12-25 08:03:05.556036,1,Master,2,5400.0,57,38,19,2,100,5,54,1,3.59,False,1.77,2.5,,3,1,2,Opportunity,0,0.10061805076888028,Low
+825,Finance,Male,22,Engineer,2016-08-07 08:03:05.556036,8,High School,5,9000.0,52,32,16,3,50,11,27,0,4.2,False,2.55,1.35,,3,4,3,Opportunity,0,0.09667140254529683,Very Low
+826,Operations,Male,59,Technician,2021-05-12 08:03:05.556036,3,Bachelor,4,4900.0,34,5,17,0,75,14,2,1,4.6,True,1.72,1.7,,3,2,2,Opportunity,0,0.09718767967914624,Very Low
+827,IT,Female,58,Specialist,2020-07-15 08:03:05.556036,4,Bachelor,3,5850.0,30,12,21,7,0,10,68,2,2.74,False,1.41,2.51,,3,3,3,Opportunity,0,0.10072466613142163,Low
+828,Engineering,Female,51,Technician,2016-07-31 08:03:05.556036,8,Master,4,4900.0,37,4,26,4,75,17,89,0,3.44,False,1.83,2.58,,2,4,3,Opportunity,0,0.09973116853710184,Very Low
+829,Customer Support,Female,48,Analyst,2020-04-13 08:03:05.556036,4,Bachelor,1,4400.0,35,11,11,14,25,8,50,1,2.55,False,0.45,0.64,,4,3,1,Weakness,0,0.10236028523101678,Low
+830,Sales,Female,28,Analyst,2023-04-04 08:03:05.556036,1,Bachelor,3,5200.0,51,25,28,14,100,3,34,1,2.24,False,1.35,0.16,,2,1,1,Weakness,0,0.10110340944389541,Low
+831,Legal,Female,47,Manager,2024-05-31 08:03:05.556036,0,Master,1,6600.0,56,17,5,6,75,10,45,1,3.27,False,0.91,1.69,,5,1,2,Opportunity,0,0.10180417916446927,Low
+832,Sales,Female,37,Specialist,2022-06-20 08:03:05.556036,2,Bachelor,2,5400.0,30,30,16,12,50,1,86,0,1.38,False,1.22,1.0,,3,2,1,Weakness,0,0.10259347008158362,Low
+833,Operations,Male,34,Analyst,2014-10-13 08:03:05.556036,9,High School,1,4400.0,39,20,19,7,25,16,54,2,2.98,False,0.88,2.22,,3,4,3,Opportunity,0,0.10221330037874984,Low
+834,Customer Support,Male,52,Technician,2019-04-15 08:03:05.556036,5,Bachelor,4,4900.0,34,25,12,11,75,19,54,0,1.46,False,1.75,0.34,,4,3,1,Weakness,0,0.10023993670725342,Low
+835,Sales,Female,60,Manager,2021-04-12 08:03:05.556036,3,Bachelor,5,9000.0,60,18,18,14,75,7,16,2,4.94,False,1.97,0.89,,3,2,2,Opportunity,0,0.09643661078244167,Very Low
+836,Finance,Male,38,Technician,2019-06-25 08:03:05.556036,5,Bachelor,3,4550.0,56,36,7,14,100,19,42,2,4.27,False,1.65,1.37,,4,3,0,Opportunity,0,0.09848023357750504,Very Low
+837,Finance,Male,30,Specialist,2017-09-08 08:03:05.556036,6,Bachelor,4,6300.0,45,22,25,2,50,18,89,0,2.85,False,2.21,2.69,,3,4,3,Opportunity,0,0.10008544689875985,Low
+838,Finance,Female,47,Analyst,2016-02-20 08:03:05.556036,8,Bachelor,5,6000.0,30,24,8,12,0,6,88,1,1.32,False,2.13,1.53,,4,4,0,Opportunity,0,0.09972017115837752,Very Low
+839,Operations,Female,37,Engineer,2023-10-28 08:03:05.556036,0,Bachelor,1,6600.0,53,44,3,13,100,8,85,1,3.64,False,1.26,1.91,,5,1,2,Opportunity,0,0.10115388211138521,Low
+840,Customer Support,Female,44,Manager,2020-07-11 08:03:05.556036,4,High School,1,6600.0,39,44,10,8,25,6,7,1,3.99,False,1.12,0.67,,4,3,1,Weakness,0,0.09968079922104316,Very Low
+841,Marketing,Male,39,Analyst,2019-10-01 08:03:05.556036,4,High School,1,4400.0,33,24,20,14,50,16,21,0,1.17,False,0.51,-0.93,,3,3,1,Weakness,1,0.10325136126071718,Low
+842,HR,Male,42,Specialist,2022-12-26 08:03:05.556036,1,Master,1,4950.0,57,44,25,6,0,7,43,2,1.47,False,1.3,1.69,,3,1,2,Opportunity,0,0.10369288419636796,Low
+843,Customer Support,Female,29,Manager,2017-02-07 08:03:05.556036,7,Bachelor,5,9000.0,60,46,0,3,75,2,7,2,2.17,False,2.68,1.34,,5,4,0,Opportunity,1,0.09793134035480373,Very Low
+844,Legal,Female,53,Analyst,2016-08-15 08:03:05.556036,8,High School,3,5200.0,58,49,10,9,25,16,45,0,2.38,False,1.99,0.6,,4,4,0,Opportunity,0,0.10014082944917829,Low
+845,Operations,Male,59,Engineer,2022-06-16 08:03:05.556036,2,Master,5,9000.0,36,0,11,12,25,13,23,2,2.56,False,1.58,0.71,,4,2,1,Weakness,0,0.09849138771705054,Very Low
+846,Sales,Male,37,Specialist,2019-03-14 08:03:05.556036,5,Bachelor,2,5400.0,58,15,21,6,0,11,32,1,4.67,False,1.22,1.72,,3,3,3,Opportunity,0,0.0998380348568543,Very Low
+847,Finance,Male,30,Developer,2024-08-26 08:03:05.556036,0,High School,3,6500.0,48,40,3,3,75,10,42,0,4.46,True,2.06,1.79,,5,1,2,Opportunity,0,0.09782623598888066,Very Low
+848,Legal,Male,40,Engineer,2017-07-11 08:03:05.556036,7,PhD,4,8400.0,50,39,3,6,50,3,81,2,2.56,False,2.35,2.92,,5,4,0,Opportunity,0,0.09943910681376042,Very Low
+849,Operations,Male,38,Specialist,2018-04-18 08:03:05.556036,6,High School,1,4950.0,34,40,27,12,0,3,87,2,2.28,False,1.11,2.24,,2,4,3,Opportunity,0,0.10299565451688371,Low
+850,Marketing,Female,53,Manager,2022-08-20 08:03:05.556036,2,Bachelor,3,7800.0,49,29,24,1,0,10,75,1,4.29,False,2.05,3.32,,3,2,2,Opportunity,0,0.09939457997808722,Very Low
+851,Operations,Female,35,Manager,2021-08-25 08:03:05.556036,3,Bachelor,3,7800.0,51,7,25,13,25,11,22,0,3.07,False,1.07,-0.31,,3,2,1,Weakness,0,0.10037692980477507,Low
+852,Customer Support,Female,54,Specialist,2016-02-09 08:03:05.556036,8,Bachelor,4,6300.0,34,18,12,10,50,14,61,1,4.04,False,1.78,1.78,,4,4,0,Opportunity,0,0.09799316526686366,Very Low
+853,HR,Other,40,Manager,2018-06-24 08:03:05.556036,6,High School,1,6600.0,44,25,22,6,50,14,80,1,3.01,False,1.1,2.5,,3,4,3,Opportunity,0,0.10257469649098734,Low
+854,IT,Female,44,Technician,2017-02-15 08:03:05.556036,7,PhD,4,4900.0,51,28,20,11,75,9,98,0,1.93,False,2.04,1.56,,3,4,3,Opportunity,0,0.10092506231017356,Low
+855,HR,Female,45,Analyst,2018-09-29 08:03:05.556036,5,Bachelor,1,4400.0,48,18,16,12,25,1,84,1,4.87,False,0.88,2.32,,3,3,3,Opportunity,0,0.10077666490164854,Low
+856,Customer Support,Female,59,Technician,2020-12-29 08:03:05.556036,3,High School,5,5250.0,56,43,5,9,50,17,40,1,4.85,False,2.61,1.59,,5,2,0,Opportunity,0,0.09577020075044029,Very Low
+857,Customer Support,Male,33,Technician,2021-01-10 08:03:05.556036,3,High School,4,4900.0,39,0,8,12,0,6,56,0,1.61,False,1.34,0.3,,4,2,1,Weakness,0,0.10067726181271114,Low
+858,Sales,Female,24,Consultant,2018-12-26 08:03:05.556036,5,High School,3,7150.0,54,21,2,2,100,14,57,2,4.62,False,1.85,3.33,,5,3,0,Opportunity,0,0.09854346724681451,Very Low
+859,Marketing,Male,56,Manager,2017-01-24 08:03:05.556036,7,Bachelor,3,7800.0,42,30,26,3,25,5,11,1,2.15,False,1.68,0.94,,2,4,3,Opportunity,0,0.10056382846803953,Low
+860,Marketing,Male,42,Specialist,2016-08-31 08:03:05.556036,8,Master,4,6300.0,48,33,20,10,50,9,33,0,2.98,False,1.96,0.32,,3,4,3,Opportunity,0,0.09884967978886688,Very Low
+861,Finance,Female,59,Analyst,2016-02-29 08:03:05.556036,8,Bachelor,1,4400.0,47,3,5,5,75,6,18,0,4.12,False,0.61,0.86,,5,4,1,Weakness,0,0.10063541292884971,Low
+862,HR,Female,44,Technician,2014-09-20 08:03:05.556036,9,Bachelor,4,4900.0,46,35,6,14,75,7,24,1,3.52,False,1.84,0.23,,4,4,1,Weakness,0,0.09773280976391188,Very Low
+863,Sales,Male,37,Engineer,2015-07-13 08:03:05.556036,9,PhD,5,9000.0,31,9,16,2,75,19,71,1,1.28,False,2.16,2.34,,3,4,3,Opportunity,0,0.10020530981004108,Low
+864,HR,Female,50,Technician,2017-10-19 08:03:05.556036,6,Bachelor,1,3850.0,60,33,25,10,50,14,65,2,1.5,False,1.07,1.75,,3,4,3,Opportunity,0,0.10427186624621124,Low
+865,IT,Male,35,Specialist,2019-07-30 08:03:05.556036,5,Bachelor,4,6300.0,41,49,0,11,50,1,24,0,3.98,False,2.17,0.22,,5,3,0,Opportunity,0,0.09662858089023534,Very Low
+866,Engineering,Male,25,Consultant,2014-10-18 08:03:05.556036,9,Bachelor,4,7700.0,53,24,7,13,75,11,10,2,3.06,False,1.66,0.39,,4,4,1,Weakness,0,0.09851622324817126,Very Low
+867,Engineering,Male,32,Specialist,2023-09-04 08:03:05.556036,1,High School,3,5850.0,52,1,4,8,25,15,52,2,1.01,False,1.17,1.55,,5,1,2,Opportunity,0,0.10254528007816407,Low
+868,Finance,Male,26,Specialist,2022-12-03 08:03:05.556036,1,Master,3,5850.0,33,16,5,1,50,19,32,1,3.02,False,1.58,1.93,,5,1,2,Opportunity,0,0.09944200775241399,Very Low
+869,Sales,Female,54,Consultant,2018-04-27 08:03:05.556036,6,Bachelor,1,6050.0,51,40,15,0,100,13,0,1,2.92,False,1.31,1.23,,4,4,1,Weakness,0,0.10124879998733156,Low
+870,Operations,Female,45,Technician,2020-08-25 08:03:05.556036,4,Bachelor,2,4200.0,50,49,24,3,25,6,14,2,2.42,False,1.72,1.58,,3,3,3,Opportunity,0,0.10105447549824435,Low
+871,Legal,Male,33,Engineer,2022-07-31 08:03:05.556036,2,Bachelor,1,6600.0,42,19,12,8,100,5,60,1,1.56,False,0.81,1.39,,4,2,1,Weakness,0,0.10356679812643645,Low
+872,Customer Support,Female,57,Analyst,2016-07-08 08:03:05.556036,8,Bachelor,1,4400.0,46,18,12,3,50,15,30,2,3.27,False,0.93,2.19,,4,4,0,Opportunity,0,0.10163859772735136,Low
+873,IT,Female,51,Engineer,2017-03-28 08:03:05.556036,7,Bachelor,1,6600.0,32,31,27,0,0,12,9,0,2.31,False,1.09,0.8,,2,4,3,Opportunity,1,0.10203073945078417,Low
+874,Legal,Male,38,Consultant,2020-05-27 08:03:05.556036,4,PhD,4,7700.0,58,44,0,1,0,5,89,1,3.88,False,2.7,3.57,,5,3,0,Opportunity,1,0.09819457264474213,Very Low
+875,Legal,Female,34,Technician,2022-04-11 08:03:05.556036,2,Bachelor,5,5250.0,51,21,19,10,0,9,82,0,2.54,False,2.25,1.43,,3,2,2,Opportunity,0,0.09928666293912886,Very Low
+876,Finance,Female,22,Specialist,2022-09-16 08:03:05.556036,1,Master,1,4950.0,60,10,18,6,75,10,16,2,2.77,False,0.7,1.34,,3,1,1,Weakness,0,0.10265250037168976,Low
+877,Legal,Female,37,Consultant,2014-09-08 08:03:05.556036,9,High School,4,7700.0,32,23,6,10,75,7,92,2,4.88,True,1.99,3.27,,4,4,0,Opportunity,0,0.09728847221626051,Very Low
+878,Marketing,Female,56,Manager,2015-05-28 08:03:05.556036,9,High School,5,9000.0,34,29,11,2,100,3,83,0,3.32,True,2.61,2.66,,4,4,0,Opportunity,0,0.09774859167608736,Very Low
+879,Finance,Female,52,Specialist,2016-09-11 08:03:05.556036,7,Bachelor,1,4950.0,59,47,29,4,0,18,44,2,3.6,False,1.5,2.5,,2,4,3,Opportunity,1,0.10163930690210782,Low
+880,Sales,Male,22,Analyst,2022-09-18 08:03:05.556036,1,Bachelor,1,4400.0,51,3,2,9,0,6,59,2,1.3,False,0.54,1.67,,5,1,1,Weakness,0,0.10417026026144871,Low
+881,Finance,Female,23,Manager,2022-08-19 08:03:05.556036,2,Bachelor,4,8400.0,39,27,1,5,25,3,15,1,1.03,False,1.86,0.51,,5,2,0,Opportunity,0,0.10000425365703554,Low
+882,Customer Support,Male,48,Developer,2014-11-03 08:03:05.556036,9,Bachelor,4,7000.0,34,21,21,9,100,3,77,2,1.16,False,1.82,2.09,,3,4,3,Opportunity,0,0.10134687636269261,Low
+883,Operations,Male,44,Specialist,2017-01-25 08:03:05.556036,7,High School,5,6750.0,52,16,4,13,75,19,86,1,3.6,False,2.12,1.92,,5,4,0,Opportunity,0,0.09802612086959948,Very Low
+884,Finance,Female,36,Analyst,2023-04-16 08:03:05.556036,1,Bachelor,4,5600.0,32,36,21,0,100,9,77,1,3.05,False,2.43,3.19,,3,1,2,Opportunity,1,0.09904231648050406,Very Low
+885,Marketing,Female,26,Developer,2021-05-14 08:03:05.556036,3,High School,4,7000.0,33,44,7,12,0,8,27,2,3.25,False,2.0,0.99,,4,2,2,Opportunity,0,0.0976321361142494,Very Low
+886,Finance,Male,53,Developer,2015-02-22 08:03:05.556036,9,Bachelor,4,7000.0,46,26,25,3,50,1,29,2,3.92,True,2.09,2.33,,3,4,3,Opportunity,0,0.09829182829504127,Very Low
+887,IT,Male,45,Developer,2021-05-06 08:03:05.556036,3,Bachelor,1,5500.0,38,22,21,3,100,7,56,0,4.13,False,1.08,2.06,,3,2,2,Opportunity,0,0.10096610533246661,Low
+888,Customer Support,Female,46,Consultant,2018-08-23 08:03:05.556036,6,Bachelor,3,7150.0,52,28,26,5,75,10,56,0,2.21,False,1.78,1.33,,2,4,3,Opportunity,0,0.1013026633718187,Low
+889,Sales,Male,27,Manager,2024-02-26 08:03:05.556036,0,Master,4,8400.0,40,3,29,8,100,7,51,0,1.5,True,1.5,0.65,,2,1,2,Opportunity,0,0.10134888822028082,Low
+890,Finance,Female,43,Manager,2015-06-08 08:03:05.556036,9,Bachelor,3,7800.0,31,29,20,14,100,7,13,1,2.89,False,1.29,-0.2,,3,4,1,Weakness,0,0.09935133818536544,Very Low
+891,Legal,Male,23,Engineer,2016-12-03 08:03:05.556036,7,Bachelor,4,8400.0,31,29,0,4,0,13,24,1,1.3,False,1.94,0.92,,5,4,0,Opportunity,0,0.09957798200797081,Very Low
+892,Legal,Male,49,Analyst,2024-06-11 08:03:05.556036,0,Bachelor,1,4400.0,40,20,21,7,0,10,24,0,1.74,False,0.74,0.16,,3,1,1,Weakness,0,0.1030412381709245,Low
+893,Operations,Male,57,Developer,2015-10-26 08:03:05.556036,8,Bachelor,3,6500.0,41,4,25,13,50,4,7,1,3.0,True,0.93,-0.2,,3,4,1,Weakness,0,0.10013633262878713,Low
+894,Sales,Female,23,Developer,2023-12-13 08:03:05.556036,0,Bachelor,2,6000.0,46,16,0,0,0,11,54,1,3.13,False,1.41,2.63,,5,1,2,Opportunity,0,0.1007532895638909,Low
+895,Finance,Male,34,Technician,2015-07-07 08:03:05.556036,9,Bachelor,4,4900.0,43,10,21,11,75,1,4,0,1.93,False,1.39,-0.79,,3,4,1,Weakness,0,0.09994771304363577,Very Low
+896,Customer Support,Male,39,Consultant,2022-07-10 08:03:05.556036,2,Master,1,6050.0,35,45,16,10,0,1,5,1,4.82,False,1.07,0.58,,3,2,1,Weakness,0,0.09888390498111096,Very Low
+897,Customer Support,Female,52,Analyst,2017-06-10 08:03:05.556036,7,Bachelor,5,6000.0,53,48,19,14,75,4,35,2,2.5,False,2.42,0.75,,3,4,3,Opportunity,0,0.0982558971991342,Very Low
+898,Engineering,Female,50,Consultant,2023-01-01 08:03:05.556036,1,Master,3,7150.0,33,26,20,8,25,19,64,0,3.84,False,1.65,1.56,,3,1,2,Opportunity,0,0.09915573505275886,Very Low
+899,Sales,Female,60,Analyst,2020-12-07 08:03:05.556036,3,Bachelor,2,4800.0,48,49,9,7,100,3,89,0,4.79,False,1.91,2.55,,4,2,2,Opportunity,0,0.09900612761050548,Very Low
+900,Engineering,Male,40,Manager,2023-01-09 08:03:05.556036,1,High School,2,7200.0,36,16,2,0,75,15,69,2,3.28,False,1.42,3.54,,5,1,2,Opportunity,0,0.1006833577689894,Low
+901,Engineering,Male,57,Manager,2017-11-16 08:03:05.556036,6,Master,3,7800.0,54,46,6,14,100,19,14,0,1.96,False,1.64,-0.91,,4,4,1,Weakness,1,0.09997687029511834,Very Low
+902,HR,Female,55,Consultant,2016-06-02 08:03:05.556036,8,Bachelor,1,6050.0,33,15,19,7,100,10,19,2,1.96,False,0.62,1.09,,3,4,1,Weakness,0,0.10275906403338853,Low
+903,HR,Female,50,Specialist,2020-07-31 08:03:05.556036,4,Bachelor,4,6300.0,59,15,23,8,75,16,83,0,3.9,False,1.97,2.05,,3,3,3,Opportunity,0,0.09935956869814272,Very Low
+904,Sales,Female,55,Specialist,2020-07-06 08:03:05.556036,4,Master,2,5400.0,42,34,23,5,100,2,32,0,2.71,False,1.44,0.85,,3,3,1,Weakness,0,0.10097766496896866,Low
+905,Sales,Female,55,Manager,2017-02-28 08:03:05.556036,7,High School,5,9000.0,41,18,3,10,0,18,33,1,2.77,False,2.01,0.77,,5,4,0,Opportunity,0,0.09783607387706295,Very Low
+906,Customer Support,Female,40,Specialist,2020-11-17 08:03:05.556036,3,Bachelor,1,4950.0,37,2,9,14,75,18,67,2,3.55,False,0.4,1.81,,4,2,1,Weakness,1,0.10182806923220518,Low
+907,Engineering,Male,53,Analyst,2020-08-12 08:03:05.556036,4,High School,2,4800.0,45,44,26,4,100,14,56,2,4.37,False,1.79,2.99,,2,3,3,Opportunity,0,0.09969148045069202,Very Low
+908,Legal,Other,36,Specialist,2016-02-25 08:03:05.556036,8,High School,5,6750.0,56,21,23,11,25,15,2,2,4.4,False,2.04,0.78,,3,4,3,Opportunity,0,0.09678420880030239,Very Low
+909,Operations,Female,60,Engineer,2023-01-27 08:03:05.556036,1,Bachelor,2,7200.0,38,4,10,10,50,19,61,0,1.05,False,0.8,0.54,,4,1,1,Weakness,0,0.1032258035963313,Low
+910,Sales,Female,46,Developer,2017-02-22 08:03:05.556036,7,High School,1,5500.0,30,20,2,9,50,6,98,2,3.06,False,0.92,3.09,,5,4,0,Opportunity,1,0.10196565031061999,Low
+911,Operations,Male,47,Developer,2014-12-09 08:03:05.556036,9,Bachelor,4,7000.0,45,19,2,4,50,1,7,0,1.74,False,1.79,0.11,,5,4,0,Opportunity,0,0.09948252190346098,Very Low
+912,IT,Male,47,Consultant,2022-04-09 08:03:05.556036,2,Bachelor,4,7700.0,54,33,13,10,0,5,71,1,3.29,False,2.12,1.85,,4,2,2,Opportunity,0,0.09903475654491814,Very Low
+913,Customer Support,Male,30,Developer,2015-12-31 08:03:05.556036,8,Bachelor,1,5500.0,55,48,1,11,50,16,67,0,2.07,False,1.29,0.82,,5,4,0,Opportunity,0,0.10235188653523096,Low
+914,Sales,Female,40,Engineer,2020-09-08 08:03:05.556036,3,Bachelor,2,7200.0,52,33,8,1,100,8,76,2,1.06,False,1.69,3.04,,4,2,2,Opportunity,0,0.10320817190094901,Low
+915,Engineering,Female,40,Technician,2019-10-07 08:03:05.556036,4,Master,1,3850.0,35,15,26,8,75,3,62,2,3.53,False,0.79,2.43,,2,3,3,Opportunity,0,0.10198767238439842,Low
+916,Legal,Male,24,Technician,2016-03-26 08:03:05.556036,8,Master,3,4550.0,47,32,29,12,0,14,97,2,1.33,False,1.7,2.26,,2,4,3,Opportunity,0,0.1027064168603127,Low
+917,Operations,Female,28,Developer,2017-08-29 08:03:05.556036,7,Bachelor,2,6000.0,38,40,17,13,50,8,94,0,1.14,False,1.41,1.01,,3,4,3,Opportunity,0,0.10292914977407523,Low
+918,Marketing,Female,28,Engineer,2016-10-11 08:03:05.556036,7,Bachelor,4,8400.0,41,7,1,2,75,3,89,2,4.3,False,1.99,4.05,,5,4,0,Opportunity,1,0.0983005068531154,Very Low
+919,Engineering,Male,45,Analyst,2018-09-07 08:03:05.556036,5,Master,3,5200.0,49,7,29,13,50,3,65,1,2.92,False,1.2,1.23,,2,3,3,Opportunity,0,0.10123031772220963,Low
+920,Finance,Male,37,Developer,2015-09-09 08:03:05.556036,8,Bachelor,1,5500.0,35,47,8,3,75,15,66,0,3.47,True,1.5,2.14,,4,4,0,Opportunity,0,0.1007106523921807,Low
+921,Finance,Female,24,Manager,2018-03-09 08:03:05.556036,6,Bachelor,3,7800.0,43,40,16,4,25,4,29,2,1.17,False,1.85,1.52,,3,4,3,Opportunity,0,0.10133093558672572,Low
+922,Finance,Male,54,Engineer,2017-03-17 08:03:05.556036,7,Bachelor,3,7800.0,33,2,11,5,25,17,62,1,2.81,False,1.3,2.13,,4,4,0,Opportunity,0,0.10052962481339724,Low
+923,IT,Male,40,Engineer,2016-10-18 08:03:05.556036,7,PhD,1,6600.0,39,17,14,8,50,16,21,1,3.07,False,0.68,0.79,,4,4,1,Weakness,0,0.101540807307303,Low
+924,Customer Support,Male,23,Technician,2014-10-22 08:03:05.556036,9,Bachelor,3,4550.0,30,8,27,12,75,16,40,2,4.49,False,1.14,1.62,,2,4,3,Opportunity,0,0.09885718871348152,Very Low
+925,Marketing,Other,29,Consultant,2017-02-04 08:03:05.556036,7,High School,5,8250.0,58,32,27,11,50,15,4,1,3.58,False,2.21,0.12,,2,4,3,Opportunity,0,0.09746609631069522,Very Low
+926,Engineering,Male,43,Developer,2014-10-17 08:03:05.556036,9,Master,4,7000.0,30,22,21,4,0,9,16,2,3.2,False,1.85,1.7,,3,4,3,Opportunity,0,0.09842412318242585,Very Low
+927,IT,Male,49,Specialist,2018-07-08 08:03:05.556036,6,Master,5,6750.0,44,19,26,10,100,4,71,0,2.16,False,2.14,1.06,,2,4,3,Opportunity,0,0.09960657795316971,Very Low
+928,Operations,Female,39,Technician,2015-02-21 08:03:05.556036,9,High School,5,5250.0,54,31,10,5,0,11,76,0,2.35,False,2.57,1.86,,4,4,0,Opportunity,0,0.09900174331602878,Very Low
+929,Operations,Female,36,Developer,2024-06-21 08:03:05.556036,0,Bachelor,1,5500.0,39,9,19,6,75,3,34,2,3.74,False,0.68,2.04,,3,1,2,Opportunity,0,0.10144871914847566,Low
+930,Engineering,Female,32,Specialist,2018-08-25 08:03:05.556036,6,High School,2,5400.0,34,43,23,7,0,4,70,2,3.24,False,1.63,2.68,,3,4,3,Opportunity,0,0.10066097745728689,Low
+931,Sales,Male,48,Technician,2020-01-01 08:03:05.556036,4,Bachelor,5,5250.0,44,9,18,14,25,1,69,1,3.79,False,1.89,1.42,,3,3,3,Opportunity,0,0.09799354712550455,Very Low
+932,Sales,Female,54,Engineer,2016-11-02 08:03:05.556036,7,Bachelor,5,9000.0,54,13,5,3,0,11,72,2,3.17,False,2.35,3.22,,5,4,0,Opportunity,0,0.09853761319296313,Very Low
+933,Engineering,Female,27,Engineer,2024-02-10 08:03:05.556036,0,Bachelor,5,9000.0,53,13,25,1,50,8,76,1,4.0,False,2.46,3.28,,3,1,2,Opportunity,0,0.09828247970962535,Very Low
+934,Engineering,Female,54,Consultant,2022-07-30 08:03:05.556036,2,Bachelor,2,6600.0,46,42,12,8,75,1,84,1,1.29,False,1.61,1.92,,4,2,2,Opportunity,0,0.10274042993351394,Low
+935,IT,Female,35,Manager,2023-09-13 08:03:05.556036,0,Master,4,8400.0,58,4,9,7,25,1,74,1,1.45,False,1.7,1.84,,4,1,2,Opportunity,0,0.10158329948618941,Low
+936,Finance,Female,57,Developer,2014-09-14 08:03:05.556036,9,Bachelor,3,6500.0,60,38,1,2,25,7,49,2,4.78,False,2.14,3.17,,5,4,0,Opportunity,1,0.09800949742281008,Very Low
+937,Engineering,Male,24,Consultant,2017-05-18 08:03:05.556036,7,Master,1,6050.0,45,44,29,8,0,18,42,1,3.52,False,1.24,1.43,,2,4,3,Opportunity,0,0.10134104885402404,Low
+938,Legal,Female,52,Technician,2023-03-24 08:03:05.556036,1,Bachelor,4,4900.0,56,19,13,2,100,14,68,1,3.3,False,2.15,2.78,,4,1,2,Opportunity,0,0.09940230505918547,Very Low
+939,Engineering,Male,59,Analyst,2022-02-17 08:03:05.556036,2,Bachelor,4,5600.0,44,40,18,5,75,14,66,0,4.83,False,2.4,2.23,,3,2,2,Opportunity,0,0.09716868340716417,Very Low
+940,IT,Male,56,Consultant,2020-10-31 08:03:05.556036,3,Bachelor,3,7150.0,34,29,18,2,50,19,38,0,1.29,False,1.73,1.02,,3,2,2,Opportunity,0,0.10130490476545835,Low
+941,Legal,Male,47,Analyst,2023-07-05 08:03:05.556036,1,Bachelor,3,5200.0,40,1,4,6,75,3,69,0,4.33,True,1.36,2.06,,5,1,2,Opportunity,0,0.09900756036646884,Very Low
+942,HR,Male,54,Manager,2020-09-06 08:03:05.556036,3,Bachelor,4,8400.0,58,13,11,4,0,14,69,1,2.79,False,1.98,2.42,,4,2,2,Opportunity,0,0.10003492310385696,Low
+943,Operations,Male,55,Specialist,2015-09-21 08:03:05.556036,8,Master,1,4950.0,41,3,23,10,100,10,32,2,3.04,False,0.43,1.31,,3,4,1,Weakness,0,0.10241625776888462,Low
+944,IT,Female,43,Specialist,2014-12-06 08:03:05.556036,9,Bachelor,1,4950.0,45,7,2,5,50,4,42,1,4.78,False,0.77,2.12,,5,4,0,Opportunity,0,0.10011937852303264,Low
+945,HR,Male,57,Technician,2018-11-14 08:03:05.556036,5,High School,1,3850.0,60,37,7,7,100,18,14,0,3.49,False,1.13,0.35,,4,3,1,Weakness,0,0.10079843929217303,Low
+946,HR,Male,22,Technician,2018-10-03 08:03:05.556036,5,PhD,1,3850.0,44,25,22,0,25,18,7,0,2.29,False,1.03,0.75,,3,3,1,Weakness,0,0.10231207108899813,Low
+947,Legal,Female,55,Consultant,2019-01-29 08:03:05.556036,5,Bachelor,2,6600.0,45,12,19,10,75,18,75,0,2.98,False,1.07,1.37,,3,3,1,Weakness,0,0.101706763071866,Low
+948,Operations,Female,38,Consultant,2020-01-11 08:03:05.556036,4,Bachelor,3,7150.0,38,24,0,5,0,19,18,0,4.68,False,1.61,0.99,,5,3,0,Opportunity,0,0.09732806374845886,Very Low
+949,Operations,Female,58,Developer,2018-02-26 08:03:05.556036,6,High School,2,6000.0,42,19,28,6,100,9,91,1,1.51,False,1.31,2.4,,2,4,3,Opportunity,0,0.10355537976140844,Low
+950,IT,Male,23,Manager,2017-05-21 08:03:05.556036,7,Bachelor,3,7800.0,39,38,8,4,50,6,99,0,4.49,False,2.14,3.1,,4,4,0,Opportunity,0,0.09850882088128504,Very Low
+951,Finance,Male,38,Specialist,2015-09-06 08:03:05.556036,9,Bachelor,2,5400.0,44,5,1,3,50,3,98,1,1.0,False,1.19,2.82,,5,4,0,Opportunity,0,0.10373689083963293,Low
+952,Engineering,Female,30,Analyst,2020-08-22 08:03:05.556036,4,PhD,1,4400.0,34,33,14,14,75,4,56,2,2.05,False,0.81,1.16,,4,3,1,Weakness,0,0.10257493370171483,Low
+953,Operations,Male,46,Manager,2020-07-08 08:03:05.556036,4,Bachelor,1,6600.0,47,8,18,4,0,2,25,1,4.54,False,0.76,1.76,,3,3,1,Weakness,0,0.10065784532165901,Low
+954,Sales,Male,31,Technician,2015-11-30 08:03:05.556036,8,Master,5,5250.0,57,28,8,6,0,11,23,2,4.71,False,2.4,2.0,,4,4,0,Opportunity,0,0.09621507945106114,Very Low
+955,Marketing,Female,60,Developer,2019-05-12 08:03:05.556036,5,Bachelor,5,7500.0,48,41,8,1,75,3,44,1,3.11,False,2.77,2.25,,4,3,0,Opportunity,0,0.09749256459061822,Very Low
+956,Customer Support,Female,41,Engineer,2016-11-22 08:03:05.556036,7,Bachelor,1,6600.0,35,35,19,1,100,13,50,0,1.34,False,1.24,1.46,,3,4,3,Opportunity,0,0.10329976688942921,Low
+957,Operations,Male,57,Engineer,2022-07-13 08:03:05.556036,2,Bachelor,3,7800.0,51,8,14,9,0,6,59,2,3.4,False,1.36,2.2,,4,2,2,Opportunity,0,0.10031977479737361,Low
+958,Marketing,Male,60,Engineer,2021-04-29 08:03:05.556036,3,Bachelor,3,7800.0,35,17,1,1,50,1,76,2,4.42,False,1.8,3.88,,5,2,0,Opportunity,1,0.09858995802038897,Very Low
+959,Marketing,Female,25,Engineer,2020-10-03 08:03:05.556036,3,Bachelor,2,7200.0,40,7,6,13,0,10,99,1,3.39,False,0.96,2.2,,4,2,2,Opportunity,0,0.10125110105232436,Low
+960,IT,Female,53,Technician,2022-08-18 08:03:05.556036,2,Bachelor,4,4900.0,55,29,26,9,25,18,12,2,3.02,False,1.89,0.93,,2,2,3,Opportunity,0,0.09910671074361316,Very Low
+961,Engineering,Male,34,Specialist,2016-11-12 08:03:05.556036,7,Bachelor,4,6300.0,36,44,9,3,75,7,2,2,3.43,True,2.24,1.53,,4,4,0,Opportunity,0,0.09731299317221159,Very Low
+962,Marketing,Male,22,Engineer,2016-11-05 08:03:05.556036,7,High School,3,7800.0,48,22,6,0,0,17,32,0,1.94,False,1.74,1.28,,4,4,0,Opportunity,0,0.10072134207391543,Low
+963,Legal,Female,30,Technician,2015-03-17 08:03:05.556036,9,Master,4,4900.0,55,23,6,2,75,5,73,0,1.2,True,2.16,1.88,,4,4,0,Opportunity,0,0.10118090152799324,Low
+964,HR,Male,41,Consultant,2018-08-30 08:03:05.556036,6,High School,4,7700.0,54,31,14,8,25,14,57,0,1.96,False,2.06,0.92,,4,4,0,Opportunity,0,0.10020552437436829,Low
+965,Engineering,Female,42,Specialist,2021-12-25 08:03:05.556036,2,Bachelor,1,4950.0,47,22,8,10,0,2,42,0,2.09,False,0.77,0.32,,4,2,1,Weakness,0,0.10263495787675073,Low
+966,Engineering,Male,59,Analyst,2023-06-24 08:03:05.556036,1,High School,5,6000.0,51,41,4,13,100,9,47,2,4.61,False,2.44,1.7,,5,1,2,Opportunity,0,0.0960236560068371,Very Low
+967,Operations,Female,26,Engineer,2023-09-24 08:03:05.556036,0,Bachelor,1,6600.0,50,34,23,9,100,19,57,1,4.14,False,1.14,1.84,,3,1,2,Opportunity,0,0.10106845191777682,Low
+968,Customer Support,Male,30,Engineer,2015-10-19 08:03:05.556036,8,Bachelor,2,7200.0,44,49,2,14,75,15,83,0,2.59,False,1.56,0.97,,5,4,0,Opportunity,0,0.10078492878305327,Low
+969,Finance,Female,57,Technician,2020-06-25 08:03:05.556036,4,Bachelor,5,5250.0,37,14,22,8,100,8,61,0,1.06,False,2.03,0.79,,3,3,3,Opportunity,0,0.10040630782143728,Low
+970,Finance,Female,60,Engineer,2021-04-20 08:03:05.556036,3,PhD,2,7200.0,48,14,8,9,75,10,93,0,3.5,False,1.23,2.08,,4,2,2,Opportunity,0,0.10111169915961067,Low
+971,HR,Female,40,Manager,2019-06-16 08:03:05.556036,5,Bachelor,4,8400.0,37,28,11,14,100,13,10,2,4.68,True,1.68,0.67,,4,3,1,Weakness,0,0.09657410095971622,Very Low
+972,Finance,Female,34,Engineer,2021-06-30 08:03:05.556036,3,High School,4,8400.0,42,17,1,11,75,4,29,0,3.02,False,1.62,0.1,,5,2,1,Weakness,0,0.0984082111626413,Very Low
+973,IT,Male,60,Engineer,2022-11-18 08:03:05.556036,1,Bachelor,3,7800.0,41,31,19,3,75,4,15,2,3.93,True,1.77,1.98,,3,1,2,Opportunity,0,0.0986415116280813,Very Low
+974,IT,Male,52,Specialist,2018-12-14 08:03:05.556036,5,High School,5,6750.0,40,7,20,1,0,18,59,0,1.67,False,2.17,1.77,,3,3,3,Opportunity,0,0.0999869665441775,Very Low
+975,Sales,Male,44,Manager,2018-12-28 08:03:05.556036,5,High School,4,8400.0,47,46,19,6,100,4,43,1,4.0,False,2.37,1.83,,3,3,3,Opportunity,0,0.09771631930960456,Very Low
+976,IT,Male,57,Engineer,2015-05-20 08:03:05.556036,9,Bachelor,3,7800.0,39,31,4,11,50,3,62,1,4.51,False,1.67,1.8,,5,4,0,Opportunity,0,0.09807214495020602,Very Low
+977,Engineering,Female,25,Manager,2021-09-18 08:03:05.556036,2,High School,4,8400.0,38,32,8,5,75,3,53,1,4.93,False,2.2,2.43,,4,2,2,Opportunity,0,0.09671393381138176,Very Low
+978,Customer Support,Female,41,Technician,2018-10-08 08:03:05.556036,5,Bachelor,2,4200.0,49,32,5,11,75,5,13,0,1.58,False,1.13,-0.66,,5,3,1,Weakness,0,0.10150933684023637,Low
+979,Customer Support,Female,43,Specialist,2020-08-19 08:03:05.556036,4,Bachelor,5,6750.0,54,36,19,13,0,13,97,0,1.61,False,2.44,1.2,,3,3,3,Opportunity,0,0.10011221762280406,Low
+980,Engineering,Female,44,Consultant,2016-06-13 08:03:05.556036,8,Bachelor,5,8250.0,57,7,9,4,0,11,95,2,3.62,False,2.32,3.78,,4,4,0,Opportunity,0,0.09871122855433728,Very Low
+981,Operations,Male,24,Technician,2022-11-12 08:03:05.556036,1,Master,5,5250.0,31,24,14,2,75,5,36,0,1.85,False,2.31,1.11,,4,1,2,Opportunity,0,0.0987202306489557,Very Low
+982,HR,Male,51,Engineer,2018-06-28 08:03:05.556036,6,High School,3,7800.0,60,14,1,3,50,17,95,2,3.61,False,1.82,3.9,,5,4,0,Opportunity,1,0.10030821682498067,Low
+983,Sales,Female,52,Manager,2022-06-06 08:03:05.556036,2,Bachelor,1,6600.0,51,9,4,8,75,10,28,1,2.4,False,0.6,0.8,,5,2,1,Weakness,0,0.10249017811260516,Low
+984,Sales,Female,37,Consultant,2016-11-10 08:03:05.556036,7,Bachelor,3,7150.0,34,5,27,14,100,19,27,0,2.64,False,0.94,-0.42,,2,4,1,Weakness,1,0.10055414228144448,Low
+985,Marketing,Other,53,Technician,2024-01-28 08:03:05.556036,0,Bachelor,5,5250.0,44,35,7,7,50,11,73,2,1.62,False,2.5,2.36,,4,1,2,Opportunity,0,0.09937535334712076,Very Low
+986,IT,Female,56,Developer,2020-07-31 08:03:05.556036,4,Master,1,5500.0,30,41,7,13,50,3,18,2,4.18,False,0.91,0.87,,4,3,1,Weakness,0,0.09942859751809684,Very Low
+987,Engineering,Male,35,Consultant,2015-09-13 08:03:05.556036,8,Bachelor,5,8250.0,40,21,14,10,100,12,79,2,1.34,False,2.16,2.06,,4,4,0,Opportunity,0,0.1001497736711539,Low
+988,Marketing,Male,29,Engineer,2020-06-04 08:03:05.556036,4,Bachelor,3,7800.0,41,38,21,6,75,5,68,2,2.95,False,1.93,2.69,,3,3,3,Opportunity,0,0.10018875590547818,Low
+989,Customer Support,Male,42,Technician,2017-03-14 08:03:05.556036,7,Master,2,4200.0,33,9,8,4,75,11,91,1,3.65,False,1.25,3.19,,4,4,0,Opportunity,0,0.10077505838564392,Low
+990,Operations,Male,42,Technician,2024-05-02 08:03:05.556036,0,Bachelor,1,3850.0,34,47,28,12,100,9,4,0,4.44,False,1.02,-0.29,,2,1,1,Weakness,1,0.0994587228300452,Very Low
+991,IT,Male,46,Manager,2022-01-11 08:03:05.556036,2,Bachelor,2,7200.0,38,48,12,0,50,9,57,2,2.58,False,1.9,3.07,,4,2,2,Opportunity,0,0.10084296516510248,Low
+992,Marketing,Female,38,Technician,2023-04-12 08:03:05.556036,1,High School,3,4550.0,43,33,20,0,100,17,8,1,2.46,False,1.84,1.32,,3,1,2,Opportunity,0,0.09999920975577785,Very Low
+993,Marketing,Female,44,Developer,2014-12-04 08:03:05.556036,9,PhD,4,7000.0,45,1,10,4,50,7,65,1,1.55,False,1.67,2.01,,4,4,0,Opportunity,0,0.10115990358135993,Low
+994,Operations,Male,41,Specialist,2017-10-11 08:03:05.556036,6,Bachelor,3,5850.0,53,29,3,3,50,7,29,2,3.75,False,1.83,2.29,,5,4,0,Opportunity,0,0.09885425324095766,Very Low
+995,HR,Female,50,Manager,2015-06-24 08:03:05.556036,9,Bachelor,5,9000.0,41,5,5,0,100,12,5,2,3.41,False,2.05,1.98,,5,4,0,Opportunity,0,0.09732824908205419,Very Low
+996,IT,Male,22,Engineer,2021-06-01 08:03:05.556036,3,High School,4,8400.0,37,27,20,3,25,2,2,0,2.94,False,1.94,0.41,,3,2,2,Opportunity,0,0.09840551258556654,Very Low
+997,IT,Female,54,Analyst,2023-04-22 08:03:05.556036,1,Master,3,5200.0,55,14,8,2,100,11,64,1,3.73,False,1.73,2.78,,4,1,2,Opportunity,0,0.09981866459052822,Very Low
+998,Engineering,Male,23,Developer,2018-11-14 08:03:05.556036,5,Bachelor,4,7000.0,33,35,2,6,75,3,27,1,4.26,True,2.09,1.49,,5,3,0,Opportunity,0,0.09666609756860577,Very Low
+999,Legal,Female,40,Consultant,2023-05-15 08:03:05.556036,1,High School,3,7150.0,49,4,20,3,50,12,15,1,4.1,False,1.36,1.52,,3,1,2,Opportunity,0,0.09924416099533785,Very Low
+1000,HR,Female,28,Analyst,2018-02-05 08:03:05.556036,6,High School,1,4400.0,45,4,25,6,75,1,14,0,4.96,False,0.6,0.84,,3,4,1,Weakness,0,0.10026613242651354,Low

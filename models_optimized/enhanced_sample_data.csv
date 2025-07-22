@@ -1,0 +1,1001 @@
+Employee_ID,Department,Job_Title,productivity_score,engagement_score,risk_score,swot_category,outlier,anomaly_level
+1,IT,Specialist,2.37,1.17,,Opportunity,0,Low
+2,Finance,Developer,2.36,1.52,,Opportunity,0,Low
+3,Finance,Specialist,1.72,1.03,,Opportunity,0,Low
+4,Customer Support,Analyst,1.19,0.67,,Weakness,0,Medium
+5,Engineering,Analyst,1.09,0.41,,Weakness,1,High
+6,IT,Manager,2.04,1.64,,Opportunity,0,Low
+7,IT,Technician,2.33,1.66,,Opportunity,0,Medium
+8,Engineering,Engineer,1.97,0.63,,Opportunity,0,Low
+9,Marketing,Technician,1.42,0.24,,Weakness,0,Medium
+10,Engineering,Consultant,1.49,2.51,,Opportunity,0,Low
+11,Customer Support,Engineer,1.35,2.11,,Opportunity,0,Low
+12,Customer Support,Technician,2.05,0.23,,Opportunity,0,Medium
+13,HR,Technician,1.57,2.4,,Opportunity,0,Low
+14,Engineering,Analyst,1.95,0.48,,Opportunity,0,Medium
+15,Finance,Analyst,1.67,1.82,,Opportunity,0,Low
+16,Customer Support,Developer,1.78,0.98,,Opportunity,0,Low
+17,Operations,Engineer,1.66,2.16,,Opportunity,0,Low
+18,Sales,Developer,1.99,0.0,,Opportunity,0,Medium
+19,Customer Support,Developer,1.01,0.62,,Weakness,1,High
+20,Finance,Technician,1.23,1.72,,Opportunity,0,Low
+21,Operations,Manager,1.36,2.24,,Opportunity,0,Low
+22,Sales,Manager,2.16,1.73,,Opportunity,0,Medium
+23,Finance,Specialist,2.48,2.26,,Opportunity,0,Low
+24,Sales,Consultant,1.34,2.92,,Opportunity,0,Medium
+25,HR,Analyst,1.63,1.86,,Opportunity,0,Low
+26,Customer Support,Specialist,2.28,1.4,,Opportunity,1,High
+27,Finance,Engineer,1.65,1.62,,Opportunity,0,Low
+28,Legal,Manager,2.07,1.58,,Opportunity,0,Low
+29,Engineering,Specialist,1.73,2.27,,Opportunity,0,Low
+30,Finance,Analyst,1.91,2.9,,Opportunity,0,Medium
+31,Customer Support,Consultant,1.12,3.24,,Opportunity,1,High
+32,Legal,Manager,1.92,0.38,,Opportunity,0,Low
+33,Customer Support,Analyst,2.15,0.86,,Opportunity,0,Medium
+34,Sales,Engineer,2.02,1.97,,Opportunity,0,Low
+35,Marketing,Analyst,1.66,1.0,,Opportunity,0,Low
+36,HR,Engineer,1.89,1.73,,Opportunity,0,Low
+37,Sales,Consultant,2.04,2.55,,Opportunity,0,Low
+38,Sales,Consultant,1.07,0.64,,Weakness,0,Low
+39,IT,Specialist,0.9,1.7,,Opportunity,1,High
+40,HR,Engineer,1.98,2.28,,Opportunity,0,Low
+41,HR,Analyst,2.06,1.75,,Opportunity,0,Low
+42,Marketing,Specialist,1.73,3.34,,Opportunity,1,High
+43,Customer Support,Engineer,2.28,1.1,,Opportunity,0,Low
+44,Marketing,Manager,1.91,1.44,,Opportunity,0,Low
+45,Customer Support,Developer,1.22,1.52,,Opportunity,0,Medium
+46,HR,Specialist,1.37,1.44,,Opportunity,0,Low
+47,HR,Technician,1.78,2.1,,Opportunity,0,Low
+48,Operations,Specialist,1.64,3.67,,Opportunity,0,Medium
+49,Legal,Specialist,2.83,1.88,,Opportunity,1,High
+50,Operations,Developer,1.21,0.0,,Weakness,1,High
+51,Legal,Consultant,1.41,1.85,,Opportunity,0,Low
+52,HR,Developer,1.14,0.81,,Weakness,0,Low
+53,Engineering,Consultant,1.86,0.8,,Opportunity,0,Low
+54,Engineering,Technician,1.56,1.15,,Opportunity,0,Low
+55,Operations,Technician,2.21,1.37,,Opportunity,0,Low
+56,Marketing,Developer,1.51,0.54,,Opportunity,0,Low
+57,Customer Support,Specialist,1.63,2.16,,Opportunity,0,Low
+58,Finance,Developer,2.32,2.22,,Opportunity,0,Low
+59,IT,Technician,1.65,3.34,,Opportunity,0,Low
+60,Customer Support,Manager,1.34,1.84,,Opportunity,0,Low
+61,Operations,Consultant,1.3,1.48,,Opportunity,0,Low
+62,Engineering,Specialist,2.69,1.8,,Opportunity,0,Medium
+63,Sales,Manager,1.92,2.06,,Opportunity,0,Low
+64,Finance,Manager,1.69,0.09,,Opportunity,0,Low
+65,Sales,Specialist,1.54,1.06,,Opportunity,0,Low
+66,Legal,Technician,2.17,1.42,,Opportunity,0,Low
+67,Sales,Manager,1.93,2.16,,Opportunity,0,Low
+68,HR,Consultant,1.36,1.75,,Opportunity,0,Low
+69,Operations,Specialist,1.64,0.5,,Opportunity,0,Low
+70,Sales,Manager,0.78,0.92,,Weakness,1,High
+71,IT,Developer,1.45,2.33,,Opportunity,0,Low
+72,Engineering,Analyst,1.62,2.14,,Opportunity,0,Low
+73,Sales,Developer,1.76,0.62,,Opportunity,0,Low
+74,Legal,Developer,1.17,2.58,,Opportunity,0,Medium
+75,HR,Consultant,0.92,0.62,,Weakness,1,High
+76,Engineering,Consultant,2.38,1.73,,Opportunity,0,Low
+77,Customer Support,Technician,2.23,1.67,,Opportunity,0,Low
+78,Sales,Developer,2.36,1.85,,Opportunity,0,Low
+79,Legal,Consultant,2.29,2.34,,Opportunity,0,Low
+80,Customer Support,Specialist,1.24,1.35,,Opportunity,0,Low
+81,Legal,Developer,1.65,1.55,,Opportunity,0,Low
+82,Customer Support,Specialist,1.6,0.35,,Opportunity,0,Low
+83,Engineering,Analyst,1.48,0.0,,Weakness,1,High
+84,HR,Analyst,1.67,1.72,,Opportunity,0,Medium
+85,Marketing,Specialist,1.37,1.5,,Opportunity,0,Low
+86,Legal,Engineer,1.65,2.41,,Opportunity,0,Low
+87,Marketing,Technician,1.42,2.42,,Opportunity,0,Low
+88,Marketing,Technician,1.73,0.24,,Opportunity,1,High
+89,Finance,Engineer,0.9,1.27,,Opportunity,0,Medium
+90,Customer Support,Manager,1.72,1.45,,Opportunity,0,Low
+91,Customer Support,Consultant,1.89,2.39,,Opportunity,0,Low
+92,Legal,Developer,1.16,1.78,,Opportunity,0,Low
+93,Finance,Manager,1.77,2.39,,Opportunity,0,Low
+94,Engineering,Specialist,2.07,2.23,,Opportunity,0,Low
+95,Operations,Developer,0.99,1.05,,Weakness,0,Low
+96,Marketing,Manager,1.73,2.01,,Opportunity,0,Low
+97,Engineering,Specialist,1.68,0.04,,Opportunity,0,Low
+98,Finance,Manager,2.01,1.24,,Opportunity,0,Low
+99,Sales,Developer,1.84,1.91,,Opportunity,0,Low
+100,Customer Support,Manager,1.41,1.08,,Opportunity,0,Low
+101,Finance,Engineer,1.51,0.57,,Opportunity,0,Low
+102,IT,Consultant,1.58,2.13,,Opportunity,0,Low
+103,IT,Consultant,2.39,3.6,,Opportunity,1,High
+104,Engineering,Consultant,2.53,0.96,,Opportunity,0,Low
+105,Customer Support,Technician,0.9,1.76,,Opportunity,1,High
+106,Customer Support,Manager,1.44,0.54,,Weakness,0,Low
+107,HR,Developer,1.54,0.28,,Opportunity,0,Low
+108,Operations,Engineer,2.2,2.76,,Opportunity,0,Low
+109,Sales,Consultant,1.43,1.44,,Opportunity,0,Low
+110,Sales,Consultant,2.44,0.58,,Opportunity,0,Low
+111,IT,Technician,1.92,3.18,,Opportunity,0,Low
+112,Finance,Analyst,0.84,0.68,,Weakness,1,High
+113,Legal,Technician,1.86,1.41,,Opportunity,0,Low
+114,Customer Support,Consultant,1.83,2.04,,Opportunity,0,Low
+115,Legal,Specialist,1.47,1.81,,Opportunity,0,Medium
+116,Customer Support,Analyst,1.96,0.93,,Opportunity,0,Low
+117,Legal,Manager,1.8,2.8,,Opportunity,0,Low
+118,IT,Consultant,2.65,2.51,,Opportunity,0,Low
+119,IT,Manager,1.99,1.13,,Opportunity,0,Low
+120,Finance,Specialist,1.75,1.92,,Opportunity,0,Low
+121,Customer Support,Specialist,0.93,2.07,,Opportunity,0,Low
+122,Legal,Technician,1.5,1.19,,Opportunity,0,Low
+123,Operations,Manager,1.96,2.35,,Opportunity,0,Low
+124,Finance,Consultant,1.96,0.09,,Opportunity,0,Medium
+125,IT,Engineer,1.31,1.68,,Opportunity,0,Low
+126,Marketing,Developer,1.17,1.14,,Opportunity,1,High
+127,Engineering,Consultant,2.06,1.95,,Opportunity,0,Low
+128,Sales,Consultant,1.67,2.05,,Opportunity,0,Low
+129,Sales,Developer,1.92,1.91,,Opportunity,0,Low
+130,Sales,Engineer,0.97,2.48,,Opportunity,1,High
+131,Engineering,Specialist,2.09,2.66,,Opportunity,0,Low
+132,HR,Technician,2.11,0.9,,Opportunity,0,Low
+133,Marketing,Manager,1.58,0.61,,Opportunity,0,Low
+134,Operations,Consultant,2.03,2.29,,Opportunity,0,Low
+135,Operations,Consultant,1.6,0.87,,Opportunity,0,Low
+136,Sales,Analyst,2.55,1.53,,Opportunity,0,Medium
+137,Legal,Analyst,1.35,1.14,,Opportunity,0,Low
+138,Customer Support,Manager,2.02,3.46,,Opportunity,0,Medium
+139,Finance,Technician,1.33,0.66,,Weakness,1,High
+140,Legal,Specialist,0.92,1.38,,Opportunity,0,Medium
+141,Engineering,Analyst,1.38,2.14,,Opportunity,0,Low
+142,Customer Support,Specialist,1.59,1.72,,Opportunity,0,Low
+143,Legal,Specialist,1.62,1.36,,Opportunity,0,Low
+144,Customer Support,Analyst,2.31,2.37,,Opportunity,0,Low
+145,Operations,Consultant,1.23,0.3,,Weakness,0,Low
+146,Customer Support,Consultant,1.79,3.27,,Opportunity,0,Low
+147,Legal,Engineer,1.55,0.27,,Opportunity,0,Low
+148,Sales,Analyst,1.99,3.05,,Opportunity,0,Low
+149,IT,Technician,1.18,3.73,,Opportunity,1,High
+150,Finance,Analyst,1.38,0.81,,Weakness,0,Low
+151,Operations,Consultant,1.88,0.97,,Opportunity,0,Low
+152,Sales,Manager,1.6,1.45,,Opportunity,0,Medium
+153,Marketing,Technician,2.75,2.34,,Opportunity,1,High
+154,Customer Support,Specialist,1.78,3.01,,Opportunity,0,Medium
+155,Legal,Engineer,2.38,3.09,,Opportunity,0,Low
+156,Customer Support,Specialist,1.49,1.02,,Weakness,0,Medium
+157,Legal,Manager,0.85,0.98,,Weakness,0,Medium
+158,Operations,Analyst,1.78,2.5,,Opportunity,0,Low
+159,Legal,Technician,1.61,1.23,,Opportunity,0,Low
+160,Operations,Manager,2.21,1.74,,Opportunity,0,Low
+161,Engineering,Manager,1.7,1.54,,Opportunity,0,Low
+162,HR,Technician,2.54,1.72,,Opportunity,0,Low
+163,Finance,Technician,2.53,0.0,,Opportunity,1,High
+164,Legal,Analyst,1.45,1.6,,Opportunity,0,Low
+165,Engineering,Analyst,1.61,1.02,,Opportunity,0,Low
+166,Sales,Specialist,1.98,2.46,,Opportunity,0,Low
+167,Sales,Manager,2.46,1.18,,Opportunity,0,Low
+168,Legal,Analyst,2.84,1.24,,Opportunity,0,Medium
+169,Legal,Specialist,2.11,1.73,,Opportunity,0,Low
+170,Legal,Technician,2.27,2.6,,Opportunity,0,Low
+171,Engineering,Manager,2.51,2.77,,Opportunity,0,Medium
+172,Finance,Developer,1.64,2.92,,Opportunity,0,Low
+173,Operations,Developer,1.37,1.34,,Opportunity,0,Low
+174,Marketing,Specialist,2.29,0.52,,Opportunity,0,Low
+175,Customer Support,Analyst,2.17,3.2,,Opportunity,0,Medium
+176,Engineering,Developer,1.67,1.37,,Opportunity,0,Low
+177,HR,Consultant,1.48,2.19,,Opportunity,0,Low
+178,Customer Support,Analyst,2.27,0.11,,Opportunity,0,Low
+179,Customer Support,Technician,1.54,1.47,,Opportunity,0,Low
+180,Legal,Manager,1.67,2.54,,Opportunity,0,Low
+181,Legal,Technician,1.05,1.61,,Opportunity,0,Low
+182,Legal,Manager,1.96,2.85,,Opportunity,0,Low
+183,Sales,Technician,1.91,1.58,,Opportunity,0,Low
+184,Customer Support,Manager,2.27,1.86,,Opportunity,0,Low
+185,Finance,Technician,1.88,2.06,,Opportunity,0,Low
+186,HR,Manager,2.33,2.81,,Opportunity,0,Low
+187,Legal,Engineer,2.08,1.02,,Opportunity,0,Low
+188,IT,Specialist,1.59,2.84,,Opportunity,0,Low
+189,Customer Support,Specialist,1.85,0.79,,Opportunity,0,Low
+190,Operations,Consultant,1.24,1.14,,Opportunity,0,Low
+191,HR,Analyst,1.83,0.26,,Opportunity,0,Low
+192,Engineering,Analyst,2.1,1.49,,Opportunity,0,Low
+193,Finance,Specialist,1.15,1.75,,Opportunity,0,Low
+194,IT,Analyst,1.74,0.89,,Opportunity,0,Low
+195,IT,Specialist,2.26,0.95,,Opportunity,0,Low
+196,Legal,Engineer,2.13,1.39,,Opportunity,0,Low
+197,HR,Technician,0.82,1.4,,Opportunity,0,Medium
+198,HR,Analyst,2.09,2.65,,Opportunity,0,Low
+199,IT,Developer,1.67,0.5,,Opportunity,0,Medium
+200,Operations,Consultant,0.88,2.61,,Opportunity,0,Medium
+201,Finance,Analyst,1.86,1.23,,Opportunity,0,Low
+202,Operations,Specialist,1.9,2.65,,Opportunity,0,Low
+203,Engineering,Consultant,1.34,2.05,,Opportunity,0,Low
+204,Customer Support,Analyst,1.34,0.82,,Weakness,0,Low
+205,HR,Technician,1.42,1.33,,Opportunity,0,Medium
+206,Marketing,Engineer,1.46,3.78,,Opportunity,1,High
+207,Customer Support,Manager,2.15,1.22,,Opportunity,1,High
+208,Sales,Developer,1.25,2.05,,Opportunity,0,Medium
+209,Engineering,Developer,2.44,2.45,,Opportunity,0,Low
+210,Legal,Consultant,1.99,1.51,,Opportunity,0,Low
+211,Finance,Specialist,2.57,1.48,,Opportunity,0,Low
+212,Marketing,Manager,1.62,2.17,,Opportunity,0,Low
+213,Operations,Developer,1.8,1.12,,Opportunity,0,Low
+214,Legal,Specialist,2.02,1.8,,Opportunity,0,Low
+215,Operations,Developer,1.72,0.63,,Opportunity,0,Low
+216,Sales,Manager,1.41,3.05,,Opportunity,0,Low
+217,Operations,Engineer,1.4,1.24,,Opportunity,0,Low
+218,Legal,Analyst,1.7,1.48,,Opportunity,0,Low
+219,Engineering,Engineer,2.29,1.95,,Opportunity,0,Low
+220,Customer Support,Engineer,1.66,2.64,,Opportunity,0,Medium
+221,Operations,Consultant,1.76,1.21,,Opportunity,0,Low
+222,Customer Support,Developer,1.87,2.05,,Opportunity,0,Low
+223,Legal,Analyst,1.66,1.35,,Opportunity,0,Medium
+224,Engineering,Engineer,1.92,1.91,,Opportunity,0,Low
+225,Sales,Specialist,1.04,1.25,,Opportunity,0,Medium
+226,Sales,Manager,2.01,3.17,,Opportunity,0,Low
+227,HR,Engineer,2.72,0.47,,Opportunity,0,Low
+228,Operations,Developer,1.79,2.54,,Opportunity,0,Low
+229,IT,Consultant,2.12,2.31,,Opportunity,0,Low
+230,Legal,Engineer,1.9,2.24,,Opportunity,0,Low
+231,Operations,Manager,1.64,1.52,,Opportunity,0,Low
+232,Customer Support,Analyst,2.12,1.73,,Opportunity,0,Low
+233,Sales,Technician,1.54,1.38,,Opportunity,0,Low
+234,Finance,Analyst,2.51,1.42,,Opportunity,0,Low
+235,Marketing,Analyst,1.81,2.22,,Opportunity,0,Low
+236,HR,Technician,2.0,2.89,,Opportunity,0,Medium
+237,Marketing,Technician,1.51,2.19,,Opportunity,0,Low
+238,Sales,Engineer,1.62,0.49,,Opportunity,0,Low
+239,Operations,Consultant,2.08,2.76,,Opportunity,0,Low
+240,Finance,Manager,2.21,2.32,,Opportunity,0,Low
+241,HR,Developer,1.57,0.15,,Opportunity,0,Low
+242,Engineering,Manager,1.03,3.07,,Opportunity,1,High
+243,Finance,Developer,1.8,2.3,,Opportunity,0,Low
+244,IT,Analyst,1.78,1.88,,Opportunity,0,Medium
+245,HR,Manager,2.14,2.92,,Opportunity,0,Medium
+246,IT,Specialist,2.74,2.92,,Opportunity,1,High
+247,Marketing,Technician,1.97,0.44,,Opportunity,0,Medium
+248,HR,Analyst,1.98,2.56,,Opportunity,0,Low
+249,Legal,Consultant,2.09,0.21,,Opportunity,0,Low
+250,Customer Support,Technician,1.96,1.32,,Opportunity,0,Low
+251,Engineering,Technician,1.5,2.29,,Opportunity,0,Low
+252,IT,Consultant,1.84,1.23,,Opportunity,0,Low
+253,Operations,Specialist,1.75,2.86,,Opportunity,0,Low
+254,Legal,Consultant,2.17,1.3,,Opportunity,0,Low
+255,Marketing,Developer,0.92,0.52,,Weakness,1,High
+256,Operations,Consultant,1.96,2.54,,Opportunity,0,Low
+257,Engineering,Specialist,1.22,1.3,,Opportunity,0,Low
+258,HR,Specialist,1.9,1.27,,Opportunity,0,Low
+259,Sales,Technician,2.67,2.5,,Opportunity,0,Low
+260,Marketing,Manager,1.88,1.99,,Opportunity,0,Medium
+261,Marketing,Developer,1.43,2.59,,Opportunity,0,Medium
+262,Operations,Technician,1.31,1.04,,Weakness,0,Low
+263,HR,Developer,2.01,1.83,,Opportunity,0,Medium
+264,IT,Manager,2.05,1.32,,Opportunity,0,Low
+265,Marketing,Engineer,2.53,1.2,,Opportunity,0,Low
+266,IT,Technician,2.23,1.14,,Opportunity,0,Low
+267,Finance,Developer,1.45,0.93,,Weakness,0,Low
+268,IT,Manager,1.35,3.24,,Opportunity,0,Medium
+269,Operations,Technician,1.71,2.95,,Opportunity,0,Low
+270,IT,Manager,1.31,0.71,,Weakness,0,Low
+271,Sales,Specialist,1.95,0.22,,Opportunity,0,Low
+272,Operations,Consultant,1.42,1.0,,Weakness,0,Low
+273,Marketing,Manager,1.99,2.38,,Opportunity,0,Low
+274,Operations,Engineer,1.59,1.81,,Opportunity,0,Low
+275,IT,Technician,1.81,0.62,,Opportunity,0,Low
+276,Marketing,Consultant,2.17,3.26,,Opportunity,1,High
+277,Engineering,Engineer,1.56,2.42,,Opportunity,0,Low
+278,Legal,Consultant,1.77,0.26,,Opportunity,0,Low
+279,Operations,Developer,1.27,1.73,,Opportunity,0,Low
+280,Customer Support,Consultant,1.35,2.78,,Opportunity,0,Low
+281,Sales,Analyst,1.15,0.17,,Weakness,0,Medium
+282,Engineering,Consultant,2.11,1.3,,Opportunity,0,Low
+283,Customer Support,Engineer,1.7,3.65,,Opportunity,1,High
+284,IT,Technician,2.64,3.33,,Opportunity,1,High
+285,Marketing,Manager,2.4,3.53,,Opportunity,1,High
+286,HR,Manager,1.28,0.39,,Weakness,1,High
+287,HR,Consultant,2.09,2.5,,Opportunity,0,Low
+288,Finance,Analyst,2.73,1.72,,Opportunity,0,Medium
+289,Operations,Manager,2.35,2.14,,Opportunity,0,Low
+290,Legal,Analyst,1.91,0.36,,Opportunity,0,Low
+291,Engineering,Consultant,2.61,2.9,,Opportunity,0,Low
+292,Sales,Analyst,1.68,1.88,,Opportunity,0,Low
+293,Sales,Developer,2.16,0.83,,Opportunity,0,Low
+294,Operations,Consultant,1.83,2.34,,Opportunity,0,Low
+295,Sales,Specialist,1.4,0.7,,Weakness,0,Medium
+296,HR,Consultant,1.62,2.19,,Opportunity,0,Medium
+297,Operations,Consultant,2.26,1.88,,Opportunity,0,Low
+298,Customer Support,Analyst,1.61,2.12,,Opportunity,0,Medium
+299,Engineering,Engineer,2.13,2.1,,Opportunity,1,High
+300,Finance,Technician,1.14,1.03,,Weakness,0,Low
+301,Marketing,Developer,2.1,1.3,,Opportunity,0,Low
+302,Customer Support,Developer,2.66,1.74,,Opportunity,0,Low
+303,Sales,Analyst,2.6,1.57,,Opportunity,0,Low
+304,Operations,Consultant,1.76,0.13,,Opportunity,1,High
+305,Engineering,Analyst,0.79,2.77,,Opportunity,1,High
+306,Legal,Developer,2.17,1.52,,Opportunity,0,Low
+307,Engineering,Technician,1.23,0.97,,Weakness,0,Low
+308,Sales,Analyst,1.35,0.57,,Weakness,1,High
+309,Marketing,Manager,1.7,0.61,,Opportunity,0,Medium
+310,Marketing,Consultant,1.57,2.2,,Opportunity,0,Low
+311,Finance,Developer,1.76,2.66,,Opportunity,0,Low
+312,Customer Support,Engineer,1.9,0.56,,Opportunity,0,Low
+313,Customer Support,Consultant,0.92,1.2,,Opportunity,1,High
+314,Engineering,Analyst,1.74,0.89,,Opportunity,0,Medium
+315,Sales,Manager,1.18,2.17,,Opportunity,0,Low
+316,Sales,Analyst,1.75,2.24,,Opportunity,0,Low
+317,Operations,Consultant,1.58,1.65,,Opportunity,0,Low
+318,Finance,Engineer,1.7,0.68,,Opportunity,0,Low
+319,Sales,Engineer,1.69,1.7,,Opportunity,0,Low
+320,Sales,Engineer,1.77,2.36,,Opportunity,0,Low
+321,Finance,Specialist,0.88,2.25,,Opportunity,0,Medium
+322,Engineering,Consultant,1.02,1.88,,Opportunity,1,High
+323,IT,Manager,2.18,0.62,,Opportunity,0,Low
+324,Marketing,Consultant,0.97,1.43,,Opportunity,1,High
+325,Finance,Analyst,1.89,1.56,,Opportunity,0,Low
+326,HR,Developer,1.99,2.52,,Opportunity,0,Low
+327,Finance,Consultant,2.17,2.72,,Opportunity,0,Low
+328,Finance,Developer,2.11,1.87,,Opportunity,0,Low
+329,Legal,Consultant,1.44,1.06,,Opportunity,0,Low
+330,Operations,Specialist,1.92,2.28,,Opportunity,0,Low
+331,Marketing,Consultant,2.35,0.78,,Opportunity,0,Low
+332,HR,Technician,2.41,1.87,,Opportunity,0,Low
+333,Operations,Engineer,2.46,1.77,,Opportunity,0,Low
+334,Operations,Technician,1.25,2.3,,Opportunity,0,Low
+335,Finance,Consultant,1.96,2.22,,Opportunity,0,Low
+336,IT,Consultant,1.7,2.4,,Opportunity,0,Low
+337,Customer Support,Engineer,1.0,2.52,,Opportunity,1,High
+338,Operations,Developer,1.01,1.27,,Opportunity,0,Low
+339,Finance,Specialist,2.19,0.01,,Opportunity,1,High
+340,Legal,Specialist,1.95,0.52,,Opportunity,0,Low
+341,Marketing,Engineer,1.45,1.62,,Opportunity,0,Low
+342,Finance,Manager,1.55,1.47,,Opportunity,0,Low
+343,Finance,Manager,2.55,1.9,,Opportunity,0,Low
+344,Customer Support,Analyst,1.91,1.45,,Opportunity,0,Low
+345,Operations,Developer,1.73,0.04,,Opportunity,0,Low
+346,Operations,Analyst,1.68,0.73,,Opportunity,0,Low
+347,HR,Analyst,1.81,3.28,,Opportunity,0,Low
+348,HR,Consultant,1.35,0.81,,Weakness,1,High
+349,Sales,Technician,2.08,2.1,,Opportunity,0,Low
+350,Engineering,Manager,1.9,0.0,,Opportunity,0,Low
+351,IT,Developer,2.62,2.94,,Opportunity,0,Low
+352,HR,Engineer,1.19,1.78,,Opportunity,0,Medium
+353,Legal,Specialist,1.42,3.1,,Opportunity,0,Low
+354,Legal,Analyst,1.48,1.23,,Opportunity,0,Low
+355,Customer Support,Technician,2.23,1.92,,Opportunity,0,Low
+356,HR,Developer,1.18,2.84,,Opportunity,0,Medium
+357,Operations,Specialist,1.63,2.57,,Opportunity,0,Low
+358,Sales,Technician,2.47,1.11,,Opportunity,0,Low
+359,Operations,Technician,2.17,1.93,,Opportunity,0,Low
+360,Finance,Consultant,1.23,1.97,,Opportunity,0,Low
+361,HR,Engineer,2.04,1.56,,Opportunity,0,Low
+362,Sales,Specialist,1.94,0.92,,Opportunity,0,Low
+363,IT,Specialist,1.96,2.74,,Opportunity,0,Low
+364,Customer Support,Engineer,1.83,1.36,,Opportunity,0,Low
+365,Legal,Technician,1.41,2.47,,Opportunity,0,Low
+366,Marketing,Manager,2.05,2.05,,Opportunity,0,Low
+367,Marketing,Technician,0.89,1.68,,Opportunity,1,High
+368,Marketing,Manager,1.98,1.05,,Opportunity,0,Low
+369,Legal,Engineer,1.74,1.56,,Opportunity,0,Low
+370,HR,Manager,2.07,2.29,,Opportunity,0,Low
+371,Engineering,Consultant,1.59,1.36,,Opportunity,0,Low
+372,Customer Support,Specialist,2.75,1.82,,Opportunity,0,Low
+373,Customer Support,Specialist,1.34,1.38,,Opportunity,0,Medium
+374,IT,Manager,1.53,0.42,,Opportunity,0,Low
+375,Operations,Manager,1.81,0.26,,Opportunity,0,Low
+376,HR,Analyst,1.08,0.0,,Weakness,1,High
+377,Finance,Manager,1.21,1.99,,Opportunity,0,Low
+378,Engineering,Developer,2.63,1.35,,Opportunity,0,Low
+379,Sales,Engineer,1.3,0.81,,Weakness,0,Low
+380,Customer Support,Specialist,1.15,2.59,,Opportunity,0,Low
+381,Operations,Technician,2.07,3.06,,Opportunity,0,Medium
+382,Customer Support,Specialist,1.29,1.99,,Opportunity,0,Low
+383,Marketing,Specialist,1.73,2.39,,Opportunity,0,Low
+384,Engineering,Developer,1.48,1.75,,Opportunity,0,Low
+385,Sales,Manager,1.84,0.97,,Opportunity,0,Low
+386,Operations,Manager,1.58,2.37,,Opportunity,0,Low
+387,Sales,Manager,2.44,0.91,,Opportunity,0,Medium
+388,Operations,Manager,1.07,1.78,,Opportunity,0,Low
+389,Finance,Technician,1.9,2.47,,Opportunity,0,Low
+390,IT,Developer,1.88,2.39,,Opportunity,0,Low
+391,Engineering,Manager,1.54,3.04,,Opportunity,0,Low
+392,Finance,Manager,1.98,0.85,,Opportunity,0,Low
+393,Finance,Technician,1.75,3.14,,Opportunity,0,Low
+394,Marketing,Engineer,1.85,3.17,,Opportunity,0,Low
+395,IT,Engineer,1.48,2.78,,Opportunity,0,Medium
+396,Customer Support,Developer,1.1,1.36,,Opportunity,0,Low
+397,Finance,Developer,2.24,1.08,,Opportunity,0,Low
+398,Legal,Technician,1.81,0.82,,Opportunity,0,Low
+399,Finance,Technician,1.58,2.02,,Opportunity,0,Low
+400,HR,Technician,1.65,3.06,,Opportunity,0,Low
+401,Marketing,Specialist,1.55,1.4,,Opportunity,0,Low
+402,Finance,Engineer,1.66,2.96,,Opportunity,0,Low
+403,HR,Consultant,2.27,0.34,,Opportunity,0,Low
+404,IT,Specialist,1.26,1.34,,Opportunity,0,Low
+405,Customer Support,Consultant,1.98,2.89,,Opportunity,0,Medium
+406,Sales,Engineer,1.34,0.0,,Weakness,0,Medium
+407,HR,Analyst,1.62,2.44,,Opportunity,0,Low
+408,IT,Developer,1.69,1.67,,Opportunity,0,Low
+409,IT,Analyst,2.19,1.78,,Opportunity,0,Medium
+410,Engineering,Specialist,1.41,1.01,,Weakness,0,Low
+411,Engineering,Engineer,2.17,2.37,,Opportunity,0,Low
+412,Marketing,Technician,2.49,1.83,,Opportunity,0,Low
+413,Customer Support,Developer,1.08,0.58,,Weakness,1,High
+414,Engineering,Analyst,1.73,3.41,,Opportunity,0,Medium
+415,Customer Support,Technician,2.57,2.0,,Opportunity,0,Low
+416,IT,Developer,1.31,1.85,,Opportunity,0,Low
+417,Operations,Manager,1.45,1.07,,Opportunity,0,Low
+418,IT,Specialist,1.4,2.14,,Opportunity,0,Low
+419,Customer Support,Engineer,2.17,2.18,,Opportunity,0,Low
+420,Marketing,Engineer,2.35,0.59,,Opportunity,0,Low
+421,Legal,Technician,2.01,0.9,,Opportunity,0,Low
+422,Marketing,Technician,2.0,2.46,,Opportunity,0,Low
+423,Marketing,Engineer,1.2,0.61,,Weakness,1,High
+424,Finance,Manager,2.55,0.69,,Opportunity,0,Medium
+425,IT,Developer,0.96,0.42,,Weakness,0,Low
+426,Sales,Engineer,1.72,1.83,,Opportunity,0,Low
+427,Finance,Developer,2.77,1.34,,Opportunity,0,Low
+428,Customer Support,Engineer,1.77,2.2,,Opportunity,0,Low
+429,HR,Engineer,1.69,0.65,,Opportunity,0,Low
+430,IT,Manager,1.35,1.98,,Opportunity,0,Low
+431,Engineering,Developer,1.44,2.03,,Opportunity,0,Low
+432,Engineering,Developer,1.87,0.41,,Opportunity,0,Low
+433,Customer Support,Consultant,1.54,0.65,,Opportunity,0,Low
+434,Marketing,Technician,2.04,0.63,,Opportunity,0,Medium
+435,Operations,Specialist,2.23,3.22,,Opportunity,0,Low
+436,Sales,Manager,1.76,0.4,,Opportunity,0,Low
+437,Legal,Consultant,1.84,2.24,,Opportunity,0,Low
+438,Operations,Manager,1.91,0.86,,Opportunity,0,Low
+439,Marketing,Analyst,1.19,0.75,,Weakness,0,Low
+440,Legal,Engineer,1.9,0.19,,Opportunity,0,Low
+441,HR,Consultant,2.15,1.06,,Opportunity,0,Low
+442,Engineering,Analyst,1.76,0.99,,Opportunity,0,Low
+443,Customer Support,Engineer,2.39,1.6,,Opportunity,0,Low
+444,HR,Analyst,2.38,3.16,,Opportunity,0,Medium
+445,HR,Manager,2.02,0.54,,Opportunity,0,Low
+446,Sales,Specialist,2.45,1.54,,Opportunity,0,Low
+447,Marketing,Consultant,2.33,1.65,,Opportunity,0,Low
+448,Sales,Developer,2.06,1.19,,Opportunity,0,Low
+449,Marketing,Consultant,2.58,1.46,,Opportunity,0,Medium
+450,IT,Technician,2.18,1.44,,Opportunity,0,Low
+451,Customer Support,Engineer,0.92,0.71,,Weakness,1,High
+452,Customer Support,Specialist,1.58,2.03,,Opportunity,0,Low
+453,Customer Support,Specialist,1.01,2.17,,Opportunity,0,Medium
+454,Operations,Developer,2.03,1.0,,Opportunity,0,Low
+455,IT,Developer,2.06,2.41,,Opportunity,0,Low
+456,Operations,Manager,2.74,1.91,,Opportunity,0,Low
+457,Marketing,Technician,1.68,1.29,,Opportunity,0,Low
+458,Engineering,Consultant,2.61,2.26,,Opportunity,0,Low
+459,Sales,Consultant,1.98,2.76,,Opportunity,0,Low
+460,Engineering,Engineer,1.57,1.34,,Opportunity,0,Low
+461,Operations,Analyst,2.24,2.18,,Opportunity,0,Low
+462,Sales,Developer,1.76,2.86,,Opportunity,0,Low
+463,IT,Manager,2.25,1.78,,Opportunity,0,Low
+464,Operations,Consultant,1.68,3.19,,Opportunity,0,Low
+465,IT,Specialist,1.51,2.89,,Opportunity,0,Low
+466,HR,Manager,1.22,0.73,,Weakness,0,Medium
+467,Sales,Specialist,2.78,2.24,,Opportunity,0,Medium
+468,Marketing,Consultant,1.95,2.4,,Opportunity,0,Low
+469,Finance,Consultant,1.48,1.9,,Opportunity,0,Low
+470,Operations,Analyst,2.29,1.58,,Opportunity,0,Low
+471,IT,Developer,1.55,0.43,,Opportunity,0,Low
+472,Customer Support,Specialist,1.76,1.75,,Opportunity,0,Low
+473,IT,Engineer,1.69,1.44,,Opportunity,0,Low
+474,Marketing,Consultant,1.91,2.75,,Opportunity,0,Low
+475,Engineering,Consultant,2.02,2.49,,Opportunity,0,Low
+476,Sales,Technician,2.24,2.1,,Opportunity,0,Low
+477,Engineering,Engineer,1.69,0.03,,Opportunity,0,Low
+478,Legal,Specialist,1.4,1.75,,Opportunity,0,Low
+479,HR,Analyst,1.68,0.0,,Opportunity,0,Medium
+480,IT,Consultant,2.45,3.41,,Opportunity,1,High
+481,IT,Engineer,2.14,0.89,,Opportunity,0,Low
+482,Engineering,Specialist,1.61,1.28,,Opportunity,0,Low
+483,Operations,Manager,1.35,0.05,,Weakness,0,Low
+484,Operations,Consultant,1.57,1.4,,Opportunity,0,Low
+485,Operations,Specialist,2.52,1.99,,Opportunity,0,Medium
+486,HR,Consultant,1.96,1.52,,Opportunity,0,Low
+487,Customer Support,Technician,2.15,1.99,,Opportunity,0,Low
+488,Engineering,Consultant,1.19,1.8,,Opportunity,0,Low
+489,IT,Specialist,1.39,2.16,,Opportunity,0,Low
+490,Finance,Analyst,1.46,2.82,,Opportunity,0,Medium
+491,Legal,Consultant,1.27,2.12,,Opportunity,0,Low
+492,Customer Support,Manager,1.73,2.24,,Opportunity,0,Low
+493,Legal,Engineer,1.1,2.88,,Opportunity,1,High
+494,Marketing,Specialist,2.05,2.32,,Opportunity,0,Low
+495,Sales,Specialist,1.35,0.8,,Weakness,0,Low
+496,Finance,Developer,2.37,2.77,,Opportunity,0,Low
+497,Engineering,Consultant,1.33,1.94,,Opportunity,0,Low
+498,Engineering,Analyst,2.12,0.96,,Opportunity,0,Low
+499,Operations,Specialist,2.35,1.92,,Opportunity,0,Low
+500,Marketing,Analyst,2.9,1.38,,Opportunity,0,Low
+501,IT,Specialist,2.0,0.78,,Opportunity,0,Low
+502,Customer Support,Technician,1.47,1.49,,Opportunity,0,Low
+503,Finance,Consultant,1.31,0.18,,Weakness,0,Low
+504,Operations,Specialist,2.29,0.86,,Opportunity,0,Low
+505,Finance,Analyst,1.27,1.9,,Opportunity,0,Medium
+506,HR,Technician,2.52,1.29,,Opportunity,0,Low
+507,Customer Support,Manager,1.83,2.3,,Opportunity,0,Low
+508,Engineering,Manager,1.67,1.0,,Opportunity,0,Low
+509,Operations,Consultant,1.47,1.16,,Opportunity,0,Low
+510,Legal,Specialist,0.92,2.18,,Opportunity,1,High
+511,HR,Consultant,2.43,2.72,,Opportunity,0,Medium
+512,IT,Specialist,1.4,0.84,,Weakness,0,Low
+513,Legal,Engineer,1.6,0.42,,Opportunity,0,Low
+514,Finance,Consultant,2.04,1.69,,Opportunity,0,Low
+515,IT,Consultant,1.75,1.71,,Opportunity,0,Low
+516,Engineering,Consultant,2.08,2.2,,Opportunity,0,Low
+517,Legal,Manager,2.33,2.4,,Opportunity,0,Low
+518,Engineering,Developer,1.35,0.29,,Weakness,1,High
+519,Finance,Developer,1.92,1.8,,Opportunity,0,Low
+520,Finance,Developer,1.07,2.6,,Opportunity,0,Low
+521,Sales,Consultant,2.06,1.58,,Opportunity,0,Low
+522,Customer Support,Analyst,1.62,1.15,,Opportunity,0,Low
+523,Engineering,Consultant,2.05,3.32,,Opportunity,0,Medium
+524,Legal,Specialist,1.65,2.38,,Opportunity,0,Low
+525,Marketing,Consultant,2.41,0.97,,Opportunity,0,Low
+526,Operations,Technician,1.13,1.19,,Opportunity,0,Low
+527,Operations,Manager,2.14,1.8,,Opportunity,0,Low
+528,HR,Engineer,0.7,0.51,,Weakness,1,High
+529,HR,Developer,2.03,1.38,,Opportunity,0,Low
+530,HR,Developer,1.33,1.07,,Opportunity,0,Low
+531,Marketing,Engineer,1.72,1.84,,Opportunity,0,Low
+532,Customer Support,Engineer,1.64,2.11,,Opportunity,0,Low
+533,Legal,Manager,1.98,1.97,,Opportunity,0,Low
+534,Customer Support,Developer,1.92,1.27,,Opportunity,0,Low
+535,HR,Consultant,2.08,1.81,,Opportunity,0,Low
+536,Finance,Specialist,1.2,0.85,,Weakness,0,Low
+537,Marketing,Technician,1.97,2.44,,Opportunity,0,Low
+538,IT,Manager,1.78,2.89,,Opportunity,0,Low
+539,HR,Technician,1.93,0.64,,Opportunity,0,Low
+540,Sales,Technician,1.7,2.49,,Opportunity,1,High
+541,Legal,Engineer,1.06,1.0,,Weakness,0,Low
+542,Marketing,Specialist,1.99,2.05,,Opportunity,0,Low
+543,Marketing,Specialist,1.49,2.4,,Opportunity,0,Low
+544,Legal,Developer,1.2,1.17,,Opportunity,0,Low
+545,Sales,Developer,1.73,0.7,,Opportunity,0,Low
+546,Operations,Manager,1.2,1.54,,Opportunity,0,Low
+547,Sales,Specialist,1.35,1.76,,Opportunity,0,Low
+548,Sales,Analyst,1.59,0.99,,Opportunity,0,Low
+549,Finance,Specialist,1.25,0.78,,Weakness,1,High
+550,Operations,Engineer,1.27,2.2,,Opportunity,0,Low
+551,Engineering,Specialist,1.45,1.21,,Opportunity,0,Low
+552,Customer Support,Analyst,1.64,2.67,,Opportunity,0,Low
+553,Engineering,Developer,1.87,1.54,,Opportunity,0,Low
+554,Customer Support,Engineer,1.69,1.53,,Opportunity,0,Low
+555,Sales,Technician,1.11,2.77,,Opportunity,0,Medium
+556,Finance,Analyst,2.38,1.03,,Opportunity,0,Low
+557,Customer Support,Specialist,1.17,1.25,,Opportunity,0,Low
+558,Engineering,Specialist,1.88,0.88,,Opportunity,0,Low
+559,Legal,Technician,1.79,2.05,,Opportunity,0,Medium
+560,Finance,Developer,0.98,1.86,,Opportunity,1,High
+561,Customer Support,Manager,1.05,1.54,,Opportunity,0,Medium
+562,Marketing,Specialist,1.25,2.5,,Opportunity,0,Low
+563,Engineering,Analyst,1.07,2.45,,Opportunity,0,Medium
+564,Sales,Technician,1.84,0.17,,Opportunity,0,Low
+565,Sales,Analyst,2.1,0.24,,Opportunity,0,Medium
+566,Operations,Technician,2.24,0.77,,Opportunity,0,Low
+567,Customer Support,Technician,2.07,2.05,,Opportunity,0,Low
+568,Operations,Engineer,2.33,0.32,,Opportunity,1,High
+569,Marketing,Specialist,1.59,0.8,,Opportunity,0,Low
+570,Legal,Developer,1.99,2.46,,Opportunity,0,Medium
+571,HR,Developer,2.11,1.6,,Opportunity,0,Low
+572,Operations,Manager,1.65,0.02,,Opportunity,1,High
+573,HR,Analyst,1.22,0.12,,Weakness,1,High
+574,Finance,Analyst,1.67,2.45,,Opportunity,0,Low
+575,Engineering,Manager,2.5,1.5,,Opportunity,0,Low
+576,Marketing,Analyst,2.05,2.24,,Opportunity,0,Low
+577,Marketing,Technician,2.13,0.0,,Opportunity,1,High
+578,IT,Specialist,1.73,0.51,,Opportunity,0,Low
+579,Customer Support,Developer,1.19,2.6,,Opportunity,0,Low
+580,IT,Specialist,1.11,2.09,,Opportunity,0,Low
+581,Engineering,Analyst,1.69,0.81,,Opportunity,0,Low
+582,Finance,Specialist,1.19,1.87,,Opportunity,0,Medium
+583,HR,Manager,2.2,0.72,,Opportunity,0,Medium
+584,Legal,Developer,1.14,0.29,,Weakness,0,Low
+585,Sales,Specialist,2.27,2.03,,Opportunity,0,Low
+586,Engineering,Engineer,1.86,1.83,,Opportunity,0,Low
+587,IT,Developer,1.87,0.53,,Opportunity,0,Low
+588,Marketing,Analyst,1.06,0.68,,Weakness,0,Medium
+589,Engineering,Consultant,0.74,0.0,,Weakness,1,High
+590,Marketing,Analyst,2.73,0.05,,Opportunity,1,High
+591,Engineering,Consultant,1.61,2.67,,Opportunity,0,Low
+592,Finance,Consultant,2.0,1.45,,Opportunity,0,Low
+593,Marketing,Developer,1.93,1.9,,Opportunity,0,Low
+594,HR,Analyst,1.7,2.36,,Opportunity,0,Medium
+595,HR,Developer,1.53,0.61,,Opportunity,0,Medium
+596,Finance,Manager,2.34,1.1,,Opportunity,0,Low
+597,Sales,Technician,1.66,2.94,,Opportunity,0,Low
+598,Operations,Technician,1.9,2.47,,Opportunity,0,Low
+599,IT,Developer,2.27,1.49,,Opportunity,0,Low
+600,Operations,Technician,2.0,2.71,,Opportunity,0,Low
+601,HR,Developer,2.24,1.67,,Opportunity,0,Low
+602,IT,Developer,2.2,3.67,,Opportunity,1,High
+603,Customer Support,Analyst,1.77,2.68,,Opportunity,0,Low
+604,Sales,Consultant,1.46,2.32,,Opportunity,0,Low
+605,Marketing,Engineer,1.82,2.02,,Opportunity,0,Low
+606,IT,Engineer,1.71,0.96,,Opportunity,0,Low
+607,Engineering,Manager,1.97,1.94,,Opportunity,0,Low
+608,Sales,Technician,1.56,2.94,,Opportunity,0,Medium
+609,Sales,Technician,1.66,3.23,,Opportunity,0,Medium
+610,Sales,Technician,1.02,1.66,,Opportunity,0,Low
+611,Marketing,Manager,0.93,1.74,,Opportunity,0,Medium
+612,HR,Technician,2.78,1.55,,Opportunity,0,Low
+613,Operations,Developer,2.22,2.81,,Opportunity,0,Low
+614,Sales,Analyst,1.34,1.35,,Opportunity,0,Low
+615,Operations,Specialist,1.37,2.04,,Opportunity,0,Low
+616,Operations,Technician,1.77,1.44,,Opportunity,0,Low
+617,Sales,Engineer,1.8,0.88,,Opportunity,0,Low
+618,Operations,Consultant,1.42,2.49,,Opportunity,0,Low
+619,IT,Consultant,1.79,1.15,,Opportunity,0,Low
+620,Operations,Technician,1.34,1.29,,Opportunity,0,Low
+621,HR,Specialist,1.69,1.23,,Opportunity,0,Low
+622,Engineering,Consultant,1.38,1.14,,Opportunity,0,Low
+623,Legal,Developer,2.59,2.31,,Opportunity,1,High
+624,Engineering,Technician,2.62,1.18,,Opportunity,0,Low
+625,Legal,Engineer,2.39,0.43,,Opportunity,0,Medium
+626,Legal,Consultant,1.08,2.63,,Opportunity,0,Low
+627,IT,Manager,1.46,1.24,,Opportunity,0,Low
+628,IT,Engineer,2.6,0.57,,Opportunity,0,Medium
+629,Finance,Manager,2.73,1.96,,Opportunity,0,Low
+630,Sales,Engineer,2.11,3.64,,Opportunity,1,High
+631,HR,Analyst,1.61,1.29,,Opportunity,0,Low
+632,Finance,Manager,1.83,1.64,,Opportunity,0,Medium
+633,IT,Technician,1.96,2.17,,Opportunity,0,Low
+634,HR,Consultant,2.76,1.82,,Opportunity,1,High
+635,Sales,Specialist,1.61,1.6,,Opportunity,0,Low
+636,IT,Developer,2.04,1.84,,Opportunity,0,Low
+637,Finance,Analyst,1.92,2.79,,Opportunity,0,Low
+638,Sales,Specialist,2.04,2.24,,Opportunity,0,Low
+639,Sales,Consultant,2.55,2.56,,Opportunity,0,Low
+640,Sales,Analyst,1.95,1.56,,Opportunity,0,Low
+641,Engineering,Engineer,1.53,2.96,,Opportunity,0,Low
+642,IT,Engineer,2.29,1.35,,Opportunity,0,Low
+643,IT,Manager,1.51,1.0,,Opportunity,0,Low
+644,Legal,Engineer,1.62,0.67,,Opportunity,0,Low
+645,Legal,Manager,1.33,2.52,,Opportunity,0,Low
+646,Finance,Technician,1.93,2.19,,Opportunity,0,Low
+647,Customer Support,Technician,2.61,1.44,,Opportunity,0,Low
+648,Customer Support,Consultant,1.58,2.17,,Opportunity,0,Low
+649,Marketing,Developer,2.34,0.4,,Opportunity,0,Low
+650,Legal,Developer,1.57,1.01,,Opportunity,0,Low
+651,Legal,Developer,2.4,3.33,,Opportunity,1,High
+652,Operations,Specialist,0.94,0.25,,Weakness,0,Medium
+653,Marketing,Specialist,1.61,2.29,,Opportunity,0,Low
+654,Operations,Analyst,0.92,2.79,,Opportunity,0,Medium
+655,HR,Analyst,2.37,3.02,,Opportunity,0,Medium
+656,Customer Support,Analyst,1.74,1.01,,Opportunity,0,Low
+657,HR,Technician,2.26,1.26,,Opportunity,0,Low
+658,Finance,Analyst,0.94,2.88,,Opportunity,0,Medium
+659,Operations,Manager,1.98,1.28,,Opportunity,0,Low
+660,Customer Support,Engineer,2.45,3.03,,Opportunity,0,Low
+661,Customer Support,Consultant,1.79,3.2,,Opportunity,0,Low
+662,Sales,Analyst,1.83,1.71,,Opportunity,0,Low
+663,Engineering,Analyst,0.88,1.32,,Opportunity,0,Low
+664,Legal,Engineer,2.08,1.72,,Opportunity,0,Low
+665,Customer Support,Technician,2.28,0.38,,Opportunity,0,Low
+666,IT,Technician,1.67,1.54,,Opportunity,0,Low
+667,Sales,Analyst,1.09,0.23,,Weakness,1,High
+668,Finance,Technician,1.1,2.21,,Opportunity,0,Low
+669,Sales,Consultant,1.45,1.25,,Opportunity,0,Low
+670,Legal,Developer,1.75,2.27,,Opportunity,0,Low
+671,Customer Support,Specialist,1.34,0.81,,Weakness,1,High
+672,Legal,Consultant,2.38,1.32,,Opportunity,0,Low
+673,Finance,Analyst,1.94,3.56,,Opportunity,1,High
+674,Legal,Consultant,1.93,1.65,,Opportunity,0,Low
+675,IT,Developer,1.2,2.77,,Opportunity,0,Low
+676,Finance,Manager,1.91,2.97,,Opportunity,0,Low
+677,IT,Manager,2.13,2.82,,Opportunity,0,Low
+678,Legal,Consultant,1.16,1.84,,Opportunity,0,Low
+679,Marketing,Consultant,2.25,1.17,,Opportunity,0,Low
+680,Engineering,Analyst,1.29,0.0,,Weakness,1,High
+681,Engineering,Consultant,1.65,1.68,,Opportunity,0,Low
+682,Operations,Technician,1.32,0.44,,Weakness,0,Low
+683,Operations,Technician,2.36,1.97,,Opportunity,0,Medium
+684,Engineering,Developer,2.58,2.14,,Opportunity,0,Low
+685,Sales,Technician,1.87,0.1,,Opportunity,0,Medium
+686,Finance,Engineer,1.53,3.4,,Opportunity,0,Medium
+687,HR,Technician,2.08,2.84,,Opportunity,0,Medium
+688,IT,Consultant,1.9,1.22,,Opportunity,0,Medium
+689,Legal,Manager,1.8,0.34,,Opportunity,0,Low
+690,Sales,Technician,1.62,1.78,,Opportunity,0,Low
+691,Finance,Engineer,1.53,2.54,,Opportunity,0,Low
+692,Marketing,Engineer,2.0,0.77,,Opportunity,0,Low
+693,Sales,Developer,1.87,1.06,,Opportunity,0,Low
+694,Engineering,Analyst,0.78,2.98,,Opportunity,1,High
+695,Sales,Manager,2.13,1.44,,Opportunity,0,Low
+696,Finance,Manager,2.08,1.53,,Opportunity,0,Low
+697,Engineering,Consultant,1.33,1.35,,Opportunity,0,Low
+698,Legal,Manager,1.52,2.55,,Opportunity,0,Low
+699,Customer Support,Technician,2.03,2.01,,Opportunity,0,Low
+700,Legal,Manager,2.1,0.98,,Opportunity,0,Low
+701,Sales,Analyst,2.02,0.48,,Opportunity,0,Low
+702,IT,Developer,2.11,1.13,,Opportunity,0,Low
+703,Marketing,Specialist,1.94,1.51,,Opportunity,0,Low
+704,Sales,Consultant,2.55,2.64,,Opportunity,1,High
+705,Marketing,Developer,1.4,2.54,,Opportunity,0,Low
+706,Engineering,Developer,1.38,1.95,,Opportunity,0,Low
+707,Customer Support,Analyst,2.62,2.64,,Opportunity,0,Medium
+708,Customer Support,Engineer,2.78,1.52,,Opportunity,0,Low
+709,Engineering,Consultant,2.26,0.26,,Opportunity,0,Medium
+710,Finance,Specialist,2.12,1.85,,Opportunity,0,Low
+711,Finance,Manager,2.41,1.33,,Opportunity,0,Medium
+712,Finance,Manager,1.8,1.02,,Opportunity,0,Low
+713,Sales,Specialist,1.68,1.81,,Opportunity,0,Medium
+714,Sales,Consultant,2.36,1.3,,Opportunity,0,Low
+715,Operations,Developer,1.91,1.91,,Opportunity,0,Low
+716,Operations,Consultant,1.95,2.41,,Opportunity,0,Low
+717,Marketing,Consultant,1.22,1.2,,Opportunity,0,Low
+718,Engineering,Engineer,1.7,2.94,,Opportunity,1,High
+719,Legal,Developer,1.72,2.73,,Opportunity,0,Medium
+720,Legal,Manager,1.33,0.0,,Weakness,1,High
+721,Finance,Engineer,0.9,1.89,,Opportunity,0,Low
+722,Engineering,Engineer,2.36,1.85,,Opportunity,0,Low
+723,Operations,Technician,1.39,2.21,,Opportunity,0,Low
+724,IT,Consultant,1.44,3.06,,Opportunity,0,Low
+725,Finance,Consultant,1.65,2.13,,Opportunity,0,Low
+726,Marketing,Engineer,1.6,2.28,,Opportunity,0,Medium
+727,Marketing,Analyst,1.78,1.64,,Opportunity,0,Low
+728,Customer Support,Analyst,2.29,1.57,,Opportunity,0,Low
+729,Operations,Technician,1.85,1.69,,Opportunity,0,Low
+730,HR,Technician,1.97,2.13,,Opportunity,0,Low
+731,Customer Support,Specialist,1.57,0.6,,Opportunity,1,High
+732,Operations,Specialist,1.65,1.12,,Opportunity,0,Low
+733,Legal,Technician,1.55,0.0,,Opportunity,0,Medium
+734,IT,Developer,2.57,1.01,,Opportunity,0,Low
+735,HR,Manager,2.25,0.49,,Opportunity,0,Low
+736,Marketing,Specialist,1.01,2.22,,Opportunity,0,Low
+737,Engineering,Developer,1.68,2.33,,Opportunity,0,Low
+738,IT,Specialist,2.02,2.1,,Opportunity,0,Low
+739,Sales,Analyst,2.22,1.34,,Opportunity,0,Low
+740,Marketing,Manager,2.22,1.7,,Opportunity,0,Low
+741,Sales,Engineer,2.9,1.74,,Opportunity,0,Medium
+742,Customer Support,Engineer,2.22,0.63,,Opportunity,0,Low
+743,Customer Support,Engineer,2.3,1.19,,Opportunity,0,Low
+744,IT,Analyst,2.32,1.99,,Opportunity,0,Low
+745,Operations,Manager,2.57,1.34,,Opportunity,0,Low
+746,Legal,Technician,2.03,0.0,,Opportunity,0,Low
+747,HR,Manager,2.49,2.13,,Opportunity,0,Low
+748,Finance,Manager,1.57,2.95,,Opportunity,0,Low
+749,HR,Technician,1.23,1.25,,Opportunity,0,Low
+750,Customer Support,Consultant,1.15,1.07,,Opportunity,0,Medium
+751,Engineering,Engineer,1.41,1.31,,Opportunity,0,Low
+752,IT,Manager,1.4,0.36,,Weakness,1,High
+753,IT,Engineer,0.9,1.45,,Opportunity,1,High
+754,HR,Specialist,1.56,2.92,,Opportunity,0,Low
+755,Finance,Consultant,1.3,2.54,,Opportunity,0,Low
+756,HR,Manager,1.67,1.57,,Opportunity,0,Low
+757,HR,Analyst,1.22,1.38,,Opportunity,0,Low
+758,HR,Engineer,2.18,1.5,,Opportunity,0,Low
+759,Customer Support,Consultant,1.96,1.26,,Opportunity,0,Low
+760,Legal,Specialist,1.91,2.1,,Opportunity,0,Low
+761,Finance,Engineer,2.07,2.19,,Opportunity,0,Low
+762,Customer Support,Consultant,2.5,2.28,,Opportunity,0,Low
+763,Engineering,Specialist,1.62,0.61,,Opportunity,0,Low
+764,Customer Support,Technician,2.11,2.93,,Opportunity,0,Low
+765,Operations,Specialist,1.43,0.75,,Weakness,0,Low
+766,IT,Specialist,1.86,1.79,,Opportunity,0,Low
+767,HR,Analyst,2.21,0.27,,Opportunity,0,Low
+768,Marketing,Technician,1.99,1.14,,Opportunity,0,Low
+769,Finance,Consultant,2.55,2.2,,Opportunity,0,Low
+770,Engineering,Analyst,2.06,2.46,,Opportunity,0,Low
+771,Customer Support,Technician,0.83,2.0,,Opportunity,0,Medium
+772,Operations,Specialist,2.12,1.52,,Opportunity,0,Low
+773,Customer Support,Engineer,1.98,2.35,,Opportunity,0,Low
+774,Finance,Technician,1.39,2.24,,Opportunity,0,Low
+775,Marketing,Developer,1.37,3.1,,Opportunity,0,Low
+776,Customer Support,Technician,1.71,2.9,,Opportunity,0,Medium
+777,Engineering,Specialist,2.27,2.08,,Opportunity,0,Low
+778,IT,Developer,1.89,2.83,,Opportunity,0,Medium
+779,Engineering,Specialist,1.56,1.41,,Opportunity,0,Low
+780,HR,Developer,2.6,1.86,,Opportunity,0,Low
+781,Engineering,Specialist,1.97,1.04,,Opportunity,0,Low
+782,Engineering,Engineer,1.46,1.68,,Opportunity,0,Low
+783,HR,Developer,1.47,0.69,,Weakness,0,Low
+784,Sales,Analyst,1.61,2.13,,Opportunity,0,Low
+785,Engineering,Specialist,1.16,2.82,,Opportunity,0,Medium
+786,Legal,Analyst,1.13,1.69,,Opportunity,0,Low
+787,Legal,Developer,1.34,0.58,,Weakness,0,Low
+788,Legal,Specialist,2.64,1.47,,Opportunity,0,Low
+789,Operations,Engineer,1.93,1.99,,Opportunity,0,Low
+790,HR,Technician,1.91,2.48,,Opportunity,0,Low
+791,Operations,Analyst,1.84,2.65,,Opportunity,0,Low
+792,Sales,Specialist,1.28,0.0,,Weakness,1,High
+793,IT,Engineer,2.03,3.08,,Opportunity,0,Low
+794,Marketing,Specialist,2.35,1.25,,Opportunity,0,Low
+795,Finance,Specialist,1.62,2.96,,Opportunity,0,Low
+796,Finance,Engineer,1.7,1.73,,Opportunity,0,Low
+797,Engineering,Specialist,1.16,0.57,,Weakness,1,High
+798,Operations,Consultant,1.34,1.86,,Opportunity,0,Low
+799,Operations,Consultant,1.09,0.93,,Weakness,0,Medium
+800,Sales,Developer,2.09,2.02,,Opportunity,0,Low
+801,Marketing,Specialist,1.67,2.01,,Opportunity,0,Low
+802,Operations,Specialist,1.37,1.54,,Opportunity,0,Low
+803,Marketing,Specialist,2.8,1.79,,Opportunity,0,Medium
+804,Engineering,Consultant,2.3,2.24,,Opportunity,0,Low
+805,IT,Manager,1.88,3.05,,Opportunity,0,Low
+806,Engineering,Specialist,1.3,1.79,,Opportunity,0,Low
+807,Finance,Engineer,1.34,0.8,,Weakness,0,Medium
+808,Engineering,Engineer,2.06,2.68,,Opportunity,0,Low
+809,Engineering,Consultant,1.39,0.54,,Weakness,0,Medium
+810,Sales,Manager,1.85,0.7,,Opportunity,0,Low
+811,Sales,Developer,1.65,0.17,,Opportunity,0,Low
+812,Marketing,Technician,1.99,1.6,,Opportunity,0,Low
+813,Sales,Manager,1.64,1.93,,Opportunity,0,Low
+814,HR,Consultant,2.07,0.72,,Opportunity,0,Low
+815,Engineering,Analyst,1.87,1.9,,Opportunity,0,Low
+816,Marketing,Consultant,1.15,3.33,,Opportunity,1,High
+817,Legal,Consultant,2.73,1.42,,Opportunity,0,Low
+818,Operations,Technician,1.9,1.53,,Opportunity,0,Low
+819,Marketing,Technician,2.15,1.64,,Opportunity,0,Low
+820,Sales,Specialist,1.16,1.79,,Opportunity,0,Medium
+821,Legal,Technician,2.41,1.44,,Opportunity,0,Low
+822,Sales,Developer,1.97,2.0,,Opportunity,0,Low
+823,Legal,Specialist,2.17,1.12,,Opportunity,0,Low
+824,Marketing,Specialist,1.99,2.34,,Opportunity,0,Low
+825,Finance,Engineer,2.53,1.55,,Opportunity,0,Low
+826,Operations,Technician,1.58,2.58,,Opportunity,0,Medium
+827,IT,Specialist,1.48,2.34,,Opportunity,0,Low
+828,Engineering,Technician,1.69,1.53,,Opportunity,0,Low
+829,Customer Support,Analyst,0.97,0.94,,Weakness,0,Medium
+830,Sales,Analyst,1.81,0.84,,Opportunity,0,Low
+831,Legal,Manager,1.29,1.84,,Opportunity,0,Low
+832,Sales,Specialist,1.56,0.11,,Opportunity,1,High
+833,Operations,Analyst,1.21,2.39,,Opportunity,0,Low
+834,Customer Support,Technician,1.92,0.09,,Opportunity,0,Low
+835,Sales,Manager,2.33,2.48,,Opportunity,1,High
+836,Finance,Technician,2.19,2.39,,Opportunity,0,Medium
+837,Finance,Specialist,2.09,1.43,,Opportunity,0,Low
+838,Finance,Analyst,2.16,0.79,,Opportunity,0,Medium
+839,Operations,Engineer,1.9,1.69,,Opportunity,0,Low
+840,Customer Support,Manager,1.65,1.71,,Opportunity,0,Low
+841,Marketing,Analyst,1.09,0.0,,Weakness,1,High
+842,HR,Specialist,1.74,1.82,,Opportunity,0,Low
+843,Customer Support,Manager,2.73,2.22,,Opportunity,1,High
+844,Legal,Analyst,2.38,0.47,,Opportunity,0,Low
+845,Operations,Engineer,1.67,1.71,,Opportunity,0,Low
+846,Sales,Specialist,1.55,2.21,,Opportunity,0,Low
+847,Finance,Developer,2.22,1.75,,Opportunity,0,Low
+848,Legal,Engineer,2.44,2.48,,Opportunity,0,Low
+849,Operations,Specialist,1.6,1.89,,Opportunity,0,Medium
+850,Marketing,Manager,2.07,2.66,,Opportunity,0,Low
+851,Operations,Manager,1.47,0.32,,Weakness,0,Low
+852,Customer Support,Specialist,1.92,1.88,,Opportunity,0,Low
+853,HR,Manager,1.41,1.89,,Opportunity,0,Low
+854,IT,Technician,2.22,0.48,,Opportunity,0,Low
+855,HR,Analyst,1.41,2.13,,Opportunity,0,Low
+856,Customer Support,Technician,2.84,2.16,,Opportunity,0,Medium
+857,Customer Support,Technician,1.47,0.0,,Weakness,0,Medium
+858,Sales,Consultant,1.93,3.49,,Opportunity,0,Medium
+859,Marketing,Manager,1.79,1.42,,Opportunity,0,Low
+860,Marketing,Specialist,2.22,0.6,,Opportunity,0,Low
+861,Finance,Analyst,0.93,1.35,,Opportunity,0,Low
+862,HR,Technician,2.26,1.23,,Opportunity,0,Low
+863,Sales,Engineer,1.84,1.53,,Opportunity,0,Low
+864,HR,Technician,1.59,1.7,,Opportunity,0,Medium
+865,IT,Specialist,2.52,0.85,,Opportunity,0,Medium
+866,Engineering,Consultant,2.04,1.82,,Opportunity,0,Low
+867,Engineering,Specialist,1.31,1.57,,Opportunity,0,Low
+868,Finance,Specialist,1.53,2.03,,Opportunity,0,Low
+869,Sales,Consultant,1.6,1.97,,Opportunity,0,Low
+870,Operations,Technician,2.01,2.28,,Opportunity,0,Low
+871,Legal,Engineer,1.16,1.16,,Opportunity,0,Low
+872,Customer Support,Analyst,1.2,2.71,,Opportunity,0,Low
+873,IT,Engineer,1.25,0.91,,Weakness,1,High
+874,Legal,Consultant,2.68,2.58,,Opportunity,1,High
+875,Legal,Technician,2.32,0.61,,Opportunity,0,Low
+876,Finance,Specialist,1.1,2.26,,Opportunity,0,Low
+877,Legal,Consultant,2.11,3.13,,Opportunity,0,Medium
+878,Marketing,Manager,2.39,1.64,,Opportunity,0,Low
+879,Finance,Specialist,1.93,2.77,,Opportunity,0,Medium
+880,Sales,Analyst,0.89,1.61,,Opportunity,1,High
+881,Finance,Manager,1.9,0.87,,Opportunity,0,Medium
+882,Customer Support,Developer,1.87,1.77,,Opportunity,0,Low
+883,Operations,Specialist,2.3,1.65,,Opportunity,0,Low
+884,Finance,Analyst,2.25,2.4,,Opportunity,0,Low
+885,Marketing,Developer,2.33,1.95,,Opportunity,0,Low
+886,Finance,Developer,2.11,2.95,,Opportunity,0,Low
+887,IT,Developer,1.31,1.73,,Opportunity,0,Low
+888,Customer Support,Consultant,1.92,0.83,,Opportunity,0,Low
+889,Sales,Manager,1.52,0.34,,Opportunity,0,Medium
+890,Finance,Manager,1.72,0.97,,Opportunity,0,Low
+891,Legal,Engineer,1.9,1.06,,Opportunity,0,Medium
+892,Legal,Analyst,1.1,0.25,,Weakness,0,Medium
+893,Operations,Developer,1.3,1.0,,Weakness,0,Low
+894,Sales,Developer,1.44,2.19,,Opportunity,0,Low
+895,Finance,Technician,1.61,0.01,,Opportunity,0,Low
+896,Customer Support,Consultant,1.68,1.83,,Opportunity,0,Low
+897,Customer Support,Analyst,2.78,1.66,,Opportunity,0,Medium
+898,Engineering,Consultant,1.83,1.19,,Opportunity,0,Low
+899,Sales,Analyst,2.27,1.84,,Opportunity,0,Low
+900,Engineering,Manager,1.4,3.17,,Opportunity,0,Medium
+901,Engineering,Manager,2.2,0.0,,Opportunity,1,High
+902,HR,Consultant,0.94,1.93,,Opportunity,0,Low
+903,HR,Specialist,2.1,1.37,,Opportunity,0,Low
+904,Sales,Specialist,1.7,0.93,,Opportunity,0,Low
+905,Sales,Manager,2.1,1.2,,Opportunity,0,Low
+906,Customer Support,Specialist,0.89,2.21,,Opportunity,1,High
+907,Engineering,Analyst,2.06,3.24,,Opportunity,0,Low
+908,Legal,Specialist,2.3,2.37,,Opportunity,0,Low
+909,Operations,Engineer,1.04,0.01,,Weakness,1,High
+910,Sales,Developer,1.24,2.53,,Opportunity,0,Medium
+911,Operations,Developer,1.8,0.45,,Opportunity,0,Low
+912,IT,Consultant,2.37,1.59,,Opportunity,0,Low
+913,Customer Support,Developer,1.88,0.35,,Opportunity,0,Medium
+914,Sales,Engineer,1.76,2.33,,Opportunity,0,Medium
+915,Engineering,Technician,1.13,2.63,,Opportunity,0,Low
+916,Legal,Technician,2.0,1.58,,Opportunity,0,Low
+917,Operations,Developer,1.83,0.0,,Opportunity,1,High
+918,Marketing,Engineer,1.83,3.5,,Opportunity,0,Medium
+919,Engineering,Analyst,1.53,1.26,,Opportunity,0,Low
+920,Finance,Developer,1.77,1.5,,Opportunity,0,Low
+921,Finance,Manager,1.98,1.82,,Opportunity,0,Low
+922,Finance,Engineer,1.29,1.77,,Opportunity,0,Low
+923,IT,Engineer,1.09,1.47,,Opportunity,0,Low
+924,Customer Support,Technician,1.43,2.58,,Opportunity,0,Medium
+925,Marketing,Consultant,2.5,1.35,,Opportunity,0,Low
+926,Engineering,Developer,1.84,2.48,,Opportunity,0,Low
+927,IT,Specialist,2.19,0.54,,Opportunity,0,Low
+928,Operations,Technician,2.53,0.89,,Opportunity,0,Low
+929,Operations,Developer,0.99,2.72,,Opportunity,0,Low
+930,Engineering,Specialist,1.92,2.54,,Opportunity,0,Low
+931,Sales,Technician,2.07,1.5,,Opportunity,0,Low
+932,Sales,Engineer,2.2,2.82,,Opportunity,0,Low
+933,Engineering,Engineer,2.24,2.62,,Opportunity,0,Low
+934,Engineering,Consultant,1.92,1.15,,Opportunity,0,Low
+935,IT,Manager,1.73,1.17,,Opportunity,0,Low
+936,Finance,Developer,2.31,3.42,,Opportunity,1,High
+937,Engineering,Consultant,1.75,1.68,,Opportunity,0,Low
+938,Legal,Technician,2.1,2.3,,Opportunity,0,Low
+939,Engineering,Analyst,2.5,1.86,,Opportunity,0,Low
+940,IT,Consultant,1.72,0.59,,Opportunity,0,Low
+941,Legal,Analyst,1.42,1.61,,Opportunity,0,Low
+942,HR,Manager,1.97,1.84,,Opportunity,0,Low
+943,Operations,Specialist,0.85,2.17,,Opportunity,0,Medium
+944,IT,Specialist,1.07,2.44,,Opportunity,0,Medium
+945,HR,Technician,1.67,0.98,,Opportunity,0,Low
+946,HR,Technician,1.23,0.92,,Weakness,0,Low
+947,Legal,Consultant,1.38,0.84,,Weakness,0,Low
+948,Operations,Consultant,1.78,1.47,,Opportunity,0,Low
+949,Operations,Developer,1.46,1.45,,Opportunity,0,Low
+950,IT,Manager,2.22,1.94,,Opportunity,0,Low
+951,Finance,Specialist,1.18,1.45,,Opportunity,0,Medium
+952,Engineering,Analyst,1.39,1.59,,Opportunity,0,Low
+953,Operations,Manager,1.06,2.28,,Opportunity,0,Low
+954,Sales,Technician,2.51,2.93,,Opportunity,0,Medium
+955,Marketing,Developer,2.65,2.15,,Opportunity,0,Low
+956,Customer Support,Engineer,1.39,0.8,,Weakness,0,Low
+957,Operations,Engineer,1.58,2.4,,Opportunity,0,Low
+958,Marketing,Engineer,1.72,3.52,,Opportunity,1,High
+959,Marketing,Engineer,1.31,1.54,,Opportunity,0,Low
+960,IT,Technician,2.16,2.05,,Opportunity,0,Low
+961,Engineering,Specialist,2.31,2.66,,Opportunity,0,Low
+962,Marketing,Engineer,1.71,0.89,,Opportunity,0,Low
+963,Legal,Technician,2.07,0.76,,Opportunity,0,Low
+964,HR,Consultant,2.23,0.45,,Opportunity,0,Low
+965,Engineering,Specialist,1.25,0.24,,Weakness,0,Low
+966,Engineering,Analyst,2.76,2.61,,Opportunity,1,High
+967,Operations,Engineer,1.65,2.04,,Opportunity,0,Low
+968,Customer Support,Engineer,2.11,0.43,,Opportunity,0,Low
+969,Finance,Technician,1.95,0.23,,Opportunity,1,High
+970,Finance,Engineer,1.51,1.2,,Opportunity,0,Low
+971,HR,Manager,2.08,2.38,,Opportunity,0,Medium
+972,Finance,Engineer,1.85,0.55,,Opportunity,0,Low
+973,IT,Engineer,1.9,2.92,,Opportunity,0,Low
+974,IT,Specialist,1.86,0.85,,Opportunity,0,Low
+975,Sales,Manager,2.55,2.14,,Opportunity,0,Low
+976,IT,Engineer,2.01,1.99,,Opportunity,0,Low
+977,Engineering,Manager,2.27,2.58,,Opportunity,0,Low
+978,Customer Support,Technician,1.62,0.0,,Opportunity,0,Medium
+979,Customer Support,Specialist,2.63,0.11,,Opportunity,1,High
+980,Engineering,Consultant,2.17,3.03,,Opportunity,0,Low
+981,Operations,Technician,2.1,0.82,,Opportunity,0,Low
+982,HR,Engineer,1.86,3.17,,Opportunity,0,Medium
+983,Sales,Manager,1.01,1.28,,Opportunity,0,Low
+984,Sales,Consultant,1.28,0.2,,Weakness,1,High
+985,Marketing,Technician,2.48,2.01,,Opportunity,0,Low
+986,IT,Developer,1.55,2.24,,Opportunity,0,Medium
+987,Engineering,Consultant,2.17,1.77,,Opportunity,0,Low
+988,Marketing,Engineer,2.1,2.59,,Opportunity,0,Low
+989,Customer Support,Technician,1.3,2.37,,Opportunity,0,Low
+990,Operations,Technician,1.69,0.91,,Opportunity,1,High
+991,IT,Manager,1.99,2.82,,Opportunity,0,Low
+992,Marketing,Technician,1.87,1.84,,Opportunity,0,Low
+993,Marketing,Developer,1.55,1.42,,Opportunity,0,Low
+994,Operations,Specialist,1.98,2.89,,Opportunity,0,Low
+995,HR,Manager,1.82,2.93,,Opportunity,0,Low
+996,IT,Engineer,1.95,0.92,,Opportunity,0,Low
+997,IT,Analyst,1.76,2.44,,Opportunity,0,Low
+998,Engineering,Developer,2.2,2.13,,Opportunity,0,Low
+999,Legal,Consultant,1.44,2.2,,Opportunity,0,Low
+1000,HR,Analyst,0.97,1.57,,Opportunity,1,High

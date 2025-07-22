@@ -1,0 +1,84 @@
+{
+  "timestamp": "2025-07-22T20:08:25.758448",
+  "total_employees": 100000,
+  "swot_distribution": {
+    "Opportunity": 75083,
+    "Weakness": 24917
+  },
+  "department_risks": {
+    "Customer Support": {
+      "swot_category": 0,
+      "Employee_ID": 11116,
+      "productivity_score": 1.62,
+      "engagement_score": 1.6,
+      "risk_score": NaN,
+      "threat_percentage": 0.0
+    },
+    "Engineering": {
+      "swot_category": 0,
+      "Employee_ID": 10956,
+      "productivity_score": 1.63,
+      "engagement_score": 1.62,
+      "risk_score": NaN,
+      "threat_percentage": 0.0
+    },
+    "Finance": {
+      "swot_category": 0,
+      "Employee_ID": 11200,
+      "productivity_score": 1.62,
+      "engagement_score": 1.61,
+      "risk_score": NaN,
+      "threat_percentage": 0.0
+    },
+    "HR": {
+      "swot_category": 0,
+      "Employee_ID": 10960,
+      "productivity_score": 1.62,
+      "engagement_score": 1.61,
+      "risk_score": NaN,
+      "threat_percentage": 0.0
+    },
+    "IT": {
+      "swot_category": 0,
+      "Employee_ID": 11131,
+      "productivity_score": 1.63,
+      "engagement_score": 1.61,
+      "risk_score": NaN,
+      "threat_percentage": 0.0
+    },
+    "Legal": {
+      "swot_category": 0,
+      "Employee_ID": 11118,
+      "productivity_score": 1.62,
+      "engagement_score": 1.63,
+      "risk_score": NaN,
+      "threat_percentage": 0.0
+    },
+    "Marketing": {
+      "swot_category": 0,
+      "Employee_ID": 11216,
+      "productivity_score": 1.62,
+      "engagement_score": 1.61,
+      "risk_score": NaN,
+      "threat_percentage": 0.0
+    },
+    "Operations": {
+      "swot_category": 0,
+      "Employee_ID": 11181,
+      "productivity_score": 1.63,
+      "engagement_score": 1.61,
+      "risk_score": NaN,
+      "threat_percentage": 0.0
+    },
+    "Sales": {
+      "swot_category": 0,
+      "Employee_ID": 11122,
+      "productivity_score": 1.63,
+      "engagement_score": 1.61,
+      "risk_score": NaN,
+      "threat_percentage": 0.0
+    }
+  },
+  "high_risk_employees": [],
+  "model_performance": {}
+}
