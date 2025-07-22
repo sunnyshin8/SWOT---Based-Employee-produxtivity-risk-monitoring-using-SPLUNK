@@ -1,0 +1,66 @@
+============================================================
+EMPLOYEE PRODUCTIVITY SWOT ANALYSIS REPORT
+============================================================
+
+EXECUTIVE SUMMARY
+--------------------
+Total Employees Analyzed: 100,000
+
+SWOT CATEGORY DISTRIBUTION:
+  Threat      : 97,302 ( 97.3%)
+  Weakness    : 2,122 (  2.1%)
+  Opportunity :   576 (  0.6%)
+
+SCORE STATISTICS:
+  Productivity - Mean: 1.62, Median: 1.62
+  Engagement  - Mean: 1.61, Median: 1.61
+  Risk        - Mean: 1.59, Median: 1.59
+
+DEPARTMENT RISK ANALYSIS:
+------------------------------
+Department           Total    Threats  Risk%    Avg Prod   Avg Eng   
+----------------------------------------------------------------------
+HR                   10960    10701    97.6     1.62       1.61      
+Finance              11200    10914    97.4     1.62       1.61      
+IT                   11131    10828    97.3     1.63       1.61      
+Engineering          10956    10663    97.3     1.63       1.62      
+Operations           11181    10877    97.3     1.63       1.61      
+Sales                11122    10825    97.3     1.63       1.61      
+Customer Support     11116    10804    97.2     1.62       1.60      
+Marketing            11216    10889    97.1     1.62       1.61      
+Legal                11118    10801    97.1     1.62       1.63      
+
+HIGH RISK EMPLOYEES (Top 10):
+-----------------------------------
+ID     Department      SWOT         Risk   Prod   Eng   
+------------------------------------------------------------
+39870  Finance         Threat       4.91   0.79   0.48  
+86895  Sales           Threat       4.88   1.04   0.62  
+49250  Legal           Threat       4.86   0.67   -0.25 
+76097  Engineering     Threat       4.80   0.96   -1.15 
+79878  Sales           Threat       4.77   0.28   -0.46 
+17949  Engineering     Threat       4.76   0.62   0.03  
+96568  Operations      Threat       4.75   0.80   1.01  
+29102  Customer Support Threat       4.72   0.26   -0.95 
+56132  Engineering     Threat       4.72   0.45   1.66  
+69223  Customer Support Threat       4.72   1.17   1.88  
+
+TOP PERFORMERS (Strengths - Top 10):
+----------------------------------------
+No top performers in Strength category.
+
+KEY RECOMMENDATIONS:
+-------------------------
+🚨 CRITICAL: High threat percentage detected!
+   - Implement immediate intervention programs
+   - Schedule urgent leadership review
+
+🏢 Departments requiring attention: HR, Finance, IT, Engineering, Operations, Sales, Customer Support, Marketing, Legal
+   - Conduct departmental culture assessment
+   - Implement targeted retention strategies
+
+SPLUNK MLTK IMPLEMENTATION READY:
+1. Data structure validated
+2. Feature engineering confirmed
+3. SWOT categorization logic tested
+4. Alert thresholds calibrated

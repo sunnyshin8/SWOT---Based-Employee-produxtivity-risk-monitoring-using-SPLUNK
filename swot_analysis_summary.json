@@ -1,0 +1,11 @@
+{
+  "total_employees": 100000,
+  "swot_distribution": {
+    "Threat": 97302,
+    "Weakness": 2122,
+    "Opportunity": 576
+  },
+  "high_risk_count": 97302,
+  "top_performer_count": 0,
+  "departments_at_risk": 9
+}

@@ -1,0 +1,277 @@
+<form version="1.1">
+  <label>Employee Productivity SWOT Analysis Dashboard</label>
+  <description>Real-time monitoring of employee productivity using SWOT framework with MLTK clustering</description>
+  
+  <!-- Time Range Picker -->
+  <fieldset submitButton="true" autoRun="true">
+    <input type="time" token="time_range">
+      <label>Time Range</label>
+      <default>
+        <earliest>-24h@h</earliest>
+        <latest>now</latest>
+      </default>
+    </input>
+    
+    <input type="dropdown" token="department_filter">
+      <label>Department</label>
+      <choice value="*">All Departments</choice>
+      <choice value="IT">IT</choice>
+      <choice value="Engineering">Engineering</choice>
+      <choice value="Sales">Sales</choice>
+      <choice value="Marketing">Marketing</choice>
+      <choice value="Finance">Finance</choice>
+      <choice value="HR">HR</choice>
+      <choice value="Operations">Operations</choice>
+      <choice value="Customer Support">Customer Support</choice>
+      <choice value="Legal">Legal</choice>
+      <default>*</default>
+    </input>
+  </fieldset>
+
+  <!-- Executive Summary Row -->
+  <row>
+    <panel>
+      <title>SWOT Distribution Overview</title>
+      <viz type="pie_chart">
+        <search>
+          <query>
+            index=employee_productivity sourcetype=csv department=$department_filter$
+            | `employee_swot_assignment`
+            | stats count by swot_category
+            | eval percentage = round((count/sum(count))*100, 1)
+          </query>
+          <earliest>$time_range.earliest$</earliest>
+          <latest>$time_range.latest$</latest>
+        </search>
+        <option name="charting.chart">pie</option>
+        <option name="charting.chart.showPercent">true</option>
+        <option name="charting.legend.placement">bottom</option>
+        <option name="charting.seriesColors">[0x65A637, 0xF7BC38, 0x6DB7C6, 0xD93F3C]</option>
+      </viz>
+    </panel>
+    
+    <panel>
+      <title>Key Metrics</title>
+      <single>
+        <title>Total Employees</title>
+        <search>
+          <query>
+            index=employee_productivity sourcetype=csv department=$department_filter$
+            | stats dc(employee_id) as total_employees
+          </query>
+          <earliest>$time_range.earliest$</earliest>
+          <latest>$time_range.latest$</latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="colorBy">value</option>
+        <option name="colorMode">none</option>
+      </single>
+    </panel>
+    
+    <panel>
+      <title>High Risk Employees</title>
+      <single>
+        <search>
+          <query>
+            index=employee_productivity sourcetype=csv department=$department_filter$
+            | `employee_swot_assignment`
+            | stats count(eval(swot_category=="Threat")) as threats
+          </query>
+          <earliest>$time_range.earliest$</earliest>
+          <latest>$time_range.latest$</latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="colorBy">value</option>
+        <option name="colorMode">block</option>
+        <option name="rangeColors">["0x65A637","0xF7BC38","0xD93F3C"]</option>
+        <option name="rangeValues">[5,15]</option>
+      </single>
+    </panel>
+    
+    <panel>
+      <title>Average Satisfaction Score</title>
+      <single>
+        <search>
+          <query>
+            index=employee_productivity sourcetype=csv department=$department_filter$
+            | stats avg(employee_satisfaction_score) as avg_satisfaction
+            | eval avg_satisfaction = round(avg_satisfaction, 2)
+          </query>
+          <earliest>$time_range.earliest$</earliest>
+          <latest>$time_range.latest$</latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="colorBy">value</option>
+        <option name="colorMode">block</option>
+        <option name="rangeColors">["0xD93F3C","0xF7BC38","0x65A637"]</option>
+        <option name="rangeValues">[2.5,3.5]</option>
+      </single>
+    </panel>
+  </row>
+
+  <!-- SWOT Matrix Visualization -->
+  <row>
+    <panel>
+      <title>SWOT Matrix - Employee Distribution</title>
+      <viz type="scatter_chart">
+        <search>
+          <query>
+            index=employee_productivity sourcetype=csv department=$department_filter$
+            | `employee_swot_assignment`
+            | table employee_id, productivity_score, engagement_score, risk_score, swot_category, department
+          </query>
+          <earliest>$time_range.earliest$</earliest>
+          <latest>$time_range.latest$</latest>
+        </search>
+        <option name="charting.chart">scatter</option>
+        <option name="charting.axisTitleX.text">Productivity Score</option>
+        <option name="charting.axisTitleY.text">Engagement Score</option>
+        <option name="charting.legend.placement">bottom</option>
+        <option name="charting.chart.bubbleMaximumSize">50</option>
+        <option name="charting.chart.bubbleMinimumSize">10</option>
+        <option name="charting.chart.bubbleSizeBy">risk_score</option>
+      </viz>
+    </panel>
+  </row>
+
+  <!-- Department Analysis Row -->
+  <row>
+    <panel>
+      <title>Department Risk Analysis</title>
+      <table>
+        <search>
+          <query>
+            index=employee_productivity sourcetype=csv
+            | `department_swot_analysis`
+            | sort - threat_pct
+          </query>
+          <earliest>$time_range.earliest$</earliest>
+          <latest>$time_range.latest$</latest>
+        </search>
+        <option name="drilldown">cell</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="rowNumbers">false</option>
+        <option name="wrap">true</option>
+        <format type="color" field="department_risk_level">
+          <colorPalette type="map">{"High Risk":#D93F3C,"Medium Risk":#F7BC38,"Low Risk":#6DB7C6,"Minimal Risk":#65A637}</colorPalette>
+        </format>
+        <format type="number" field="threat_pct">
+          <option name="precision">1</option>
+          <option name="unit">%</option>
+        </format>
+      </table>
+    </panel>
+    
+    <panel>
+      <title>SWOT Categories by Department</title>
+      <viz type="column_chart">
+        <search>
+          <query>
+            index=employee_productivity sourcetype=csv department=$department_filter$
+            | `employee_swot_assignment`
+            | chart count over department by swot_category
+          </query>
+          <earliest>$time_range.earliest$</earliest>
+          <latest>$time_range.latest$</latest>
+        </search>
+        <option name="charting.chart">column</option>
+        <option name="charting.chart.stackMode">stacked</option>
+        <option name="charting.axisTitleX.text">Department</option>
+        <option name="charting.axisTitleY.text">Number of Employees</option>
+        <option name="charting.legend.placement">bottom</option>
+        <option name="charting.seriesColors">[0x65A637, 0xF7BC38, 0x6DB7C6, 0xD93F3C]</option>
+      </viz>
+    </panel>
+  </row>
+
+  <!-- Individual Employee Analysis -->
+  <row>
+    <panel>
+      <title>High Risk Employees Requiring Immediate Attention</title>
+      <table>
+        <search>
+          <query>
+            index=employee_productivity sourcetype=csv department=$department_filter$
+            | `comprehensive_employee_dashboard`
+            | where overall_risk=="Critical" OR overall_risk=="High"
+            | sort - overall_risk, - risk_score
+            | table employee_id, department, job_title, swot_category, overall_risk, productivity_score, engagement_score, risk_score, recommendation
+          </query>
+          <earliest>$time_range.earliest$</earliest>
+          <latest>$time_range.latest$</latest>
+        </search>
+        <option name="drilldown">cell</option>
+        <option name="dataOverlayMode">none</option>
+        <format type="color" field="overall_risk">
+          <colorPalette type="map">{"Critical":#D93F3C,"High":#F7BC38,"Medium":#6DB7C6,"Low":#65A637}</colorPalette>
+        </format>
+        <format type="color" field="swot_category">
+          <colorPalette type="map">{"Strength":#65A637,"Weakness":#F7BC38,"Opportunity":#6DB7C6,"Threat":#D93F3C}</colorPalette>
+        </format>
+      </table>
+    </panel>
+  </row>
+
+  <!-- Trend Analysis Row -->
+  <row>
+    <panel>
+      <title>Performance Distribution</title>
+      <viz type="histogram_chart">
+        <search>
+          <query>
+            index=employee_productivity sourcetype=csv department=$department_filter$
+            | `employee_base_metrics`
+            | bin productivity_score span=0.5
+            | stats count by productivity_score
+          </query>
+          <earliest>$time_range.earliest$</earliest>
+          <latest>$time_range.latest$</latest>
+        </search>
+        <option name="charting.chart">column</option>
+        <option name="charting.axisTitleX.text">Productivity Score</option>
+        <option name="charting.axisTitleY.text">Number of Employees</option>
+      </viz>
+    </panel>
+    
+    <panel>
+      <title>Risk vs Performance Correlation</title>
+      <viz type="scatter_chart">
+        <search>
+          <query>
+            index=employee_productivity sourcetype=csv department=$department_filter$
+            | `employee_base_metrics`
+            | table employee_id, performance_score, risk_score, department
+          </query>
+          <earliest>$time_range.earliest$</earliest>
+          <latest>$time_range.latest$</latest>
+        </search>
+        <option name="charting.chart">scatter</option>
+        <option name="charting.axisTitleX.text">Performance Score</option>
+        <option name="charting.axisTitleY.text">Risk Score</option>
+        <option name="charting.legend.placement">bottom</option>
+      </viz>
+    </panel>
+  </row>
+
+  <!-- Anomaly Detection Results -->
+  <row>
+    <panel>
+      <title>Anomaly Detection - Employees with Unusual Patterns</title>
+      <table>
+        <search>
+          <query>
+            index=employee_productivity sourcetype=csv department=$department_filter$
+            | `employee_anomaly_detection`
+            | table employee_id, department, swot_category, alert_level, productivity_score, engagement_score, risk_score
+          </query>
+          <earliest>$time_range.earliest$</earliest>
+          <latest>$time_range.latest$</latest>
+        </search>
+        <option name="drilldown">cell</option>
+        <format type="color" field="alert_level">
+          <colorPalette type="map">{"Critical":#D93F3C,"High":#F7BC38,"Medium":#6DB7C6,"Low":#65A637}</colorPalette>
+        </format>
+      </table>
+    </panel>
+  </row>
+</form>
